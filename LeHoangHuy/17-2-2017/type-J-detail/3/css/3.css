@@ -1,0 +1,122 @@
+.mod-custom-7 .related.products h2 {
+  text-align: center;
+  font-size: 3.214em;
+  margin-top: 1.556em;
+  margin-bottom: 0.9em;
+}
+.mod-custom-7 .post_content {
+  padding-left: 33px;
+  padding-right: 17px;
+}
+.mod-custom-7 .hover_icon {
+  position: relative;
+  display: block;
+}
+.mod-custom-7 .hover_icon:hover:before {
+  opacity: 1;
+  margin-top: 0;
+}
+.mod-custom-7 .hover_icon:before {
+  font-family: 'fontello';
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #96bd42;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 12px 20px;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  margin-top: 100px;
+  z-index: 10;
+  transition: all ease .3s;
+}
+.mod-custom-7 .hover_icon_view:before {
+  content: '\e843';
+}
+.mod-custom-7 h3 {
+  text-align: center;
+  margin: 18px;
+}
+.mod-custom-7 h2 {
+  font-weight: 700;
+  font-family: 'Montserrat';
+  color: #1a3150;
+}
+.mod-custom-7 .products h2:after {
+  border-bottom-color: #96bd42;
+}
+.mod-custom-7 .products h2:after {
+  content: "";
+  display: block;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  width: 0.511em;
+  margin: 0.422em auto 0 auto;
+}
+.mod-custom-7 .products ul li,
+.mod-custom-7 ul.products li {
+  list-style: none;
+}
+.mod-custom-7 .product a {
+  text-decoration: none;
+}
+.mod-custom-7 a:hover {
+  color: #7ca813;
+}
+.mod-custom-7 .hover_icon {
+  position: relative;
+  display: block;
+}
+.mod-custom-7 amount1 {
+  color: #aab2bd;
+}
+.mod-custom-7 .amount {
+  color: #96bd42;
+  margin-left: 28px;
+}
+.mod-custom-7 ul.products li.product:hover .post_content {
+  border-bottom-color: #96bd42;
+}
+.mod-custom-7 .products li.product .post_content {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+}
+.mod-custom-7 .post_content {
+  padding: 2.857em;
+  border-bottom: 3px solid transparent;
+  text-align: left;
+}
+.mod-custom-7 .post_content {
+  background-color: #f6f7f3;
+}
+.mod-custom-7 .products li.product h3 {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 0.8em;
+  padding: 0;
+}
+.mod-custom-7 .add_to_cart_button {
+  background-color: #1a3150;
+  padding: 1.286em 2.500em;
+  line-height: 1.3em;
+}
+.mod-custom-7 .product h3 a {
+  color: #262b32;
+}
+.mod-custom-7 a.button.product_type_simple.add_to_cart_button {
+  margin-left: 27px;
+  color: aliceblue;
+}
+.mod-custom-7 .onsale {
+  background-color: #e13e30;
+}
+.mod-custom-7 .onsale {
+  color: #ffffff;
+  width: 4.8em;
+}
+.mod-custom-7 .amount {
+  color: #96bd42;
+}

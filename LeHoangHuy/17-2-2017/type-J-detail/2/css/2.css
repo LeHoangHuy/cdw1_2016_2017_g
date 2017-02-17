@@ -1,0 +1,334 @@
+.mod-custom-6 #respond {
+  position: static;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  background: 0 0;
+  border: 0;
+}
+.mod-custom-6 #respond input {
+  text-align: center;
+  padding: 1.286em 2.500em;
+  font-size: 1em;
+  line-height: 1.3em;
+  font-weight: 700;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  margin-top: 10px;
+}
+.mod-custom-6 .submit {
+  background-color: #96bd42;
+}
+.mod-custom-6 #respond p {
+  margin: 0 0 10px;
+}
+.mod-custom-6 h1,
+.mod-custom-6 h2,
+.mod-custom-6 h3,
+.mod-custom-6 h4,
+.mod-custom-6 h5,
+.mod-custom-6 h6,
+.mod-custom-6 p,
+.mod-custom-6 ul,
+.mod-custom-6 ol,
+.mod-custom-6 dl,
+.mod-custom-6 blockquote,
+.mod-custom-6 address {
+  margin: 0;
+}
+.mod-custom-6 h5 {
+  font-size: 1.214em;
+  font-weight: 700;
+  line-height: 125%;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+.mod-custom-6 a:hover,
+.mod-custom-6 a:hover,
+.mod-custom-6 a:hover {
+  color: #7ca813;
+  transition: all 0.3s ease 0s;
+}
+.mod-custom-6 a {
+  color: #96bd42;
+  text-decoration: none;
+}
+.mod-custom-6 img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.mod-custom-6 .star {
+  padding-top: 6px;
+  float: right;
+}
+.mod-custom-6 .meta {
+  padding-top: 6px;
+  float: left;
+  color: #777;
+  font-size: 0.83em;
+}
+.mod-custom-6 .abn {
+  padding: 4em 0;
+}
+.mod-custom-6 .nav > li > a {
+  position: relative;
+  display: block;
+  color: #333;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 15px 30px;
+  background: #fff;
+}
+.mod-custom-6 .nav > li > a:hover {
+  background: #fff;
+  color: #96bd42;
+}
+.mod-custom-6 .nav-pills > li.active > a,
+.mod-custom-6 .nav-pills > li.active > a:hover,
+.mod-custom-6 .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #96bd42;
+}
+.mod-custom-6 .nav-pills > li + li {
+  margin-left: 10px;
+}
+.mod-custom-6 .nav-pills > li > a {
+  border-radius: 0px;
+}
+.mod-custom-6 .text-1 h2,
+.mod-custom-6 .text-2 h2,
+.mod-custom-6 .text-3 h2 {
+  padding: 1em 0;
+  font-size: 2em;
+}
+.mod-custom-6 .text-1 p {
+  color: #707276;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: inherit;
+}
+.mod-custom-6 p.meta strong {
+  color: #1a3150;
+  font-size: 1.83em;
+  font-weight: normal;
+}
+.mod-custom-6 p.meta time {
+  color: #777;
+  font-style: italic;
+}
+.mod-custom-6 .ab {
+  color: #7ca813;
+  font-size: 10px;
+}
+.mod-custom-6 .ac {
+  color: #d3ced2;
+  font-size: 10px;
+}
+.mod-custom-6 .comment-text p {
+  color: #707276;
+  font-size: 15px;
+  margin-bottom: 0.7em;
+}
+.mod-custom-6 h2 {
+  padding-bottom: 0.5em;
+}
+@media (max-width: 1135px) {
+  .mod-custom-6 p {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 959px) and (min-width: 768px) {
+  .mod-custom-6 .container {
+    max-width: 708px;
+  }
+  .mod-custom-6 .wrapper {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .mod-custom-6 .comment {
+    width: 90%;
+  }
+  .mod-custom-6 .img {
+    width: 10%;
+  }
+}
+@media (max-width: 639px) and (min-width: 480px) {
+  .mod-custom-6 .container {
+    max-width: 440px;
+  }
+  .mod-custom-6 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mod-custom-6 .nav-pills > li + li,
+  .mod-custom-6 .nav-pills > li {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .mod-custom-6 .comment {
+    width: 82%;
+  }
+  .mod-custom-6 .img {
+    width: 18%;
+  }
+  .mod-custom-6 .nav > li > a {
+    padding: 15px 10px;
+  }
+}
+@media (max-width: 479px) {
+  .mod-custom-6 .container {
+    width: 280px;
+  }
+  .mod-custom-6 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mod-custom-6 .nav-pills > li + li,
+  .mod-custom-6 .nav-pills > li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .mod-custom-6 .comment {
+    width: 80%;
+  }
+  .mod-custom-6 .img {
+    width: 20%;
+  }
+}
+.mod-custom-6 #respond textarea {
+  height: 150px;
+  width: 100%;
+  overflow: auto;
+}
+.mod-custom-6 h1,
+.mod-custom-6 h2,
+.mod-custom-6 h3,
+.mod-custom-6 h4,
+.mod-custom-6 h5,
+.mod-custom-6 h6,
+.mod-custom-6 h1 a,
+.mod-custom-6 h2 a,
+.mod-custom-6 h3 a,
+.mod-custom-6 h4 a,
+.mod-custom-6 h5 a,
+.mod-custom-6 h6 a {
+  color: #1a3150;
+}
+.mod-custom-6 textarea {
+  -webkit-appearance: none;
+  appearance: none !important;
+  outline: none;
+  resize: none;
+  padding: 0.45em 0.5em;
+  border: 2px solid transparent;
+  border-radius: 0;
+  transition: all ease .3s;
+}
+.mod-custom-6 input[type="text"] {
+  -webkit-appearance: none;
+  appearance: none !important;
+  outline: none;
+  resize: none;
+  padding: 0.45em 0.5em;
+  border: 2px solid transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  transition: all ease .3s;
+}
+.mod-custom-6 .back {
+  background-color: #f6f7f3 !important;
+}
+.mod-custom-6 .wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.mod-custom-6 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.mod-custom-6 .text-1 p.a {
+  margin-bottom: 1.5em;
+}
+.mod-custom-6 table.shop_attributes {
+  border: 0;
+  border-top: 1px dotted rgba(0,0,0,0.1);
+  border-bottom: 1px dotted rgba(0,0,0,0.1);
+  width: 100%;
+}
+.mod-custom-6 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.mod-custom-6 table.shop_attributes th {
+  width: 150px;
+  font-weight: 700;
+  padding: 8px;
+  line-height: 1.5;
+  color: #1a3150;
+  text-align: center;
+}
+.mod-custom-6 table.shop_attributes td p {
+  color: #96bd42;
+  font-weight: 600;
+  font-style: italic;
+}
+@media (max-width: 767px) and (min-width: 640px) {
+  .mod-custom-6 .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mod-custom-6 .container {
+    max-width: 600px;
+  }
+  .mod-custom-6 .nav-pills > li + li,
+  .mod-custom-6 .nav-pills > li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .mod-custom-6 .comment {
+    width: 88%;
+  }
+  .mod-custom-6 .img {
+    width: 12%;
+  }
+  .mod-custom-6 .nav > li > a {
+    padding: 15px 20px;
+  }
+  .mod-custom-6 .nav-pills > li + li,
+  .mod-custom-6 .nav-pills > li {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+.mod-custom-6 ul {
+  margin: 0;
+  padding: 0;
+}
+.mod-custom-6 .content-menu li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 0.5em;
+}
+.mod-custom-6 .img {
+  width: 7%;
+  float: left;
+}
+.mod-custom-6 .comment {
+  width: 93%;
+  float: left;
+  margin-bottom: 0.7em;
+}
+.mod-custom-6 .img img {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 50px;
+  float: left;
+  margin: 0 1.5em 0.5em 0;
+  position: static;
+}

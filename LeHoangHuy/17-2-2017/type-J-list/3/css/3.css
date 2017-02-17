@@ -1,0 +1,62 @@
+.page_content_wrap {
+  padding: 2.1428em 0;
+}
+.type-7 form,
+.type-7 ul,
+.type-7 aside,
+.type-7 div {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.type-7 .shop_banner {
+  background-image: url(../images/shop_bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.type-7 .sidebar_left .sidebar {
+  float: left;
+}
+.type-7 .body_filled .widget_area[class*="scheme_"]:not(.footer_wrap) .widget_area_inner {
+  padding: 2.857em;
+}
+.type-7 .content_wrap {
+  margin: 0 auto;
+}
+.type-7 .font_size_3_571em {
+  font-size: 3.571em;
+}
+.type-7 .shop_banner .sc_title {
+  font-size: 2.5em !important;
+}
+.type-7 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-7 .shop_banner .text_uppercase {
+  font-size: 0.85em;
+}
+.type-7 .margin_top_small {
+  margin-top: 20px !important;
+}
+.type-7 .sidebar_left .sidebar {
+  float: left;
+}
+.type-7 .sc_section_inner {
+  text-align: center;
+}
+.type-7 .margin_bottom_large {
+  margin-bottom: 60px !important;
+}
+.type-7 .body_filled .widget_area[class*="scheme_"]:not(.footer_wrap) .widget_area_inner {
+  padding: 2.857em;
+}
+.type-7 aside {
+  display: block;
+}
