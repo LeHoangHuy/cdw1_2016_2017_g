@@ -1,0 +1,228 @@
+.mod-custom-5 .content_wrap-2 {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+  background: #f6f7f3;
+}
+.mod-custom-5 .breadcrumbs {
+  float: right;
+  padding: 1.6667em 0 2.5em;
+  font-size: 0.929em;
+  line-height: 1.5em;
+}
+.mod-custom-5 .breadcrumbs a.breadcrumbs_item {
+  color: #1a3150;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.mod-custom-5 .wrapper {
+  padding-right: 70px;
+}
+.mod-custom-5 .breadcrumbs span {
+  color: #acb4b6;
+}
+.mod-custom-5 a {
+  text-decoration: none;
+  background: transparent;
+}
+.mod-custom-5 .breadcrumbs a.breadcrumbs_item:hover {
+  color: #7ca813;
+}
+.mod-custom-5 .breadcrumbs span {
+  color: #acb4b6;
+}
+.mod-custom-5 .breadcrumbs .breadcrumbs_delimiter:before {
+  content: '/';
+}
+.mod-custom-5 .breadcrumbs .breadcrumbs_delimiter {
+  margin: 0 0.5em;
+}
+.mod-custom-5 .page_content_wrap {
+  padding: 2.1428em 0;
+}
+.mod-custom-5 div.product {
+  margin-bottom: 0;
+  position: relative;
+}
+.mod-custom-5 .product {
+  margin-top: 2.857em;
+}
+.mod-custom-5 img {
+  width: 80%;
+  margin-left: 55px;
+}
+.mod-custom-5 span.onsale {
+  color: cornsilk;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin: 0.714em 0 0 5.714em;
+  width: 4.8em;
+  height: 2.7em;
+  min-height: 2.7em;
+  overflow: hidden;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.7em;
+  border-radius: 0;
+  padding: .202em;
+  background-color: #e13e30;
+}
+.mod-custom-5 h1.product_title.entry-title {
+  font-size: 2.500em;
+  line-height: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  padding-top: 16px;
+}
+.mod-custom-5 div.product {
+  margin-bottom: 1.929em;
+}
+.mod-custom-5 .hell1 {
+  margin-top: 15px;
+}
+.mod-custom-5 .amount {
+  color: #96bd42;
+  font-size: 25px;
+}
+.mod-custom-5 .amount1 {
+  color: #aab2bd;
+  font-size: 15px;
+  text-decoration: none;
+}
+.mod-custom-5 p {
+  margin-bottom: 1.5em;
+}
+.mod-custom-5 input[type="number"] {
+  width: 20%;
+  height: 45px;
+  background-color: #f6f7f3;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 0;
+  color: #aab2bd;
+}
+.mod-custom-5 fa-sort-desc {
+  padding-right: 10px;
+}
+.mod-custom-5 button.single_add_to_cart_button.button.alt {
+  color: #ffffff;
+  background-color: #7ca813;
+  padding: 0.8em 2.5em;
+}
+.mod-custom-5 a:hover {
+  color: #7ca813;
+}
+.mod-custom-5 a {
+  transition: all 0.3s ease 0s;
+}
+.mod-custom-5 span.posted_in {
+  margin-top: 25px;
+}
+.mod-custom-5 span.tagged_as {
+  margin-top: 8px;
+}
+.mod-custom-5 span.product_id {
+  margin-top: 8px;
+}
+.mod-custom-5 .hover_icon_view:before {
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+.mod-custom-5 a {
+  color: #96bd42;
+  text-decoration: none;
+  background: transparent;
+}
+.mod-custom-5 .hover_icon {
+  position: relative;
+  display: block;
+}
+.mod-custom-5 .hover_icon:before {
+  background-color: #96bd42;
+}
+.mod-custom-5 a,
+.mod-custom-5 a:hover,
+.mod-custom-5 a:focus,
+.mod-custom-5 a:active {
+  outline: 0;
+}
+.mod-custom-5 .hover_icon {
+  position: relative;
+  display: block;
+}
+.mod-custom-5 .wrapper {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+}
+.mod-custom-5 .hover_icon:hover:before {
+  opacity: 1;
+  margin-top: 0;
+}
+.mod-custom-5 .hover_icon:before {
+  font-family: 'fontello';
+  font-size: 1.2em;
+  color: #ffffff;
+  background-color: #96bd42;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 12px 20px;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  margin-top: 100px;
+  z-index: 10;
+  transition: all ease .3s;
+}
+.mod-custom-5 .hover_icon_view:before {
+  content: '\e843';
+}
+.mod-custom-5 .fa-circle {
+  color: #7ca813;
+  font-size: 10px;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.mod-custom-5 .fa {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  transform: translate(0,0);
+}
+.mod-custom-5 .fa-circle:before {
+  content: "\f111";
+}
+.mod-custom-5 .description p {
+  color: #707276;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: inherit;
+}
+.mod-custom-5 .button.alt:hover {
+  background-color: #7ca813;
+}
+.mod-custom-5 button.button.alt {
+  background-color: #96BD42;
+  color: #fff;
+}
+.mod-custom-5 .button {
+  line-height: 1.3em;
+  color: #ffffff;
+  font-size: 1em;
+  display: inline-block;
+  overflow: visible;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-left: 8px;
+}
+.mod-custom-5 .posttt {
+  margin-top: 25px;
+}
