@@ -1,3 +1,6 @@
+@shop_banner_background-image: url(../images/shop_bg1.jpg);
+@shop_banner_background-repeat: no-repeat;
+@background-size: cover;
 
 .page_content_wrap {
     padding: 2.1428em 0;
@@ -17,9 +20,9 @@
 
 
 .shop_banner {
-    background-image: url(../images/shop_bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: @shop_banner_background-image;
+    background-repeat:@shop_banner_background-repeat;
+    background-size:@background-size;
 }
 
 .sidebar_left .sidebar {

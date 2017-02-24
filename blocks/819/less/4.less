@@ -1,4 +1,17 @@
-
+@select_background-image: url(../images/select_arrow_down.png);
+@select_background-position: right center;
+@select_background-repeat: no-repeat;
+@search_field_background: none;
+@widget_area_inner_ul_li_a_background: transparent;
+@ui-widget-content_background: #cccccc;
+@ui-widget-content_background-color: #602053;
+@ui-slider-range_background-color: #1a3150;
+@hover_icon_color: #ffffff;
+@search_button_background: none;
+@add_color_2_color: #1b3353;
+@pagination_pages_a_color: #707276;
+@pagination_pages_a_background-color: #f6f7f3;
+@pager_first_background-color: transparent !important;
 .page_content_wrap {
     padding: 2.1428em 0;
 }
@@ -38,9 +51,9 @@ select {
     -ms-transition: all ease .3s;
     -o-transition: all ease .3s;
     transition: all ease .3s;
-    background-image: url(../images/select_arrow_down.png);
-    background-position: right center;
-    background-repeat: no-repeat;
+    background-image: @select_background-image;
+    background-position: @select_background-position;
+    background-repeat: @select_background-repeat;
 }
 
 .body_filled .widget_area[class*="scheme_"]:not(.footer_wrap) .widget_area_inner {
@@ -92,7 +105,7 @@ ul{
 .widget_area_inner .widget_product_search .search_field{
     padding-right: 30px;
     padding-left: 20px;
-    background: none;
+    background: @search_field_background;
     border: none;
     width: 100%;
     height: 3.571em;
@@ -108,7 +121,7 @@ ul{
 a{
     outline: 0;
     text-decoration: none;
-    background: transparent;
+    background: @widget_area_inner_ul_li_a_background;
 
 }
 .sidebar aside+aside {
@@ -120,12 +133,12 @@ aside{
 }
 .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
     margin-bottom: 1.225em;
-    background: #cccccc;
+    background:@ui-widget-content_background;
     height: 5px;
 }
 .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
     border-radius: 1em;
-    background-color: #602053;
+    background-color: @ui-widget-content_background-color;
     border: 0;
 }
 .woocommerce .widget_price_filter .ui-slider {
@@ -136,13 +149,13 @@ aside{
 }
 .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range
 {
-        background-color: #1a3150;
+        background-color:@ui-slider-range_background-color;
 }
 
 .hover_icon:before {
     font-family: 'fontello';
     font-size: 1.2em;
-    color: #ffffff;
+    color: @hover_icon_color;
     cursor: pointer;
     position: absolute;
     left: 50%;
@@ -200,7 +213,7 @@ a{
 .widget_area .widget_product_search .search_button, .widget_area .widget_search .search_button {
     text-align: center;
     border: none;
-    background: none;
+    background: @search_button_background;
 }
 .widget_area_inner .widget_product_search .search_button:before, .widget_area_inner .widget_search .search_button:before {
     width: 3.571em;
@@ -227,7 +240,7 @@ input[type="text"]{
     transition: all ease .3s;
 }
 .add_color_2 {
-    color: #1b3353;
+    color: @add_color_2_color;
 }
 .text_align_center {
     text-align: center;
@@ -259,9 +272,9 @@ nav.pagination_pages {
     border: 2px solid #f6f7f3;
 }
 .pagination_pages > a{
-    color: #707276;
-    background-color: #f6f7f3;
-    border-color: #f6f7f3;
+    color: @pagination_pages_a_color;
+    background-color:@pagination_pages_a_background-color;
+    border-color: @pagination_pages_a_background-color;
 }
 
 .pagination_wrap .pager_next {
@@ -269,7 +282,7 @@ nav.pagination_pages {
 }
 .pagination_wrap .pager_next, .pagination_wrap .pager_prev, .pagination_wrap .pager_last, .pagination_wrap .pager_first {
     border: none !important;
-    background-color: transparent !important;
+    background-color: @pager_first_background-color;
 }
 .pagination_wrap .pager_next:before {
     font-family: 'fontello';
