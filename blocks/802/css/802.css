@@ -1,0 +1,211 @@
+.type-802 .margin_auto {
+  margin: 0 auto;
+}
+.type-802 .content_wrap {
+  margin: 10%;
+}
+.type-802 .sc_section .general_info_section .sc_section_content,
+.type-802 .columns_wrap.no_margins > [class*="column-"],
+.type-802 figure {
+  padding: 0;
+}
+.type-802 .columns_wrap .no_margins,
+.type-802 figure {
+  margin: 0;
+}
+.type-802 .sc_section,
+.type-802 .sc_title,
+.type-802 .columns_wrap > [class*="column-"],
+.type-802 figure {
+  position: relative;
+}
+.type-802 div,
+.type-802 span,
+.type-802 h3,
+.type-802 h6,
+.type-802 p {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  border: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.type-802 .content {
+  box-sizing: border-box;
+}
+.type-802 .padding_top_20_imp {
+  padding-top: 20px;
+}
+.type-802 .padding_bottom_20_imp {
+  padding-bottom: 20px;
+}
+.type-802 .general_info_section {
+  padding: 2.857em 0 !important;
+  background-image: url(../images/custom_bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.type-802 .margin_top_huge {
+  margin-top: 80px;
+}
+.type-802 .margin_bottom_huge {
+  margin-bottom: 80px;
+}
+.type-802 .sc_section .general_info_section .sc_section_overlay {
+  overflow: visible;
+}
+.type-802 .sc_section .sc_section_content {
+  box-sizing: border-box;
+}
+.type-802 .row:before,
+.type-802 .columns_wrap:before {
+  content: " ";
+  display: table;
+}
+.type-802 :before {
+  box-sizing: border-box;
+}
+.type-802 .row > [class*="column-"],
+.type-802 .columns_wrap > [class*="column-"] {
+  display: inline-block;
+  vertical-align: top;
+  min-height: 1px;
+  box-sizing: border-box;
+}
+.type-802 .column-1_2 {
+  width: 50%;
+}
+.type-802 .custom_shadow1 {
+  box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+}
+.type-802 .text_align_center {
+  text-align: center;
+}
+.type-802 .sc_columns .sc_column_item_inner {
+  padding: 1.429em 1.5em;
+}
+.type-802 .add_color_2_bg {
+  background-color: #1b3353;
+}
+.type-802 .color_white {
+  color: #ffffff;
+}
+.type-802 .sc_title {
+  overflow: hidden;
+  padding-bottom: 2px;
+}
+.type-802 .font_weight_600 {
+  font-weight: 600;
+}
+.type-802 .font_size_3_929em {
+  font-size: 3.929em;
+}
+.type-802 .margin_top_medium {
+  margin-top: 40px;
+}
+.type-802 .margin_bottom_tiny {
+  margin-bottom: 10px;
+}
+.type-802 h3 {
+  font-family: inherit;
+}
+.type-802 .sc_title .sc_align_center {
+  text-align: center;
+  margin: 0 auto;
+}
+.type-802 .accent1 {
+  color: #96bd42;
+}
+.type-802 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-802 .ltr-spc2 {
+  letter-spacing: 2px;
+}
+.type-802 .font_weight_400 {
+  font-weight: 400;
+}
+.type-802 .font_size_0_857em {
+  font-size: 0.857em;
+}
+.type-802 .margin_bottom_medium {
+  margin-bottom: 40px;
+}
+.type-802 h3,
+.type-802 h6 {
+  margin-top: 0;
+}
+.type-802 h6 {
+  font-family: inherit;
+  line-height: 1.1;
+}
+.type-802 .margin_top_tiny {
+  margin-top: -10px;
+}
+.type-802 .width_90_per {
+  width: 90%;
+}
+.type-802 p {
+  margin: 0 0 10px;
+}
+.type-802 .margin_bottom_medium {
+  margin-bottom: 40px !important;
+}
+.type-802 figure {
+  display: block;
+  border: 0;
+  max-width: 100%;
+}
+.type-802 img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+.type-802 .sc_section:after,
+.type-802 .row:after,
+.type-802 .columns_wrap:after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+.type-802 :after {
+  box-sizing: border-box;
+}
+@media (max-width: 1439px) and (min-width: 1263px) {
+  .type-802 .content_wrap {
+    width: 1000px;
+  }
+}
+@media (max-width: 959px) {
+  .type-802 .general_info_section .column-1_2.custom_shadow1 {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .type-802 .sc_section.general_info_section .margin_top_huge .margin_bottom_huge {
+    margin: 10%;
+  }
+}
+@media (max-width: 639px) {
+  .type-802 .sc_section.general_info_section .sc_section_content {
+    margin-top: -20px;
+    margin: 0 10%;
+  }
+  .type-802 .general_info_section .column-1_2.even {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 479px) {
+  .type-802 .general_info_section h3.sc_title {
+    font-size: 3.5em;
+  }
+}

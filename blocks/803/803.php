@@ -14,12 +14,12 @@
 			    include ('./libs/lessc.inc.php');
 			}
 			$less = new lessc;
-			$less->compileFile('less/4.less', 'css/4.css');
+			$less->compileFile('less/803.less', 'css/803.css');
 			?>
-		<link href="css/4.css" rel="stylesheet" type="text/css" />
+		<link href="css/803.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<div class="4">
+		<div class="type-803">
 			<!-- begin Content next_last_match -->
 			<div class="theme_background_1">
 				<div class="container">

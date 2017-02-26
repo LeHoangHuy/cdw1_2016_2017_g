@@ -1,7 +1,28 @@
-.type-3{
+.type-801 {
+    @font-family-m: 'Montserrat';
+    @font-famity-os: 'Open Sans';
+    @color-trans-word: rgba(255, 255, 255, 0.10);
+    @color-trans-word-slide2: rgba(255, 255, 255, 0.32);
+    @color-title: rgba(255, 255, 255, 1.00);
+    @color-title-slide3: rgba(255, 255, 255, 1.00);
+    @color-info: rgba(206, 221, 243, 1.00);
+    @color-info-slide2: rgba(255, 255, 255, 1.00);
+    @color-info-slide3: rgba(170, 178, 189, 1.00);
+    @color-word-button: rgba(255, 255, 255, 1.00);
+    @color-bg-button: rgba(150, 189, 66, 1.00);
+    @color-bg-button-slide2: rgba(26, 49, 80, 1.00);
+    @color-bg-button-slide3: rgba(150, 189, 66, 1.00);
+    @color-bg-bullet: rgba(255,255,255,.3);
+
+    .fullscreen-container {
+        position: relative;
+    }
+    .rev_slider li.tp-revslider-slidesli, .tp-bullet, .tp-bullets, .tp-tabs, .tp-thumbs {
+        position: absolute;
+    }
+
     html, body, div, span, applet, object, iframe, h1,h2,h3, p, {
-        
-      font-family: inherit;
+        font-family: inherit;
         font-size: 100%;
         font-style: inherit;
         font-weight: inherit;
@@ -17,31 +38,27 @@
     }
     .fullwidthbanner-container {
         overflow: hidden;
+        .fullscreen-container;
     }
     .fullscreen-container, .fullwidthbanner-container {
         padding: 0;
-        position: relative;
     }
     .rev_slider_wrapper {
-        position: relative;
         z-index: 0;
         width: 100%;
+        .fullscreen-container;
     }
     .fullwidthbanner-container .fullwidthabanner {
         width: 100%;
-        position: relative;
+        .fullscreen-container;
     }
     .rev_slider {
-        position: relative;
         overflow: visible;
-    }
-    .rev_slider li.tp-revslider-slidesli {
-        position: absolute!important;
+        .fullscreen-container;
     }
     ol, ul {
         padding-left: 1.5em;
     }
-
     p, ul, ol, dl, blockquote, address {
         margin-bottom: 1.5em;
     }
@@ -56,8 +73,8 @@
         white-space: nowrap;
         font-size: 188px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 0.10);
-        font-family: 'Montserrat';
+        color: @color-trans-word;
+        font-family: @font-family-m;
     }
     #slide-1-layer-2 {
         z-index: 5;
@@ -67,8 +84,8 @@
         font-size: 74px;
         line-height: 80px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Montserrat';
+        color: @color-title;
+        font-family: @font-family-m;
     }
     #slide-1-layer-7 {
         z-index: 7;
@@ -78,8 +95,8 @@
         font-size: 17px;
         line-height: 24px;
         font-weight: 400;
-        color: rgba(206, 221, 243, 1.00);
-        font-family: 'Open Sans';
+        color: @color-info;
+        font-family: @font-famity-os;
     }
     #slide-1-layer-9 {
         z-index: 8;
@@ -87,19 +104,11 @@
         font-size: 14px;
         line-height: 14px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Montserrat';
-        background-color: rgba(150, 189, 66, 1.00);
+        color: @color-word-button;
+        font-family: @font-family-m;
+        background-color: @color-bg-button;
         padding: 22px 35px 22px 35px;
-        border-color: rgba(0, 0, 0, 1.00);
-        outline: none;
-        box-shadow: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
     }
-
-
     #slide-2-layer-2 {
         z-index: 5;
         min-width: 547px;
@@ -108,8 +117,8 @@
         font-size: 73px;
         line-height: 73px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Montserrat';
+        color: @color-title;
+        font-family: @font-family-m;
         text-align: center;
     }
     #slide-2-layer-3 {
@@ -119,8 +128,8 @@
         white-space: normal;
         font-size: 190px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 0.32);
-        font-family: 'Montserrat';
+        color: @color-trans-word-slide2;
+        font-family: @font-family-m;
     }
     #slide-2-layer-4 {
         z-index: 7;
@@ -130,8 +139,8 @@
         font-size: 17px;
         line-height: 24px;
         font-weight: 400;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Open Sans';
+        color: @color-info-slide2;
+        font-family: @font-famity-os;
         text-align: center;
     }
     #slide-2-layer-7 {
@@ -140,16 +149,10 @@
         font-size: 14px;
         line-height: 14px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: Montserrat;
-        background-color: rgba(26, 49, 80, 1.00);
+        color: @color-word-button;
+        font-family: @font-family-m;
+        background-color: @color-bg-button-slide2;
         padding: 22px 35px 22px 35px;
-        border-color: rgba(0, 0, 0, 1.00);
-        outline: none;
-        box-shadow: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
     }
     #slide-3-layer-2 {
         z-index: 5;
@@ -159,16 +162,16 @@
         font-size: 74px;
         line-height: 74px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Montserrat';
+        color: @color-title-slide3;
+        font-family: @font-family-m;
     }
     #slide-3-layer-1 {
         z-index: 6;
         white-space: nowrap;
         font-size: 190px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 0.10);
-        font-family: 'Montserrat';
+        color: @color-trans-word;
+        font-family: @font-family-m;
     }
     #slide-3-layer-3 {
         z-index: 7;
@@ -178,8 +181,8 @@
         font-size: 17px;
         line-height: 24px;
         font-weight: 400;
-        color: rgba(170, 178, 189, 1.00);
-        font-family: 'Open Sans';
+        color: @color-info-slide3;
+        font-family: @font-famity-os;
     }
     #slide-3-layer-6 {
         z-index: 8;
@@ -187,34 +190,22 @@
         font-size: 14px;
         line-height: 14px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 1.00);
-        font-family: 'Montserrat';
-        background-color: rgba(150, 189, 66, 1.00);
+        color: @color-word-button;
+        font-family: @font-family-m;
+        background-color: @color-bg-button-slide3;
         padding: 22px 35px 22px 35px;
-        border-color: rgba(0, 0, 0, 1.00);
-        outline: none;
-        box-shadow: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
     }
     .tp-bullet {
-
+        background: @color-bg-bullet;
+        border-radius: 50%;
+        cursor: pointer;
         width: 10px;
         height: 10px;
-        border-radius: 50%;
     }
     .tp-bullets, .tp-tabs, .tp-thumbs {
-        position: absolute;
         display: block;
         z-index: 1000;
         top: 0;
         left: 0;
     }
-    .tp-bullet {
-        position: absolute;
-        background: rgba(255,255,255,.3);
-        cursor: pointer;
-    }
-
 }

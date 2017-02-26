@@ -1,0 +1,252 @@
+.type-804 * {
+  box-sizing: border-box;
+}
+.type-804 body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+}
+.type-804 a,
+.type-804 a:hover {
+  text-decoration: none;
+}
+.type-804 a {
+  color: #96bd42;
+}
+.type-804 .padding_top_84_imp {
+  padding-top: 84px;
+}
+.type-804 .margin_bottom_50_imp {
+  margin-bottom: 50px;
+}
+.type-804 .sc_title.sc_align_center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-804 .sc_title {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 2px;
+  color: #1a3150;
+}
+.type-804 .font_weight_600 {
+  font-weight: 600;
+}
+.type-804 .font_size_3_929em {
+  font-size: 3.929em;
+}
+.type-804 .margin_bottom_tiny {
+  margin-bottom: 10px;
+}
+.type-804 .margin_top_null {
+  margin-top: 0;
+}
+.type-804 .accent1 {
+  color: #96bd42;
+}
+.type-804 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-804 .ltr-spc {
+  letter-spacing: 1px;
+}
+.type-804 .font_weight_400 {
+  font-weight: 600;
+}
+.type-804 .font_size_0_857em {
+  font-size: 0.857em;
+}
+.type-804 .margin_bottom_medium {
+  margin-bottom: 40px;
+}
+.type-804 .add_color_3 {
+  color: #1a3150;
+}
+.type-804 .margin_bottom_4_286em_imp {
+  margin-bottom: 4.286em;
+}
+.type-804 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-804 .text_align_center {
+  text-align: center;
+}
+.type-804 .sc_blogger {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.type-804 .ih-item.square {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.type-804 .ih-item.square.effect6 .info {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.type-804 .ih-item a,
+.type-804 .ih-item a:hover {
+  color: #ffffff;
+}
+.type-804 .isotope_item.isotope_item_portfolio .post_content.ih-item.square.colored .info {
+  background-color: rgba(255,255,255,0.8);
+}
+.type-804 .isotope_item.isotope_item_portfolio .post_content.ih-item.square.colored .info .info-back {
+  background-color: #1a3150;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 0 3%;
+  vertical-align: middle;
+  top: 10%;
+  left: 10%;
+  -webkit-box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+  -moz-box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+  box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+  position: absolute;
+}
+.type-804 .isotope_item.isotope_item_portfolio .post_content.ih-item.square.colored .info .info-box {
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.type-804 .isotope_item.isotope_item_portfolio .post_content.ih-item.square.colored .info .post_title {
+  font-size: 1.214em;
+  text-shadow: none;
+}
+.type-804 .ih-item.square.effect6 .info .post_title {
+  margin-top: 4%;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.type-804 .ih-item.square .info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.type-804 .ih-item.square .info p {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+.type-804 .isotope_item.isotope_item_portfolio .post_content.ih-item.square.colored .post_info a {
+  color: #aab2bd;
+}
+.type-804 .ih-item.square.effect6:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+.type-804 .isotope_item_portfolio {
+  padding-bottom: 15px;
+}
+.type-804 .margin_bottom_null,
+.type-804 .margin_bottom_none,
+.type-804 .margin_bottom_no,
+.type-804 .margin_bottom_hide {
+  margin-bottom: 0;
+}
+.type-804 .margin_top_small {
+  margin-top: 20px !important;
+}
+.type-804 .aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.type-804 input[type="submit"],
+.type-804 input[type="button"],
+.type-804 button,
+.type-804 .sc_button {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+}
+.type-804 .cube {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.type-804 .sc_button.sc_button_style_1 .default-state {
+  background-color: #1ca9eb;
+  color: #ffffff;
+}
+.type-804 .sc_button_size_large .default-state,
+.type-804 .sc_button_size_large .active-state {
+  line-height: 55px;
+  padding: 0 35px;
+}
+.type-804 .default-state,
+.type-804 .active-state {
+  display: block;
+  -webkit-transition: background 250ms ease;
+  -moz-transition: background 250ms ease;
+  -o-transition: background 250ms ease;
+  transition: background 250ms ease;
+}
+.type-804 .default-state {
+  -webkit-transform: translateZ(27px);
+  -moz-transform: translateZ(27px);
+  -o-transform: translateZ(27px);
+  -ms-transform: translateZ(27px);
+  transform: translateZ(27px);
+}
+.type-804 .sc_button.sc_button_style_1 .active-state {
+  background-color: #1295d2;
+  color: #ffffff;
+}
+.type-804 .flip-to-top .active-state {
+  -webkit-transform: rotateX(90deg) translateZ(75px);
+  -moz-transform: rotateX(90deg) translateZ(75px);
+  -o-transform: rotateX(90deg) translateZ(75px);
+  -ms-transform: rotateX(90deg) translateZ(75px);
+  transform: rotateX(90deg) translateZ(75px);
+}
+.type-804 a,
+.type-804 button {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.type-804 .post_featured a img {
+  width: 100%;
+}
+.type-804 .sc_button_size_large .cube,
+.type-804 .sc_button_size_medium .cube,
+.type-804 .sc_button_size_small .cube {
+  height: 55px;
+}
