@@ -1,0 +1,188 @@
+.type-807 * {
+  box-sizing: border-box;
+}
+.type-807 body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+}
+.type-807 a,
+.type-807 a:hover {
+  text-decoration: none;
+}
+.type-807 h6 {
+  color: #16acf3;
+}
+.type-807 a {
+  color: #96bd42;
+}
+.type-807 .vc_custom_5 {
+  background: #1a3150 url(../images/custom_bg3.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: inherit !important;
+  padding-bottom: 100px;
+}
+.type-807 .vc_column-inner {
+  margin-bottom: 50px !important;
+  padding-top: 84px !important;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.type-807 .vc_custom_5 .sc_title_2 {
+  text-align: left !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 6.143em;
+}
+.type-807 .vc_custom_5 .wpb_text_column {
+  padding-bottom: 2em;
+}
+.type-807 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-807 .vc_custom_5 .text {
+  color: #ffffff;
+  text-align: left;
+  font-size: 12px;
+}
+.type-807 .vc_custom_5 .sc_button.sc_button_style_2 .default-state {
+  background-color: #1ca9eb;
+  color: #ffffff;
+}
+.type-807 .sc_button_size_large .default-state,
+.type-807 .sc_button_size_large .active-state {
+  line-height: 55px;
+  padding: 0 35px;
+}
+.type-807 .default-state,
+.type-807 .active-state {
+  display: block;
+  -webkit-transition: background 250ms ease;
+  -moz-transition: background 250ms ease;
+  -o-transition: background 250ms ease;
+  transition: background 250ms ease;
+}
+.type-807 .default-state {
+  -webkit-transform: translateZ(27px);
+  -moz-transform: translateZ(27px);
+  -o-transform: translateZ(27px);
+  -ms-transform: translateZ(27px);
+  transform: translateZ(27px);
+}
+.type-807 .vc_custom_5 .sc_button.sc_button_style_2 .active-state {
+  background-color: #1295d2;
+  color: #ffffff;
+}
+.type-807 .flip-to-top .active-state {
+  -webkit-transform: rotateX(90deg) translateZ(75px);
+  -moz-transform: rotateX(90deg) translateZ(75px);
+  -o-transform: rotateX(90deg) translateZ(75px);
+  -ms-transform: rotateX(90deg) translateZ(75px);
+  transform: rotateX(90deg) translateZ(75px);
+}
+.type-807 .vc_custom_6 {
+  padding-bottom: 20px !important;
+  background-color: #1a3150 !important;
+}
+.type-807 .vc_custom_6 .vc_column- {
+  text-align: center;
+  margin-bottom: 50px !important;
+  padding-top: 50px !important;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.type-807 .vc_custom_6 .title_1 {
+  letter-spacing: 1px;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 3.929em !important;
+}
+.type-807 .vc_custom_6.title_2 {
+  letter-spacing: 1px;
+  padding-bottom: 3em;
+  color: #16acf3 !important;
+  font-weight: 400 !important;
+  font-size: 0.857em !important;
+}
+.type-807 .text_uppercase {
+  text-transform: uppercase;
+}
+.type-807 .woocommerce {
+  margin: auto;
+  text-align: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  background: #ffffff;
+}
+.type-807 .woocommerce .products {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+.type-807 .woocommerce .products .post-10 {
+  border-right: 1px solid #e9eaec;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  top: 0;
+  text-align: center;
+  position: relative;
+}
+.type-807 .onsale {
+  background: #e13e30;
+  padding: 5px 10px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-top: 30px;
+  position: absolute;
+}
+.type-807 .attachment {
+  width: 100%;
+  height: 100%;
+}
+.type-807 .woocommerce .post_content h3 {
+  margin-bottom: 0.571em;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-top: 0;
+}
+.type-807 .woocommerce .price {
+  margin-bottom: 20px;
+  color: #96bd42;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.type-807 .woocommerce .hover_icon:hover:before {
+  opacity: 1;
+  margin-top: 0;
+}
+.type-807 .woocommerce .hover_icon:before {
+  background-color: #96bd42;
+  font-family: 'fontello';
+  font-size: 1.2em;
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 12px 20px;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  margin-top: 100px;
+  z-index: 10;
+  transition: all ease .3s;
+}
+.type-807 .hover_icon_link:before {
+  content: url('../images/icon-search.png');
+}

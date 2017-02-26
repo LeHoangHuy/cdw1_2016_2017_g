@@ -1,0 +1,89 @@
+.type-806 * {
+  box-sizing: border-box;
+}
+.type-806 body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.000em;
+}
+.type-806 a,
+.type-806 a:hover {
+  text-decoration: none;
+}
+.type-806 a {
+  color: #96bd42;
+}
+.type-806 .columns_wrap {
+  margin-left: 0px;
+  margin-right: -30px;
+}
+.type-806 .columns_wrap .info_block1 .sc_column_item_inner {
+  background-color: #96bd42;
+  -webkit-box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+  -moz-box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+  box-shadow: -2px 2px 25px 0 rgba(0,0,0,0.25);
+}
+.type-806 .sc_columns .sc_column_item_inner {
+  padding: 1.429em 1.5em;
+}
+.type-806 .type-806 .wpb_row .columns_wrap {
+  margin-left: 0px;
+  margin-right: -30px;
+}
+.type-806 .type-806 .sc_cs {
+  background-color: #96bd42;
+  box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.25);
+}
+.type-806 .wpb_row .margin_left_small {
+  margin-left: 20px !important;
+}
+.type-806 .wpb_row .margin_right_small {
+  margin-right: 20px !important;
+}
+.type-806 .sc_title_underline {
+  padding-bottom: 43px !important;
+}
+.type-806 .post_featured img {
+  width: 100%;
+  height: auto;
+}
+.type-806 .sc_blogger_horizontal {
+  margin-left: -15px;
+  margin-right: 125px;
+}
+.type-806 .sc_column_item_2 {
+  padding: 4em 1.786em 0 0.714em;
+}
+.type-806 .sc_column_item_1 {
+  padding-right: 30px;
+}
+.type-806 .wpb_row .columns_wrap .info_block1 .sc_video_player {
+  margin-top: 2.286em !important;
+  box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.25);
+}
+.type-806 .sc_video_player .sc_video_play_button.hover_icon:before,
+.type-806 .sc_video_player .sc_video_play_button.hover_icon:after {
+  display: block;
+}
+.type-806 .sc_video_player .hover_icon:before,
+.type-806 .sc_video_player .hover_icon:after {
+  display: none;
+}
+.type-806 h4 a {
+  color: #1a3150;
+}
+.type-806 .wpb_row .columns_wrap .info_block1 h4 {
+  margin-top: 1.941em !important;
+  margin-bottom: 0 !important;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.214em;
+  font-weight: 800;
+  line-height: 20px;
+}
+.type-806 .video_subtitle {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 4.286em;
+}
