@@ -1,6 +1,11 @@
-.mod-custom-3{
+.type-811{
+    @color-word: #ffffff;
+    @background-content: #1a3150;
+    @background-buttonhover: #7ca813;
+    @background-button: #96bd42;
+    @border-button: #96bd42;
     .sc_googlemap_content {
-        background-color: #1a3150;
+        background-color: @background-content;
         height: 580px;
         right: 13%;
         width: 27%;
@@ -14,7 +19,7 @@
     } 
 
     .sc_googlemap_content h2, .sc_googlemap_content .sc_item_descr {
-        color: #ffffff;
+        color:@color-word;
     }
     .sc_googlemap_content .sc_item_title {
         text-align: left;
@@ -51,13 +56,13 @@
     }
 
     .sc_form .sc_form_item.sc_form_button button:hover {
-        background-color: #7ca813;
+       background-color: @background-buttonhover;
     }
     .sc_form .sc_form_item.sc_form_button button {
-        background-color: #96bd42;
+        background-color: @background-button;
     }
     .sc_form button:focus {
-        border-color: #96bd42;
+        border-color: @background-button;
     }
     button {
         display: inline-block;
@@ -65,7 +70,7 @@
         font-weight: 700;
         font-size: 1em;
         padding: 1.2em 2.65em;
-        color: #ffffff;
+        color: @color-word;
     }
 
 }

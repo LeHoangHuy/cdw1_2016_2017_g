@@ -6,13 +6,13 @@
         <title></title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/13.css" rel="stylesheet" type="text/css"/>
+        <link href="css/812.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/13.less', 'css/13.css');
+        $less->compileFile('less/812.less', 'css/812.css');
         ?>
         <script src="js/112.js" type="text/javascript"></script>
         <script src="js/npm.js" type="text/javascript"></script>
@@ -22,7 +22,7 @@
 
     </head>
     <body>
-        <div class="mod-custom-4">
+        <div class="type-812">
             <div class="container">
             <footer class="footer_wrap widget_area scheme_original">
                 <div class="footer_wrap_inner widget_area_inner">

@@ -1,0 +1,68 @@
+.type-811 .sc_googlemap_content {
+  background-color: #1a3150;
+  height: 580px;
+  right: 13%;
+  width: 27%;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 3.571em 3em;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  text-align: left;
+}
+.type-811 .sc_googlemap_content h2,
+.type-811 .sc_googlemap_content .sc_item_descr {
+  color: #ffffff;
+}
+.type-811 .sc_googlemap_content .sc_item_title {
+  text-align: left;
+}
+.type-811 .sc_googlemap_content .sc_item_title .sc_googlemap_content h2 {
+  font-size: 2.857em;
+  margin-bottom: 0.325em;
+}
+.type-811 .sc_googlemap_content .sc_item_descr {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 1.857em;
+}
+.type-811 .sc_googlemap_content .sc_form .sc_form_info .sc_form_item {
+  width: 100%;
+  margin-bottom: 0.714em;
+}
+.type-811 .sc_form .label_over label {
+  display: none;
+}
+.type-811 .sc_form .sc_form_item input[type="text"],
+.type-811 .sc_form .sc_form_item select,
+.type-811 .sc_form .sc_form_item.sc_form_message textarea {
+  padding: 1.1em;
+}
+.type-811 .sc_form .sc_form_field input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.type-811 .sc_form .sc_form_message textarea {
+  min-height: 8.8em;
+  width: 100%;
+}
+.type-811 .sc_form .sc_form_item.sc_form_button button:hover {
+  background-color: #7ca813;
+}
+.type-811 .sc_form .sc_form_item.sc_form_button button {
+  background-color: #96bd42;
+}
+.type-811 .sc_form button:focus {
+  border-color: #96bd42;
+}
+.type-811 button {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 1.2em 2.65em;
+  color: #ffffff;
+}

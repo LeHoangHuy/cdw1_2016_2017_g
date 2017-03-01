@@ -6,14 +6,14 @@
         <title></title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/1.css" rel="stylesheet" type="text/css"/>
+        <link href="css/813.css" rel="stylesheet" type="text/css"/>
         <link href="fontello/css/fontello.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/1.less', 'css/1.css');
+        $less->compileFile('less/813.less', 'css/813.css');
         ?>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
@@ -21,7 +21,7 @@
 
     </head>
     <body>
-        <div class="mod-custom-5">
+        <div class="type-813">
             <div class="content_wrap-2">
 			<div class="container">
             	<div class="wrapper">
