@@ -1,0 +1,160 @@
+.list{
+    .course_category{
+        margin-bottom: 20px;
+    }
+    .lms_hover_section {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .lms_hover_section:hover{
+        overflow: visible;
+        .lms_hover_overlay {
+            background-image: url(../images/bg.png);
+            background-repeat: repeat;
+            text-align: center;
+            transition:All 0.5s ease;
+            transform: scale(1);
+            .lms_hover_readmore{
+                opacity:1;
+            }
+        }
+
+    }
+    .lms_hover_overlay {
+        transform: scale(1.1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        .lms_hover_readmore {
+            width: 100px;
+            position: absolute;
+            left: 50%;
+            margin-left: -50px;
+            top: 50%;
+            margin-top: -17px;
+            opacity: 0;
+            a{
+                color: #fff;
+                background-color: #ff9933;
+                border-color: #ff9933;
+            }
+        }
+    }
+    .lms_hover_section
+    {
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 0px;
+        }
+    }
+    .lms_course_mid_content{
+        float: left;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-top: none;
+        padding: 15px;
+        padding-top: 0;
+        a{
+            color: #000;
+
+        }
+        h3{
+            font-size: 21px;
+            height: 36px;
+            margin: 20px 0px 10px 0px;
+            a{
+                font-size: 21px;
+                font-weight: 500;
+            }
+        }
+        a:hover{
+            color: #ff9933;
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        .lms_course_instruct {
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .course-introduce {
+            float: left;
+            width: 100%;
+            border-top: 1px solid #ccc;
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        .lms_course_meta {
+            .lms-course-students {
+                float: left;
+                width: 60%;
+                text-align: left;
+            }
+            .lms-course-price {
+                color: #ff9933;
+                font-weight: bold;
+                float: left;
+                width: 40%;
+                text-align: right;
+            }
+        }
+    }
+    .lms_pagination {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 20px;
+        ul {
+            margin: 0px auto;
+            display: inline-block;
+            margin-right: 25px;
+            position: relative;
+            list-style: none;
+            li {
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                margin: 30px 0px 0px;
+                float: left;
+                .current {
+                    font-size: 34px;
+                    padding: 9px 5px;
+                    margin-right: 5px;
+                    color: #ff9933;
+                    border-bottom: 2px solid #ff9933;
+                }
+                a {
+                    color: #000;
+                    -webkit-transition: all 0.3s;
+                    padding: 6px 15px;
+                    line-height: 34px;
+                    float: left;
+                }
+                a:hover{
+                    font-size: 34px;
+                    padding: 0px 6px;
+                    padding: 6px 15px;
+                    color: #ff9933;
+                    text-decoration: none;
+                    -webkit-transition: all 0.3s;
+                }
+            }
+            li:after {
+                content: '/';
+                position: absolute;
+                right: 0;
+                opacity: 0.5;
+                top: 50%;
+                margin-top: -14px;
+            }
+        }
+    }
+}
+

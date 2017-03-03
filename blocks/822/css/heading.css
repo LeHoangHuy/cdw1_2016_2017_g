@@ -1,0 +1,35 @@
+.heading {
+  text-align: center;
+}
+.heading .title {
+  display: inline-block;
+}
+.heading h1 {
+  font-size: 34px;
+  float: left;
+  margin-top: 80px;
+  margin-bottom: 17px;
+  font-weight: 400;
+  padding: 0px 32px 28px 32px;
+  border-bottom: 1px solid #9ea6b0;
+  position: relative;
+}
+.heading h1::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  margin: -10px 0 0 -5px;
+  left: 50%;
+  width: 10px;
+  height: 20px;
+  background: #fff;
+  border-left: 1px solid #9ea6b0;
+  border-right: 1px solid #9ea6b0;
+  transform: rotate(20deg);
+}
+.heading p {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
