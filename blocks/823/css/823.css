@@ -1,25 +1,25 @@
-.list .course_category {
+.type-823 .course_category {
   margin-bottom: 20px;
 }
-.list .lms_hover_section {
+.type-823 .lms_hover_section {
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.list .lms_hover_section:hover {
+.type-823 .lms_hover_section:hover {
   overflow: visible;
 }
-.list .lms_hover_section:hover .lms_hover_overlay {
+.type-823 .lms_hover_section:hover .lms_hover_overlay {
   background-image: url(../images/bg.png);
   background-repeat: repeat;
   text-align: center;
   transition: All 0.5s ease;
   transform: scale(1);
 }
-.list .lms_hover_section:hover .lms_hover_overlay .lms_hover_readmore {
+.type-823 .lms_hover_section:hover .lms_hover_overlay .lms_hover_readmore {
   opacity: 1;
 }
-.list .lms_hover_overlay {
+.type-823 .lms_hover_overlay {
   transform: scale(1.1);
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@
   width: 100%;
   height: 100%;
 }
-.list .lms_hover_overlay .lms_hover_readmore {
+.type-823 .lms_hover_overlay .lms_hover_readmore {
   width: 100px;
   position: absolute;
   left: 50%;
@@ -36,17 +36,17 @@
   margin-top: -17px;
   opacity: 0;
 }
-.list .lms_hover_overlay .lms_hover_readmore a {
+.type-823 .lms_hover_overlay .lms_hover_readmore a {
   color: #fff;
   background-color: #ff9933;
   border-color: #ff9933;
 }
-.list .lms_hover_section img {
+.type-823 .lms_hover_section img {
   width: 100%;
   height: auto;
   margin-bottom: 0px;
 }
-.list .lms_course_mid_content {
+.type-823 .lms_course_mid_content {
   float: left;
   width: 100%;
   border: 1px solid #ccc;
@@ -54,85 +54,85 @@
   padding: 15px;
   padding-top: 0;
 }
-.list .lms_course_mid_content a {
+.type-823 .lms_course_mid_content a {
   color: #000;
 }
-.list .lms_course_mid_content h3 {
+.type-823 .lms_course_mid_content h3 {
   font-size: 21px;
   height: 36px;
   margin: 20px 0px 10px 0px;
 }
-.list .lms_course_mid_content h3 a {
+.type-823 .lms_course_mid_content h3 a {
   font-size: 21px;
   font-weight: 500;
 }
-.list .lms_course_mid_content a:hover {
-  color: #ff9933;
+.type-823 .lms_course_mid_content a:hover {
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s;
 }
-.list .lms_course_mid_content .lms_course_instruct {
+.type-823 .lms_course_mid_content .lms_course_instruct {
   float: left;
   width: 100%;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.list .lms_course_mid_content .course-introduce {
+.type-823 .lms_course_mid_content .course-introduce {
   float: left;
   width: 100%;
   border-top: 1px solid #ccc;
   margin-top: 10px;
   padding-top: 10px;
 }
-.list .lms_course_mid_content .lms_course_meta .lms-course-students {
+.type-823 .lms_course_mid_content .lms_course_meta .lms-course-students {
   float: left;
   width: 60%;
   text-align: left;
 }
-.list .lms_course_mid_content .lms_course_meta .lms-course-price {
+.type-823 .lms_course_mid_content .lms_course_meta .lms-course-price {
   color: #ff9933;
   font-weight: bold;
   float: left;
   width: 40%;
   text-align: right;
 }
-.list .lms_pagination {
+.type-823 .lms_pagination {
   width: 100%;
   float: left;
   text-align: center;
   margin-bottom: 50px;
   font-size: 20px;
 }
-.list .lms_pagination ul {
+.type-823 .lms_pagination ul {
   margin: 0px auto;
   display: inline-block;
   margin-right: 25px;
   position: relative;
   list-style: none;
 }
-.list .lms_pagination ul li {
+.type-823 .lms_pagination ul li {
   display: inline-block;
   text-align: center;
   position: relative;
   margin: 30px 0px 0px;
   float: left;
 }
-.list .lms_pagination ul li .current {
+.type-823 .lms_pagination ul li .current {
   font-size: 34px;
   padding: 9px 5px;
   margin-right: 5px;
   color: #ff9933;
   border-bottom: 2px solid #ff9933;
 }
-.list .lms_pagination ul li a {
+.type-823 .lms_pagination ul li a {
   color: #000;
   -webkit-transition: all 0.3s;
   padding: 6px 15px;
   line-height: 34px;
   float: left;
 }
-.list .lms_pagination ul li a:hover {
+.type-823 .lms_pagination ul li a:hover {
   font-size: 34px;
   padding: 0px 6px;
   padding: 6px 15px;
@@ -140,7 +140,7 @@
   text-decoration: none;
   -webkit-transition: all 0.3s;
 }
-.list .lms_pagination ul li:after {
+.type-823 .lms_pagination ul li:after {
   content: '/';
   position: absolute;
   right: 0;

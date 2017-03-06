@@ -1,129 +1,126 @@
-.mod-custom-2 .sc_title.sc_align_center {
+.type-810 a,
+.type-810 h1,
+.type-810 h2,
+.type-810 h3 {
+  font-family: "Arial" inherit;
+}
+.type-810 .sc_align_center {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-.mod-custom-2 .sc_title {
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 2px;
-}
-.mod-custom-2 .font_weight_600 {
+.type-810 .font_weight_600 {
   font-weight: 600;
 }
-.mod-custom-2 .font_size_3_571em {
+.type-810 .font_size_3_571em {
   font-size: 3.571em;
 }
-.mod-custom-2 .margin_bottom_null {
+.type-810 .margin_bottom_null {
   margin-bottom: 0 !important;
 }
-.mod-custom-2 h3 {
+.type-810 h3 {
   color: #1a3150;
   line-height: 125%;
 }
-.mod-custom-2 .accent1 {
+.type-810 .accent1 {
   color: #96bd42;
 }
-.mod-custom-2 .ltr-spc2 {
+.type-810 .ltr-spc2 {
   letter-spacing: 2px;
 }
-.mod-custom-2 .font_size_0_857em {
+.type-810 .font_size_0_857em {
   font-size: 0.857em;
 }
-.mod-custom-2 .margin_bottom_large {
+.type-810 .margin_bottom_large {
   margin-bottom: 60px !important;
 }
-.mod-custom-2 .columns_wrap {
-  margin-left: 0px;
-  margin-right: -30px;
+.type-810 .sc_price_block {
+  color: #aab2bd;
+  background-color: #ffffff;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_title {
+.type-810 .sc_price_block .sc_price_block_title {
   color: #ffffff;
   background-color: #1a3150;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_title {
+.type-810 .sc_price_block .sc_price_block_title {
   text-align: center;
   font-size: 1.214em;
   font-weight: 700;
   line-height: 3.235em;
   min-height: 3.235em;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_money {
+.type-810 .sc_price_block .sc_price_block_money {
   background-color: #ffffff;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_money {
+.type-810 .sc_price_block .sc_price_block_money {
   text-align: center;
   line-height: 7.857em;
   height: 7.857em;
   overflow: hidden;
 }
-.mod-custom-2 .sc_price_block {
-  color: #aab2bd;
-  background-color: #ffffff;
-}
-.mod-custom-2 .sc_price_block .sc_button .active-state {
+.type-810 .sc_price_block .sc_button .active-state {
   background-color: #1295d2;
   color: #ffffff;
 }
-.mod-custom-2 .active-state {
+.type-810 .active-state {
   line-height: 55px;
   padding: 0 35px;
   color: #ffffff;
 }
-.mod-custom-2 .cube {
+.type-810 .cube {
   display: block;
   text-align: center;
   margin: 0 auto;
   transition: all 250ms ease;
   transform-style: preserve-3d;
 }
-.mod-custom-2 .cube.flip-to-top:hover {
+.type-810 .cube.flip-to-top:hover {
   -webkit-transform: rotateX(-89deg);
   transform: rotateX(-89deg);
 }
-.mod-custom-2 .sc_button_size_large .default-state,
-.mod-custom-2 .sc_button_size_large .active-state {
+.type-810 .sc_button_size_large .default-state,
+.type-810 .sc_button_size_large .active-state {
   line-height: 55px;
   padding: 0 35px;
 }
-.mod-custom-2 .default-state,
-.mod-custom-2 .active-state {
+.type-810 .default-state,
+.type-810 .active-state {
   display: block;
   transition: background 250ms ease;
 }
-.mod-custom-2 :active,
-.mod-custom-2 :focus {
+.type-810 :active,
+.type-810 :focus {
   outline: 0;
 }
-.mod-custom-2 input[type="submit"],
-.mod-custom-2 input[type="button"],
-.mod-custom-2 button,
-.mod-custom-2 .sc_button {
+.type-810 input[type="submit"],
+.type-810 input[type="button"],
+.type-810 button,
+.type-810 .sc_button {
   display: inline-block;
   text-align: center;
   font-weight: 700;
   font-size: 1em;
 }
-.mod-custom-2 .sc_price_block:hover {
+.type-810 .sc_price_block:hover {
   margin-top: -10px;
   box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.1);
 }
-.mod-custom-2 .sc_price_block {
+.type-810 .sc_price_block {
   color: #aab2bd;
   background-color: #ffffff;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_money .sc_price_money {
+.type-810 .sc_price_block .sc_price_block_money .sc_price_money {
   font-weight: 900;
   font-size: 2.857em;
   line-height: inherit;
 }
-.mod-custom-2 .sc_price .sc_price_currency,
-.mod-custom-2 .sc_price .sc_price_money,
-.mod-custom-2 .sc_price .sc_price_period,
-.mod-custom-2 .sc_price .sc_price_penny {
+.type-810 .sc_price .sc_price_currency,
+.type-810 .sc_price .sc_price_money,
+.type-810 .sc_price .sc_price_period,
+.type-810 .sc_price {
   color: #1a3150;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_description {
+.type-810 .sc_price_block .sc_price_block_description {
   text-align: center;
   font-size: 1em;
   line-height: 1.3em;
@@ -132,53 +129,46 @@
   overflow: hidden;
   font-weight: 600;
 }
-.mod-custom-2 .sc_price_block {
+.type-810 .sc_price_block {
   color: #aab2bd;
   background-color: #ffffff;
+  margin-bottom: 30px;
 }
-.mod-custom-2 .sc_price .sc_price_period {
+.type-810 .sc_price .sc_price_period {
   font-weight: 700;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_money .sc_price_currency {
+.type-810 .sc_price_block .sc_price_block_money .sc_price_currency {
   font-weight: 900;
   font-size: 1.429em;
   line-height: 4.7em;
   vertical-align: top;
 }
-.mod-custom-2 .theme_background_1 {
+.type-810 .theme_background {
   background-color: #f6f7f3 !important;
   padding-right: 48px;
 }
-.mod-custom-2 .padding_bottom_7_143em_imp {
-  padding-bottom: 7.143em !important;
-}
-.mod-custom-2 .text_uppercase {
+.type-810 .text_uppercase {
   text-transform: uppercase;
 }
-.mod-custom-2 .ltr-spc2 {
+.type-810 .ltr-spc2 {
   letter-spacing: 2px;
 }
-.mod-custom-2 .sc_price_block .sc_price_block_link {
+.type-810 .sc_price_block .sc_price_block_link {
   height: 7.4em;
   text-align: center;
 }
-.mod-custom-2 input[type="submit"]:hover,
-.mod-custom-2 input[type="reset"]:hover,
-.mod-custom-2 input[type="button"]:hover,
-.mod-custom-2 button:hover,
-.mod-custom-2 .sc_button.sc_button_style_filled:hover {
+.type-810 input[type="submit"]:hover,
+.type-810 input[type="reset"]:hover,
+.type-810 input[type="button"]:hover,
+.type-810 button:hover,
+.type-810 .sc_button.sc_button_style_filled:hover {
   color: #ffffff;
 }
-.mod-custom-2 .sc_button_size_large .cube,
-.mod-custom-2 .sc_button_size_medium .cube,
-.mod-custom-2 .sc_button_size_small .cube {
-  height: 55px;
-}
-.mod-custom-2 .sc_price_block .sc_button .default-state {
+.type-810 .sc_price_block .sc_button .default-state {
   background-color: #1ca9eb;
   color: #ffffff;
 }
-.mod-custom-2 .flip-to-top .active-state {
+.type-810 .flip-to-top .active-state {
   -webkit-transform: rotateX(90deg) translateZ(75px);
   transform: rotateX(90deg) translateZ(75px);
 }

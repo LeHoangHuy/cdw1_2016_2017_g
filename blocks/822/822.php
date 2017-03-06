@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/rightContent.less', 'css/rightContent.css');
+        $less->compileFile('less/822.less', 'css/822.css');
         ?>
-        <link href="css/rightContent.css" rel="stylesheet" type="text/css" />
+        <link href="css/822.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -24,7 +24,7 @@
 
     <body>
         <div class="col-lg-4 col-md-4 col-sm-5">
-            <div class="rightContent">
+            <div class="type-822">
                 <div class="lms_sidebar_item">
                     <form method="get" class="searchform" action="">
                         <div class="form-group">

@@ -17,15 +17,15 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/list.less', 'css/list.css');
+        $less->compileFile('less/823.less', 'css/823.css');
         ?>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href ="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/list.css" rel="stylesheet" type="text/css"/>
+        <link href="css/823.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
-        <div class="list">
+        <div class="type-823">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -37,7 +37,6 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-
                         <div class="course_category"> 
                             <div class="lms_hover_section">
                                 <img width="360" height="363" src="images/HTML-and-Html5-360x363.jpg" sizes="(max-width: 360px) 100vw, 360px">
@@ -49,15 +48,12 @@
                             </div><div class="lms_course_mid_content">
                                 <h3><a href="#">Learning Quality Graphic Design</a></h3> 
                                 <div class="lms_course_meta"> 
-                                    <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
-                                            Instructor : <a href="#">rahultiwari</a>
-                                        </span>
+                                    <div class="lms_course_instruct">                                     
+                                        Instructor : <a href="#">rahultiwari</a>                               
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>12</span> students enrolled
                                     </span>
-
                                     <span class="lms-course-price">$23.00</span>
                                 </div>
                                 <div class="course-introduce">
@@ -67,7 +63,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -80,15 +75,12 @@
                             </div><div class="lms_course_mid_content">
                                 <h3><a href="#">JQuery Tutorial</a></h3> 
                                 <div class="lms_course_meta"> 
-                                    <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
-                                            Instructor : <a href="#">lms@admin</a>
-                                        </span>
+                                    <div class="lms_course_instruct"> 
+                                        Instructor : <a href="#">lms@admin</a>
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>5</span> students enrolled
                                     </span>
-
                                     <span class="lms-course-price">$20.00</span>
                                 </div>
                                 <div class="course-introduce">
@@ -98,7 +90,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -111,10 +102,8 @@
                             </div><div class="lms_course_mid_content">
                                 <h3><a href="#">Make a Unity 2D Physics Game</a></h3> 
                                 <div class="lms_course_meta"> 
-                                    <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
-                                            Instructor : <a href="#">lms@admin</a>
-                                        </span>
+                                    <div class="lms_course_instruct">    
+                                        Instructor : <a href="#">lms@admin</a>
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>3</span> students enrolled
@@ -129,7 +118,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -143,7 +131,7 @@
                                 <h3><a href="#">SEO Training Course</a></h3> 
                                 <div class="lms_course_meta"> 
                                     <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
+                                        <span> 
                                             Instructor : <a href="#">lms@admin</a>
                                         </span>
                                     </div> 
@@ -160,7 +148,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -174,14 +161,13 @@
                                 <h3><a href="#">Getting Started with Playing Guitar</a></h3> 
                                 <div class="lms_course_meta"> 
                                     <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
+                                        <span> 
                                             Instructor : <a href="#">lms@admin</a>
                                         </span>
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>8</span> students enrolled
                                     </span>
-
                                     <span class="lms-course-price">$24.00</span>
                                 </div>
                                 <div class="course-introduce">
@@ -191,7 +177,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -205,14 +190,13 @@
                                 <h3><a href="#">Fun Yoga for Kids</a></h3> 
                                 <div class="lms_course_meta"> 
                                     <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
+                                        <span> 
                                             Instructor : <a href="#">lms@admin</a>
                                         </span>
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>58</span> students enrolled
                                     </span>
-
                                     <span class="lms-course-price">Free</span>
                                 </div>
                                 <div class="course-introduce">
@@ -222,7 +206,6 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -236,45 +219,13 @@
                                 <h3><a href="#">Learning Quality Graphic Design</a></h3> 
                                 <div class="lms_course_meta"> 
                                     <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
+                                        <span> 
                                             Instructor : <a href="#">rahultiwari</a>
                                         </span>
                                     </div> 
                                     <span class="lms-course-students">
                                         <span>12</span> students enrolled
                                     </span>
-
-                                    <span class="lms-course-price">$23.00</span>
-                                </div>
-                                <div class="course-introduce">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="course_category"> 
-                            <div class="lms_hover_section">
-                                <img width="360" height="363" src="images/HTML-and-Html5-360x363.jpg" sizes="(max-width: 360px) 100vw, 360px">
-                                <div class="lms_hover_overlay">
-                                    <div class="lms_hover_readmore">
-                                        <a href="#" class="btn btn-default">Read More</a>
-                                    </div>
-                                </div>  
-                            </div><div class="lms_course_mid_content">
-                                <h3><a href="#">Learning Quality Graphic Design</a></h3> 
-                                <div class="lms_course_meta"> 
-                                    <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
-                                            Instructor : <a href="#">rahultiwari</a>
-                                        </span>
-                                    </div> 
-                                    <span class="lms-course-students">
-                                        <span>12</span> students enrolled
-                                    </span>
-
                                     <span class="lms-course-price">$23.00</span>
                                 </div>
                                 <div class="course-introduce">
@@ -297,7 +248,7 @@
                                 <h3><a href="#">Learning Quality Graphic Design</a></h3> 
                                 <div class="lms_course_meta"> 
                                     <div class="lms_course_instruct">
-                                        <span class="course-instructor"> 
+                                        <span> 
                                             Instructor : <a href="#">rahultiwari</a>
                                         </span>
                                     </div> 
@@ -305,6 +256,35 @@
                                         <span>12</span> students enrolled
                                     </span>
 
+                                    <span class="lms-course-price">$23.00</span>
+                                </div>
+                                <div class="course-introduce">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="course_category"> 
+                            <div class="lms_hover_section">
+                                <img width="360" height="363" src="images/HTML-and-Html5-360x363.jpg" sizes="(max-width: 360px) 100vw, 360px">
+                                <div class="lms_hover_overlay">
+                                    <div class="lms_hover_readmore">
+                                        <a href="#" class="btn btn-default">Read More</a>
+                                    </div>
+                                </div>  
+                            </div><div class="lms_course_mid_content">
+                                <h3><a href="#">Learning Quality Graphic Design</a></h3> 
+                                <div class="lms_course_meta"> 
+                                    <div class="lms_course_instruct">
+                                        <span> 
+                                            Instructor : <a href="#">rahultiwari</a>
+                                        </span>
+                                    </div> 
+                                    <span class="lms-course-students">
+                                        <span>12</span> students enrolled
+                                    </span>
                                     <span class="lms-course-price">$23.00</span>
                                 </div>
                                 <div class="course-introduce">
@@ -316,15 +296,14 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="lms_pagination">
-                        <ul class="page-numbers">
-                            <li><span class="page-numbers current">1</span></li>
-                            <li><a class="page-numbers" href="#">2</a></li>
-                            <li><a class="next page-numbers" href="#">Next</a></li>
+                        <ul>
+                            <li><span class="current" >1</span></li>
+                            <li><a href="#">2</a></li>
+                            <li><a class="next" href="#">Next</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </body>
-
 </html>

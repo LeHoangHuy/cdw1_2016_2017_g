@@ -1,36 +1,48 @@
-.type-809 .testimonials_custom_block_3 {
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 600px;
-  background-image: url(../images/5.jpg);
+.type-809 {
+  text-align: center;
+  background: url(../images/5.jpg);
 }
-.type-809 .nuthai {
-  padding-right: 55px;
-  padding-left: 15px;
-  margin: -80px;
-}
-.type-809 .nuthai a:hover {
-  text-decoration: none;
-}
-.type-809 .mySlides {
-  margin: auto;
-  padding-top: 100px;
-  padding-right: 40px;
-}
-.type-809 .w3-display-container {
+.type-809 .slide-show {
   text-align: center;
 }
-.type-809 .w3-display-left {
-  background-color: #ddd;
-  margin: 0.2px;
-  border: 22px solid #ddd;
+.type-809 .slide-show .testimonials {
+  text-align: center;
+  background: #96bd42;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.type-809 .slide-show .testimonials .Title {
+  text-align: center;
+  margin-top: 50px;
+}
+.type-809 .slide-show .testimonials .Title h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.type-809 .slide-show .testimonials p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+.type-809 .slide-show .testimonials span {
+  color: #fff;
+}
+.type-809 .slide-show .testimonials #mySlide {
+  text-align: center;
+}
+.type-809 .slide-show .testimonials .button {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.type-809 .slide-show .testimonials .button a {
+  background: #fff;
+  padding: 20px;
   color: #96bd42;
 }
-.type-809 .w3-display-right {
-  background-color: #ddd;
-  margin: 0.2px;
-  border: 22px solid #ddd;
-  color: #96bd42;
+.type-809 .slide-show .testimonials .button a:hover {
+  text-decoration: none;
+}
+.type-809 .slide-show .testimonials .button:hover {
+  text-decoration: none;
 }

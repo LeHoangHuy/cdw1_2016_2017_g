@@ -21,61 +21,42 @@
     </head>
     <body>
         <div class="type-809">
+            <div class="container">
+                <div class="row">
+                    <div class="slide-show">
+                        <div class="testimonials col-md-10">
+                            <div class="Title">
+                                <h1>Testimonials</h1>
+                            </div>
+                            <div id="mySlide" class="carousel slide" data-ride="carousel">
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate sed lorem a congue. Donec consequat et sem in porta." </p>
+                                        <span> John Snow, CEO</span>
+                                    </div>
 
-            <div class="w3-content w3-display-container" class="backgoud">
-                <div class="sc_section margin_top_null margin_bottom_null aligncenter testimonials_custom_block_3">
-                    <img class="mySlides" src="images/8.png" style="width:660px; height: 420px;">
-                    <img class="mySlides" src="images/9.png" style="width:660px; height: 420px;">
-                    <img class="mySlides" src="images/10.png" style="width:660px; height: 420px;">
+                                    <div class="item">
+                                        <p>"Excellent project that helps discovering young talents and keep us healthy. Professional coaches and staff are doing great job!"</p>
+                                        <span> Martin Moore, Manger </span>
+                                    </div>
 
-                    <div class="nuthai">
-                        <a href="#" class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
-                        <a href="#"class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+                                    <div class="item">
+                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate sed lorem a congue. Donec consequat et sem in porta."</p>
+                                        <span>Lisa Kudrow, Manager </span>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <a href="#mySlide" class="glyphicon glyphicon-chevron-left"role="button" data-slide="prev">
+                                    </a>
+                                    <a href="#mySlide" class="glyphicon glyphicon-chevron-right" role="button" data-slide="next">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <script>
-                var myIndex = 0;
-                carousel();
-
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) {
-                        myIndex = 1
-                    }
-                    x[myIndex - 1].style.display = "block";
-                    setTimeout(carousel, 2000); // Change image every 2 seconds
-                }
-            </script>
-            <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
-
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
-                }
-
-                function showDivs(n) {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    if (n > x.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = x.length
-                    }
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    x[slideIndex - 1].style.display = "block";
-                }
-            </script>        
         </div>
     </body>
 </html>

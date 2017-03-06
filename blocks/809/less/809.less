@@ -1,36 +1,53 @@
 .type-809{
-    @main_color: #96bd42;
-    .testimonials_custom_block_3 {
-        background-position: center !important;
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-        width: 100%;
-        height: 600px;
-        background-image: url(../images/5.jpg);
-    }
-    .nuthai{
-        padding-right: 55px;
-        padding-left: 15px;
-        margin: -80px;
-    }
-    .nuthai a:hover{
-        text-decoration: none;
-    }
-    .mySlides {
-        margin: auto;
-        padding-top: 100px;
-        padding-right: 40px;
-    }
-    .w3-display-container{
+    @background-color: #96bd42;
+    @word-color: #fff;
+    @button-color-background: #fff;
+    text-align: center;
+    background:url(../images/5.jpg);
+    .slide-show{
         text-align: center;
+        .testimonials{
+            text-align: center;         
+            background: @background-color;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            .Title{
+                text-align: center;
+                margin-top: 50px;
+                h1{
+                    color:@word-color;
+                    font-weight: bold;
+                    font-size: 40px;
+                }
+            }
+
+            p{
+                color: @word-color;
+                text-align: center;
+                font-size: 18px;
+            }
+            span{
+                color:@word-color;
+            }
+            #mySlide{
+                text-align: center;
+            }
+            .button{
+                margin-top: 30px;
+                margin-bottom: 70px;
+                a{
+                    background: @button-color-background;
+                    padding: 20px;
+                    color: @background-color;
+                }
+                a:hover{
+                    text-decoration: none;
+                }
+            }
+            .button:hover{
+                text-decoration: none;  
+            }
+        }
     }
-    .w3-display-left {
-        background-color: #ddd;
-        margin: 0.2px;
-        border: 22px solid #ddd; 
-        color: @main_color;
-    }
-    .w3-display-right{
-        .w3-display-left;
-    }     
+
 }
