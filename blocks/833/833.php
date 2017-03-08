@@ -12,20 +12,20 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/833.less', 'css/833.css');
         ?>
 
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/owl.carousel.stmin.js" type="text/javascript"></script>
-        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/833.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
 
 
     <body >
-        <div class="type_32_b">
+        <div class="type-833">
             <div class="container">
                 <div class="vc_row  vc_custom_1437530809851">
                     <div class=" col-sm-12">
@@ -52,112 +52,112 @@
 
                             <div class="portfolioContainer " style=" overflow: hidden; height: auto">
                                 <div class="tab-content" style="padding-right: 24px">
-                                    <div id="menu0" class="tab-pane fade in active"  >
+                                    <div class="tab-pane active"  >
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="sheet-steel isotope-item"  >
-                                                <div class="box image-scale">
-                                                    <img  src="images/1.jpg"  alt="rolled-steel1"  data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Bars</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img  src="images/1.jpg"  alt="rolled-steel1"  data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Bars</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="rolled isotope-item">
-                                                <div class="tp-pic box image-scale" >
-                                                    <img  src="images/2.jpg"  alt="steel-pipes1" data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Plates</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale" >
+                                                <img  src="images/2.jpg"  alt="steel-pipes1" data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Plates</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="steel-pipes isotope-item">
-                                                <div class="tp-pic box image-scale" >
-                                                    <img  src="images/3.jpg"  alt="steel-rail" data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Steel Rails</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale" >
+                                                <img  src="images/3.jpg"  alt="steel-rail" data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Steel Rails</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="rolled1 isotope-item">
-                                                <div class="tp-pic box image-scale">
-                                                    <img  src="images/4.jpg"  alt="steel-plate1" data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Steel Forgings</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img  src="images/4.jpg"  alt="steel-plate1" data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Steel Forgings</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="sheet-steel1 isotope-item" >
-                                                <div class="tp-pic box image-scale">
-                                                    <img  src="images/5.jpg" alt="project"   data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Shipping Project</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img  src="images/5.jpg" alt="project"   data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Shipping Project</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="copper-base isotope-item" >
-                                                <div class="tp-pic box image-scale">
-                                                    <img  src="images/6.jpg"  alt="project-2"   data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Copper Base</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img  src="images/6.jpg"  alt="project-2"   data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Copper Base</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="copper-base steel-forgings isotope-item">
-                                                <div class="tp-pic box image-scale">
-                                                    <img src="images/7.jpg"  alt="sheet-steel2"   data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Food Service</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img src="images/7.jpg"  alt="sheet-steel2"   data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Food Service</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                         <div class="col-md-3 col-sm-6 col-xs-12">
-                                            <div class="rails rolled isotope-item">                                           
-                                                <div class="tp-pic box image-scale">
-                                                    <img src="images/8.jpg"  alt="steel-pipes"   data-lazy-loaded="true" style="display: block;">
-                                                    <div class="caption scale-caption">
-                                                        <a href="#"><h1>Steel Pipes</h1></a>
-                                                        <!--<a href="#" >View details</a>--->
-                                                    </div>
+
+                                            <div class="box image-scale">
+                                                <img src="images/8.jpg"  alt="steel-pipes"   data-lazy-loaded="true" style="display: block;">
+                                                <div class="caption scale-caption">
+                                                    <a href="#"><h1>Steel Pipes</h1></a>
+                                                    <!--<a href="#" >View details</a>--->
                                                 </div>
                                             </div>
+
                                         </div>
 
                                     </div>
 
 
-                                    <div id="menu1" class="tab-pane fade"></div>
+                                    <div class="tab-pane"></div>
 
-                                    <div id="menu2" class="tab-pane fade">
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="copper-base isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                    <div class="tab-pane">
+                                        <div class="col-md-3 col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img  src="images/6.jpg"  alt="11"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Copper Base</h1></a>
@@ -167,9 +167,9 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="steel-forgings  isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                        <div class="col-md-3 col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/7.jpg"  alt="s22"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Food Service</h1></a>
@@ -181,12 +181,12 @@
 
                                     </div>
 
-                                    <div id="menu3" class="tab-pane fade"></div>
+                                    <div class="tab-pane"></div>
 
-                                    <div id="menu4" class="tab-pane fade">
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="copper-base  isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                    <div class="tab-pane">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img  src="images/8.jpg"  alt="333"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Steel Pipes</h1></a>
@@ -197,10 +197,10 @@
                                         </div>
                                     </div>
 
-                                    <div id="menu5" class="tab-pane fade"> 
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="rolled2 isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                    <div class="tab-pane"> 
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/2.jpg"  alt="steel-pipes1"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Plates</h1></a>
@@ -209,9 +209,9 @@
                                                 </div>
                                             </div>    
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="rolled3 isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/4.jpg"  alt="steel-plate1"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Steel Forgings</h1></a>
@@ -220,9 +220,9 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="rails1 rolled isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/8.jpg"  alt="steel-pipes"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Steel Pipes</h1></a>
@@ -233,9 +233,9 @@
                                         </div>
                                     </div>
 
-                                    <div id="menu6" class="tab-pane fade">
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="sheet-steel2 isotope-item" >
+                                    <div class="tab-pane">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
                                                 <div class=" box image-scale">
                                                     <img width="100%" src="images/1.jpg"  alt="rolled-steel1"  data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
@@ -245,9 +245,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="sheet-steel3 isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                        <div class="col-md-3 col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/5.jpg" alt="project"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Shipping Project</h1></a>
@@ -258,10 +258,10 @@
                                         </div>
                                     </div>
 
-                                    <div id="menu7" class="tab-pane fade">
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="steel-forgings3 isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                    <div class="tab-pane">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/7.jpg"  alt="sheet-steel2"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Food Service</h1></a>
@@ -272,10 +272,10 @@
                                         </div>
                                     </div>
 
-                                    <div id="menu8" class="tab-pane fade">
-                                        <div class="col-md-3 col-sm-4 col-xs-12">
-                                            <div class="steel-pipes1 isotope-item" >
-                                                <div class="tp-pic box image-scale">
+                                    <div class="tab-pane">
+                                        <div class="col-md-3  col-xs-12">
+                                            <div class="isotope-item" >
+                                                <div class="box image-scale">
                                                     <img width="100%" src="images/3.jpg"  alt="steel-rail"   data-lazy-loaded="true" style="display: block;">
                                                     <div class="caption scale-caption">
                                                         <a href="#"><h1>Steel Rails</h1></a>

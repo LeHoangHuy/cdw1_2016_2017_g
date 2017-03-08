@@ -1,4 +1,4 @@
-.type-12d {
+.type-835 {
   font-family: 'Coda', cursive;
   -webkit-font-smoothing: antialiased;
   background-color: #1f1f1f;
@@ -7,19 +7,19 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.type-12d .right-side {
+.type-835 .right-side {
   background-color: #282828;
   padding: 40px;
 }
-.type-12d .widget {
+.type-835 .widget {
   border-bottom: 1px solid #393939;
   margin-bottom: 20px;
   padding-bottom: 17px;
 }
-.type-12d .form-group {
+.type-835 .form-group {
   margin-bottom: 15px;
 }
-.type-12d .form-control {
+.type-835 .form-control {
   display: block;
   width: 100%;
   padding: 6px 12px;
@@ -29,8 +29,8 @@
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.type-12d input.form-control,
-.type-12d select.form-control {
+.type-835 input.form-control,
+.type-835 select.form-control {
   margin-bottom: 25px;
   background-color: #1F1F1F;
   color: #fff;
@@ -40,12 +40,12 @@
   font-weight: normal;
   border-radius: 0px;
 }
-.type-12d .form-control:focus {
+.type-835 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
 }
-.type-12d .btn {
+.type-835 .btn {
   display: inline-block;
   margin-bottom: 0;
   font-weight: 400;
@@ -57,10 +57,10 @@
   cursor: pointer;
   user-select: none;
 }
-.type-12d .btn-submit {
+.type-835 .btn-submit {
   text-transform: uppercase;
 }
-.type-12d .right-side .search-widget .btn-search {
+.type-835 .right-side .search-widget .btn-search {
   background: #fde230;
   padding: 8px 27px;
   border: none;
@@ -68,28 +68,28 @@
   color: #1f1f1f;
   font-size: 16px;
 }
-.type-12d h3 {
+.type-835 h3 {
   color: #fff;
   margin-top: 0px;
   font-size: 21px;
   margin-bottom: 20px;
 }
-.type-12d ul {
+.type-835 ul {
   margin: 0px;
   padding: 0px;
   list-style: disc;
 }
-.type-12d .right-side ul {
+.type-835 .right-side ul {
   margin-bottom: 0px;
 }
-.type-12d ul li {
+.type-835 ul li {
   line-height: 31px;
   font-size: 14px;
   color: #666;
   font-weight: 300;
   list-style: none;
 }
-.type-12d .widget ul li:before {
+.type-835 .widget ul li:before {
   margin-right: 10px;
   font-family: FontAwesome;
   color: #bca82d;
@@ -97,61 +97,61 @@
   left: -5px;
   content: "\f101";
 }
-.type-12d a {
+.type-835 a {
   font-family: 'Coda', cursive;
   color: #666;
   text-decoration: none;
   transition: all 0.3s;
 }
-.type-12d .tp-post-title a:hover {
+.type-835 .tp-post-title a:hover {
   color: #fde230;
 }
-.type-12d a:hover {
+.type-835 a:hover {
   text-decoration: none;
   color: #fde230;
 }
-.type-12d .widget.widget_strecentpostswidget .row {
+.type-835 .widget.widget_strecentpostswidget .row {
   margin-bottom: 10px;
 }
-.type-12d .tp-blog-pic {
+.type-835 .tp-blog-pic {
   overflow: hidden;
 }
-.type-12d a img {
+.type-835 a img {
   border: 0;
 }
-.type-12d .tp-blog-pic img {
+.type-835 .tp-blog-pic img {
   transition: all 1s ease;
   max-width: 100%;
 }
-.type-12d .tp-blog-pic img {
+.type-835 .tp-blog-pic img {
   width: 100%;
 }
-.type-12d .tp-blog-pic:hover img {
+.type-835 .tp-blog-pic:hover img {
   -webkit-transform: scale(1.25);
 }
-.type-12d .tp-post-title {
+.type-835 .tp-post-title {
   position: relative;
 }
-.type-12d .tp-post-title a {
+.type-835 .tp-post-title a {
   color: #fff;
 }
-.type-12d .widget .tp-meta {
+.type-835 .widget .tp-meta {
   margin-bottom: 15px;
   display: inline-block;
   font-size: 14px;
 }
-.type-12d .fa {
+.type-835 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.type-12d .widget .tp-meta i {
+.type-835 .widget .tp-meta i {
   color: #fde230;
   margin-right: 10px;
 }
-.type-12d .widget_tag_cloud .tagcloud a {
+.type-835 .widget_tag_cloud .tagcloud a {
   margin-bottom: 5px;
   margin-right: 1px;
   font-size: 12px !important;
@@ -164,13 +164,13 @@
   letter-spacing: 1px;
   display: inline-block;
 }
-.type-12d .widget_tag_cloud .tagcloud a:hover {
+.type-835 .widget_tag_cloud .tagcloud a:hover {
   background-color: #fde230;
   border: 2px solid #fde230;
   color: #1f1f1f;
 }
 @media screen and (max-width: 320px) {
-  .type-12d .widget_strecentpostswidget .tp-blog-pic img {
+  .type-835 .widget_strecentpostswidget .tp-blog-pic img {
     height: auto;
   }
 }

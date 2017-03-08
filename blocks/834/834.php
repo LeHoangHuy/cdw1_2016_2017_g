@@ -12,19 +12,18 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type_3_chitiet.less', 'css/type_3_chitiet.css');
+        $less->compileFile('less/834.less', 'css/834.css');
         ?>
-        <link href="css/type_3_chitiet.css" rel="stylesheet" type="text/css" />
+        <link href="css/834.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div class="type_3_chitiet">
+        <div class="type-834">
             <div class="container">
                 <div class="row">
-                    <div class="left-side col-md-8">
-                        <article id="post-265" class="post-265 service type-service status-publish has-post-thumbnail hentry">
+                    <div class="col-md-8">
                             <div class="tp-blog-pic">
                                 <img alt="blog-img" title="blog-img" class="img-responsive" src="images/service.jpg"></div>
                             <div class="tp-blog-info">
@@ -41,12 +40,12 @@
                                         <p>Nullam et volutpat quam. Phasellus mattis ipsum eget nequ ornare dolor dolor porttitor lorem. Vivamus a leo eu massa tempus aetu met sit amet. Cras pulvinar quam et justo luctusibus. ed urna lorem, euismod comnoi cusantium quam, ultriet tempor id, aliquam eget magna m lorem ipsume.</p>
                                     </div>
                                 </div>
-                            </div></article>                    </div>
+                            </div>
+                    </div>
                 </div>
+
+
             </div>
-
-
-        </div>
 
 
     </body>

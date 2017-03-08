@@ -12,17 +12,17 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/835.less', 'css/835.css');
         ?>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/835.css" rel="stylesheet" type="text/css" />
 
     </head>
 
     <body>
-        <div class="type-12d">
+        <div class="type-835">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
