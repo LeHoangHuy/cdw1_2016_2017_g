@@ -1,0 +1,36 @@
+.type_32_d a {
+  color: #666;
+}
+.type_32_d a:hover,
+.type_32_d a:focus {
+  text-decoration: none;
+  color: #fde230;
+}
+.type_32_d .tp-breadcrumb {
+  background: url(#) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 55px 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.type_32_d .st_1479475285 {
+  background-image: url(../images/service3.jpg);
+}
+.type_32_d .tp-breadcrumb .breadcrumb {
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.type_32_d .breadcrumb span:last-child {
+  color: #fde230;
+}
