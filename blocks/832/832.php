@@ -12,17 +12,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/832.less', 'css/832.css');
         ?>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/832.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
-        <div class="type-12c">
+        <div class="type-832">
             <footer >
-
                 <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row footer-section vc_custom_1436786731050" style="box-sizing: border-box; width: 100%; padding-left: 46.5px; padding-right: 46.5px;">
                     <div class="container">
                         <div class="tp-ft-about col-sm-3">
@@ -42,10 +41,8 @@
                                         <li>Fax : 800-2345-6789 / 6889800-2345-6789 / 6890</li>
                                         <li>E-Mail : info@indusmining.com</li>
                                     </ul>
-
                                 </div>
                             </div>
-
                         </div>
                         <div class="tp-investor-relation col-sm-3">
                             <div class="wpb_text_column wpb_content_element">
@@ -80,7 +77,6 @@
                             <div class="wpb_text_column wpb_content_element">
                                 <h2>Sign up For Newsletter</h2>
                                 <p>Lorem ipsum dolor sit amet, tetuer sit adipiscing elisent dolor amet sit.</p>
-                                <!-- MailChimp for WordPress v2.3.9 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
                                 <div class="form mc4wp-form">
                                     <form method="post">
                                         <p>
@@ -100,12 +96,9 @@
                                         <input type="hidden" name="_mc4wp_form_nonce" value="13a976c0de">
                                     </form>
                                 </div>
-                                <!-- / MailChimp for WordPress Plugin -->
                             </div>
-
                         </div>
                     </div>
-
                 </div>
                 <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row tiny-footer vc_custom_1436839546058" style="box-sizing: border-box; width: 100%; padding-left: 46.5px; padding-right: 46.5px;">
                     <div class="container">
@@ -113,11 +106,10 @@
                             <div class="wpb_text_column wpb_content_element">
                                 <div >
                                     <p class="copyright-ct">© 2015 Indusminingcompany | Privacy policy</p>
-
                                 </div>
                             </div>
                         </div>
-                        <div class=" col-sm-6">
+                        <div class="menu-footer col-sm-6">
                             <ul class="social-icon-ft pull-right">
                                 <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
@@ -131,5 +123,4 @@
             </footer>
         </div>
     </body>
-
 </html>

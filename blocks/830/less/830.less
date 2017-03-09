@@ -1,19 +1,16 @@
-.type_32_a{
-
+.type-830{
+    @color-title-word: #fff;
+    @color-text: #666;
     a {
-
-        color: #666;
+        color: @color-text;
         text-decoration: none;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
         background-color: transparent;
-    }
-    a {
-        color: #337ab7;
+         color: #337ab7;
         text-decoration: none;
     }
-
     a:hover, a:focus {
         text-decoration: none;
         color: #fde230;
@@ -23,12 +20,12 @@
         -webkit-font-smoothing: antialiased;
         font-size: 14px;
         font-weight: 300;
-        color: #666;
+        color: @color-text;
         margin-bottom: 30px;
         line-height: 21px;
     }
     h1 {
-        color: #fff;
+        color: @color-title-word;
         font-size: 39px;
         letter-spacing: -1px;
         margin-bottom: 20px;
@@ -36,7 +33,7 @@
     }
 
     h2 {
-        color: #fff;
+        color: @color-title-word;
         margin-bottom: 20px;
         margin-top: 0;
         font-size: 24px;
@@ -47,33 +44,16 @@
         background-color: #282828 !important;
         padding-bottom: 40px;
     }
-
-
-
-
-    .col-sm-12{
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 17px;
-    }
     .wpb_content_element {
         margin-bottom: 35px;
-    }
-
-    .lead {
-        color: #fde230;
     }
     .lead {
         margin-bottom: 20px;
         font-size: 16px;
         font-weight: 300;
         line-height: 1.4;
+        color: #fde230;
     }
-
-
-
-
     .btn-outline {
         border: 2px solid #52524f;
         border-radius: 0;
@@ -82,7 +62,7 @@
         transition: all .3s;
         font-size: 14px;
         padding: 10px 20px;
-        color: #666;
+        color: @color-title-word;
         text-transform: uppercase;
         letter-spacing: 1px;
         display: inline-block;
@@ -97,20 +77,15 @@
         color: #fde230;
         padding-right: 15px;
     }
-
     @media (max-width: 900px){
         .lead {
             font-size: 21px;
-        }
-        
+        }     
     }
     @media (max-width: 480px){
 
         h1 {
             font-size: 34px;
-        }
-        
-
+        }      
     }
-
 }
