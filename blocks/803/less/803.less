@@ -1,4 +1,9 @@
 .type-803{
+    @color_background: #96bd42;
+    @font_size_title_next_last_match: 2.4em;
+    @color_next_macth: #fff;
+    @background: #f6f7f3 !important;
+    @color_h2: #1a3150;
     *{
         box-sizing: border-box;
     }
@@ -21,11 +26,6 @@
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
-    @color_background: #96bd42;
-    @font_size_title_next_last_match: 2.4em;
-    @color_next_macth: #fff;
-    @background: #f6f7f3 !important;
-    @color_h2: #1a3150;
     /*------------------------begin left next_match-------------------*/
 
     .sc_matches_next .sc_item_title .sc_matches_next {
@@ -99,7 +99,6 @@
                     display: block;
                     padding-top: 15px;
                 }
-
                 .sc_match_date .month {
                     font-size: 12px;
                     font-weight: 400;
@@ -120,7 +119,7 @@
                 .name {
                     font-weight: 600;
                 }
-                .time{
+                .time {
                     display: inline;
                 }
                 .players {
@@ -141,7 +140,7 @@
         margin: 0.6667em auto;
     }
     /*------------------end left-----------------------*/
-    /*-------------------begin right last_match---------*/
+    /*----------------begin right last_match-----------*/
     .sc_matches_current {
         padding: 35px 30px;
         .sc_match:first-child {
@@ -168,8 +167,6 @@
         width: 100%;
         margin-bottom: 30px;
         text-align: center;
-    }
-    .match_block {
         .player {
             width: 33%;
             position: relative;
@@ -177,6 +174,30 @@
             -moz-box-shadow: -2px 2px 12px 0 rgba(0, 0, 0, 0.25);
             box-shadow: -2px 2px 12px 0 rgba(0, 0, 0, 0.25);
             display: inline-block;
+            .player_country {
+                color: @color_next_macth;
+                background-color: @color_background;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 0.786em;
+                text-transform: uppercase;
+                z-index: 2;
+            }
+            .player_name {
+                background-color: @color_h2;
+                a {
+                    text-align: center;
+                    padding: 16px;
+                    font-weight: 600;
+                    display: block;
+                    color: @color_next_macth;
+                }
+            }
         }
         .match_info {
             display: inline-block;
@@ -185,49 +206,25 @@
             margin-top: 8%;
             width: 29.5%;
             box-sizing: border-box;
-        }
-        .player_country {
-            color: @color_next_macth;
-            background-color: @color_background;
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-            text-align: center;
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-size: 0.786em;
-            text-transform: uppercase;
-            z-index: 2;
-        }
-        .player_name {
-            background-color: @color_h2;
-            a {
-                text-align: center;
-                padding: 16px;
+            .match_date {
+                color: #7a7f87;
                 font-weight: 600;
-                display: block;
-                color: @color_next_macth;
+                margin-bottom: 17px;
             }
-        }
-        .match_date {
-            color: #7a7f87;
-            font-weight: 600;
-            margin-bottom: 17px;
-        }
-        .match_score {
-            font-size: 50px;
-            font-weight: 600;
-            line-height: 80px;
-            padding: 0 20px;
-            display: inline-block;
-            margin-bottom: 17px;
-            background-color: @color_next_macth;
-            color: @color_h2;
-        }
-        .match_category {
-            font-size: 1.25em;
-            text-transform: uppercase;
+            .match_score {
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 80px;
+                padding: 0 20px;
+                display: inline-block;
+                margin-bottom: 17px;
+                background-color: @color_next_macth;
+                color: @color_h2;
+            }
+            .match_category {
+                font-size: 1.25em;
+                text-transform: uppercase;
+            }
         }
     }
     .hover_icon {
@@ -259,4 +256,13 @@
         content: "";
     }
     /*-------------------end right last_match---------*/
+    @media screen and (max-width: 460px) { 
+        .match_score {
+            font-size: 20px !important;
+        }
+        .match_category {
+            font-size: 12px !important;
+            margin: 0 -50px;
+        }
+    }
 }

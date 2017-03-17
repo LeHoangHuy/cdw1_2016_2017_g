@@ -1,11 +1,6 @@
-.type-801 .fullscreen-container {
-  position: relative;
-}
-.type-801 .rev_slider li.tp-revslider-slidesli,
+.type-801 .tp-revslider-slidesli,
 .type-801 .tp-bullet,
-.type-801 .tp-bullets,
-.type-801 .tp-tabs,
-.type-801 .tp-thumbs {
+.type-801 .tp-bullets {
   position: absolute;
 }
 .type-801 html,
@@ -34,29 +29,18 @@
   z-index: 0;
 }
 .type-801 .fullwidthbanner-container {
+  padding: 0;
   overflow: hidden;
-  position: relative;
-  padding: 0;
-}
-.type-801 .fullscreen-container,
-.type-801 .fullwidthbanner-container {
-  padding: 0;
 }
 .type-801 .rev_slider_wrapper {
   z-index: 0;
   width: 100%;
-  position: relative;
-  padding: 0;
 }
 .type-801 .fullwidthbanner-container .fullwidthabanner {
   width: 100%;
-  position: relative;
-  padding: 0;
 }
 .type-801 .rev_slider {
   overflow: visible;
-  position: relative;
-  padding: 0;
 }
 .type-801 ol,
 .type-801 ul {
@@ -220,9 +204,7 @@
   width: 10px;
   height: 10px;
 }
-.type-801 .tp-bullets,
-.type-801 .tp-tabs,
-.type-801 .tp-thumbs {
+.type-801 .tp-bullets {
   display: block;
   z-index: 1000;
   top: 0;

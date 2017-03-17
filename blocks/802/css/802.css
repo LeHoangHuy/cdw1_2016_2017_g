@@ -62,7 +62,6 @@
 .type-802 .sc_section .sc_section_content {
   box-sizing: border-box;
 }
-.type-802 .row:before,
 .type-802 .columns_wrap:before {
   content: " ";
   display: table;

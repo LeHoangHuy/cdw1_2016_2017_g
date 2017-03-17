@@ -1,0 +1,324 @@
+footer {
+    @color-link-recent: #ff9933;
+    @color-word: #9CA0A0;
+    @color-border-button-scroll-hover: #ff9933;
+    @color-arrow-button-scroll-hover: #fff;
+    @color-button-scroll-hover: #ff9933;
+    @color-hightlight-word: #ff9933;
+    @color-border-form: #e1e3e7;
+    @color-border-form-hover: #ff9933;
+    @color-border-form-cate-after-click: #9a9a9a;
+    @color-form-button: #fff;
+    @color-form-bg-button: #ff9933;
+    @color-form-border-button: #fff;
+    @mailchimp-message: #9CA0A0;
+    @mailchimp-message1: green;
+    @color-border-form-cate: #e1e3e7;
+    @color-border-form-cate-hover: #ff9933;
+    @color-word-option-cate: #333;
+    @color-bg-footer-center: #1a1a1a;
+    @color-border-social: #9ea6b0;
+    @color-social: #ff9933;
+    @color-border-social-hover: #ff9933;
+    @color-border-popular-course: #555555;
+    @color-border-course-cate: #555555;
+    @color-word-course-cate: #9CA0A0;
+    @color-word-course-cate-hover: #ff9933;
+    @color-contact-email: #9CA0A0;
+    @color-contact-email-hover: #ff9933;
+    @color-bg-footer-bottom: #171717;
+    
+    a {
+        text-decoration: none;
+        color: @color-link-recent;
+        font-family: 'Vollkorn', serif;
+        transition: all 0.5s;
+    }
+    p {
+        color: @color-word;
+    }
+    h3 {
+        float: left;
+        width: 100%;
+        color: #fff;
+        font-size: 22px;
+        margin-top: 15px;
+        text-transform: capitalize;
+        font-family: 'Vollkorn', serif;
+        margin-bottom: 30px;
+    }
+    .scrollToTop {
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        font-size: 20px;
+        color: #ff9933;
+        text-decoration: none;
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        border: 1px solid @color-border-button-scroll-hover;
+        overflow: hidden;
+
+        .down {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 21px;
+        }
+    }
+    .scrollToTop:hover {
+        i {
+            display: none;
+            transform: translateY(-15px);
+            transition: all 0.5s ease-in;
+        }
+        .down {
+            display: block;
+        }
+        color: @color-arrow-button-scroll-hover;
+        background: @color-button-scroll-hover;
+        text-decoration: none;
+    }
+    .lms_theme_color {
+        color: @color-hightlight-word;
+    }
+    .lms_footer_top {
+        width: 100%;
+        float: left;
+        padding: 20px 0px;
+        background: url(../images/bg.png);
+
+        .lms_newsletter {
+            width: 100%;
+            float: left;
+            margin-bottom: 20px;
+            form {
+                display: block;
+                margin-top: 0em;
+            }
+            .form-inline {
+                .form-group {
+                    display: inline-block;
+                    margin-bottom: 0;
+                    vertical-align: middle;
+                    float: left;
+                    width: 100%;
+                    position: relative;
+                    #form-control {
+                        width: 72%;
+                        display: inline-block;
+                        border-radius:none;
+                        border: 1px solid @color-border-form;
+                        transition: all 0.5s;
+                        .form-control {
+                            border: none;
+                            height: 38px;
+                            font-size: 14px;
+                            line-height: 1.42857143;
+                            color: @color-border-form-cate-after-click;
+                            background-color: transparent;
+                            background-image: none;
+                            transition: all 0.5s;
+                            width: 100%;
+                            font-style: italic;
+                        }
+                    }
+                    #form-control:hover{
+                        border-color: @color-border-form-hover;
+                    }
+                    .lms_newsletter_widget_btn {
+                        padding: 9px 1px;
+                        font-size: 20px;
+                        font-weight: normal;
+                        position: absolute;
+                        line-height: 1;
+                        color: @color-form-button;
+                        text-align: center;
+                        background-color: @color-form-bg-button;
+                        border: 1px solid @color-form-border-button;
+                        min-width: 65px;
+                        border-left: none;
+                    }
+                }
+            }
+            .mailchimp_message {
+                color: @mailchimp-message;
+                display: none;
+            }
+            .mailchimp_message1 {
+                color: @mailchimp-message1;
+                display: none;
+            }
+        }
+        .postform {
+            display: block;
+            width: 100%;
+            height: 40px;
+            padding: 6px 12px;
+            font-size: 16px;
+            line-height: 1.42857143;
+            color: #9a9a9a;
+            background-color: transparent;
+            border: 1px solid @color-border-form-cate;
+            -webkit-transition: all 0.3s;
+            background-image: url(../images/down.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            -webkit-appearance: none;
+            option {
+                color: @color-word-option-cate;
+            }
+        }
+        .postform:hover {
+            border-color: @color-border-form-cate-hover;
+            outline: 0;
+            -webkit-transition: all 0.2s;
+        }
+        .lms_happening {
+            width: 100%;
+            float: left;
+            .lms_happy_user {
+                width: 100%;
+                float: left;
+                img {
+                    width: 48px;
+                    height: 48px;
+                    float: left;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .lms_footer_center {
+        width: 100%;
+        float: left;
+        background: @color-bg-footer-center;
+        padding: 50px 0px 20px 0px;
+        .lms_footer_logo {
+            img{
+                vertical-align: middle;
+                margin-bottom: 15px;
+            }
+        }
+        p {
+            margin: 0 10px 10px 0;
+        }
+        .lms_social {
+            width: 100%;
+            float: left;
+            margin-top:30px;
+            ul{
+                list-style: none;
+                padding:0;
+                li {
+                    display: inline-block;
+                    a {
+                        width: 34px;
+                        height: 34px;
+                        line-height: 34px;
+                        text-align: center;
+                        display: inline-block;
+                        border: 1px solid @color-border-social;
+                        color: @color-social;
+                        font-size: 18px;
+                        margin-right: 11px;
+                        margin-bottom: 11px;
+                        background: transparent;
+                        text-decoration: none;
+                    }
+                    :hover {
+                        border-color: @color-border-social-hover;
+                    }
+                }
+            }
+        }
+        .lms_footer_popular_course {
+            width: 100%;
+            float: left;
+            .lms_footer_course {
+                width: 100%;
+                float: left;
+                border: 1px solid @color-border-popular-course;
+                padding-left: 7px;
+                padding-bottom: 6px;
+                margin-bottom: 30px;
+                img {
+                    width: 75px;
+                    height: 79px;
+                    border: 1px solid #565656;
+                    margin-bottom: 0px;
+                    float: left;
+                    display: inline-block;
+                    margin-right: 12px;
+                    margin-top: 7px;
+                }
+                a {
+                    h4 {
+                        font-family: 'Vollkorn', serif;
+                        margin-top: 6px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .lms_footer_course_category {
+            :last-child {
+                border-bottom: none;
+            }
+            li {
+                list-style: none;
+                border-bottom: 1px solid  @color-border-course-cate;
+
+                a {
+                    font-family: 'Open Sans', sans-serif;
+                    transition: all .5s;
+                    color: @color-word-course-cate;
+                    line-height: 52px;
+                }
+                :hover {
+                    color: @color-word-course-cate-hover;
+                }
+            }
+        }
+        .lms_footer_contact {
+            width: 100%;
+            float: left;
+            .pad{
+                padding-bottom: 20px;
+            }
+            p{
+                margin-bottom: 10px;
+                .color_hover{
+                    color: @color-contact-email;
+
+                }
+                :hover{
+                    color: @color-contact-email-hover;
+                }
+            }
+        }
+    }
+    .lms_footer_bottom {
+        width: 100%;
+        float: left;
+        background: @color-bg-footer-bottom;
+        font-size: 13px;
+        text-align: center;
+        p {
+            margin-bottom: 0px;
+            padding: 20px 0px;
+        }
+    }
+    /* Dành cho điện thoại */
+    @media all and (min-width: 767px) {}
+    /* Dành cho máy tính bảng chiều dọc */
+    @media all and (min-width: 600px) {}
+    /* Dành cho máy tính bảng chiều ngang */
+    @media all and (min-width: 1024px) {}
+    /* Dành cho màn hình desktop */
+    @media all and (min-width: 1280px) {}
+}
+/* END MODULE TEST */

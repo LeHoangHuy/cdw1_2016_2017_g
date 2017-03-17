@@ -20,7 +20,5 @@ $(document).ready(function (e) {
             }, 700);
         });
     }
-
     $('a').tooltip();
-
 });

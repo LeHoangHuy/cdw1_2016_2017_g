@@ -56,7 +56,7 @@
                                                                     </h4>
                                                                     <div >
                                                                         <p class="post_info">
-                                                                            <span class="post_info_item">
+                                                                            <span>
                                                                                 <a href="#">February 6, 2016</a>
                                                                             </span>
                                                                         </p>
@@ -87,7 +87,7 @@
                                                                     </h4>
                                                                     <div >
                                                                         <p class="post_info">
-                                                                            <span class="post_info_item">
+                                                                            <span>
                                                                                 <a href="#">December 4, 2015</a>
                                                                             </span>
                                                                         </p>
@@ -118,7 +118,7 @@
                                                                     </h4>
                                                                     <div >
                                                                         <p class="post_info">
-                                                                            <span class="post_info_item">
+                                                                            <span>
                                                                                 <a href="#">December 4, 2015</a>
                                                                             </span>
                                                                         </p>
@@ -149,7 +149,7 @@
                                                                     </h4>
                                                                     <div >
                                                                         <p class="post_info">
-                                                                            <span class="post_info_item">
+                                                                            <span>
                                                                                 <a href="#">December 4, 2015</a>
                                                                             </span>
                                                                         </p>

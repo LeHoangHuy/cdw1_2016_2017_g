@@ -14,10 +14,7 @@
     @color-bg-button-slide3: rgba(150, 189, 66, 1.00);
     @color-bg-bullet: rgba(255,255,255,.3);
 
-    .fullscreen-container {
-        position: relative;
-    }
-    .rev_slider li.tp-revslider-slidesli, .tp-bullet, .tp-bullets, .tp-tabs, .tp-thumbs {
+    .tp-revslider-slidesli, .tp-bullet, .tp-bullets {
         position: absolute;
     }
 
@@ -37,24 +34,18 @@
         z-index: 0;
     }
     .fullwidthbanner-container {
-        overflow: hidden;
-        .fullscreen-container;
-    }
-    .fullscreen-container, .fullwidthbanner-container {
         padding: 0;
+        overflow: hidden;
     }
     .rev_slider_wrapper {
         z-index: 0;
         width: 100%;
-        .fullscreen-container;
     }
     .fullwidthbanner-container .fullwidthabanner {
         width: 100%;
-        .fullscreen-container;
     }
     .rev_slider {
         overflow: visible;
-        .fullscreen-container;
     }
     ol, ul {
         padding-left: 1.5em;
@@ -202,7 +193,7 @@
         width: 10px;
         height: 10px;
     }
-    .tp-bullets, .tp-tabs, .tp-thumbs {
+    .tp-bullets {
         display: block;
         z-index: 1000;
         top: 0;

@@ -158,10 +158,7 @@
 .type-804 .isotope_item_portfolio {
   padding-bottom: 15px;
 }
-.type-804 .margin_bottom_null,
-.type-804 .margin_bottom_none,
-.type-804 .margin_bottom_no,
-.type-804 .margin_bottom_hide {
+.type-804 .margin_bottom_null {
   margin-bottom: 0;
 }
 .type-804 .margin_top_small {
@@ -245,8 +242,6 @@
 .type-804 .post_featured a img {
   width: 100%;
 }
-.type-804 .sc_button_size_large .cube,
-.type-804 .sc_button_size_medium .cube,
-.type-804 .sc_button_size_small .cube {
+.type-804 .sc_button_size_large .cube {
   height: 55px;
 }

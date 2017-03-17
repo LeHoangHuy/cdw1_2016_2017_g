@@ -160,15 +160,7 @@
   box-shadow: -2px 2px 12px 0 rgba(0,0,0,0.25);
   display: inline-block;
 }
-.type-803 .match_block .match_info {
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin-top: 8%;
-  width: 29.5%;
-  box-sizing: border-box;
-}
-.type-803 .match_block .player_country {
+.type-803 .match_block .player .player_country {
   color: #fff;
   background-color: #96bd42;
   width: 40px;
@@ -182,22 +174,30 @@
   text-transform: uppercase;
   z-index: 2;
 }
-.type-803 .match_block .player_name {
+.type-803 .match_block .player .player_name {
   background-color: #1a3150;
 }
-.type-803 .match_block .player_name a {
+.type-803 .match_block .player .player_name a {
   text-align: center;
   padding: 16px;
   font-weight: 600;
   display: block;
   color: #fff;
 }
-.type-803 .match_block .match_date {
+.type-803 .match_block .match_info {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 8%;
+  width: 29.5%;
+  box-sizing: border-box;
+}
+.type-803 .match_block .match_info .match_date {
   color: #7a7f87;
   font-weight: 600;
   margin-bottom: 17px;
 }
-.type-803 .match_block .match_score {
+.type-803 .match_block .match_info .match_score {
   font-size: 50px;
   font-weight: 600;
   line-height: 80px;
@@ -207,7 +207,7 @@
   background-color: #fff;
   color: #1a3150;
 }
-.type-803 .match_block .match_category {
+.type-803 .match_block .match_info .match_category {
   font-size: 1.25em;
   text-transform: uppercase;
 }
@@ -238,4 +238,13 @@
 }
 .type-803 .hover_icon_view::before {
   content: "";
+}
+@media screen and (max-width: 460px) {
+  .type-803 .match_score {
+    font-size: 20px !important;
+  }
+  .type-803 .match_category {
+    font-size: 12px !important;
+    margin: 0 -50px;
+  }
 }
