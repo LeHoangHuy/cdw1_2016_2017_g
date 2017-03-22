@@ -1,15 +1,9 @@
 .type-821 {
     @color-orange: #ff9933;
     @color-white: #fff;
-    @color-word: #9CA0A0;
-    @color-border-form: #e1e3e7;
-    @mailchimp-message: #9CA0A0;
-    @color-border-form-cate: #e1e3e7;
+    @color-gray: #9CA0A0;
+    @color-light-gray: #e1e3e7;
     @color-border-popular-course: #555;
-    @color-border-course-cate: #555;
-    @color-word-course-cate: #9CA0A0;
-    @color-contact-email: #9CA0A0;
-    
     a {
         text-decoration: none;
         color: @color-orange;
@@ -17,7 +11,7 @@
         transition: all 0.5s;
     }
     p {
-        color: @color-word;
+        color: @color-gray;
     }
     h3 {
         float: left;
@@ -91,7 +85,7 @@
                         width: 72%;
                         display: inline-block;
                         border-radius:none;
-                        border: 1px solid @color-border-form;
+                        border: 1px solid @color-light-gray;
                         transition: all 0.5s;
                         .form-control {
                             border: none;
@@ -125,7 +119,7 @@
                 }
             }
             .mailchimp_message {
-                color: @mailchimp-message;
+                color: @color-gray;
                 display: none;
             }
             .mailchimp_message1 {
@@ -142,7 +136,7 @@
             line-height: 1.42857143;
             color: #9a9a9a;
             background-color: transparent;
-            border: 1px solid @color-border-form-cate;
+            border: 1px solid @color-light-gray;
             -webkit-transition: all 0.3s;
             background-image: url(../images/down.png);
             background-repeat: no-repeat;
@@ -251,12 +245,12 @@
             }
             li {
                 list-style: none;
-                border-bottom: 1px solid  @color-border-course-cate;
+                border-bottom: 1px solid  @color-border-popular-course;
 
                 a {
                     font-family: 'Open Sans', sans-serif;
                     transition: all .5s;
-                    color: @color-word-course-cate;
+                    color: @color-gray;
                     line-height: 52px;
                 }
                 :hover {
@@ -273,7 +267,7 @@
             p{
                 margin-bottom: 10px;
                 .color_hover{
-                    color: @color-contact-email;
+                    color: @color-gray;
 
                 }
                 :hover{

@@ -19,78 +19,80 @@
 
     <body>
         <div class="type-840">
-            <div class="container" style="margin-bottom: 30px">
-                <div class="col-md-59">
-                    <div class="inner1">
-                        <a><img class="max-width" src="images/sub1.jpg"></a>
-                        <div class="hover_content_inner">
-                            <div class="hover_content_bf_inner1">
-                                <div class="hover_data">
-                                    <div class="desc-text">Big sale</div>
-                                    <div class="title3">sWooden bench</div>
-                                    <div class="border-3">  </div>
-                                    <div class="shop-now">
-                                        <a href="#">view all offers ► </a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-59">
+                        <div class="inner1">
+                            <a><img class="max-width" src="images/sub1.jpg"></a>
+                            <div class="hover_content_inner">
+                                <div class="hover_content_bf_inner1">
+                                    <div class="hover_data">
+                                        <div class="desc-text">Big sale</div>
+                                        <div class="title3">sWooden bench</div>
+                                        <div class="border-3">  </div>
+                                        <div class="shop-now">
+                                            <a href="#">view all offers ► </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div><!--end-inner1-->
-                    <div class="inner2 col-md-inner2">
-                        <div class="hover_content_inner2">
-                            <a><img class="max-width" src="images/sub2.jpg"></a>
-                        </div>
-                        <div class="hover_content_inner">
-                            <div class="hover_data">
-                                <div class="desc-text">sprout side table</div>
-                                <div class="title">some assembly required</div>
+                        </div><!--end-inner1-->
+                        <div class="inner2 col-md-inner2">
+                            <div class="hover_content_inner2">
+                                <a><img class="max-width" src="images/sub2.jpg"></a>
                             </div>
-                        </div>
-                    </div><!--end-inner2-->
-                    <div class="inner3 col-md-inner3">
-                        <a href="#"><img style="width: 100%" src="images/sub3.jpg" alt=""/></a>
-                    </div><!--end-inner3-->
-                    <div class="inner4">
-                        <a href="#"><img class="max-width" src="images/sub4.jpg" alt=""/></a>
-                        <div id="video_content">
-                            <a href="#" data-videosite="vimeo" data-videoid="#">&nbsp;</a>
-                        </div>
-                        <div class="hover_data">
-                            <div class="title">home furniture</div>
-                            <div class="desc-text">video guideline for online shopper</div>
-                        </div>
-                    </div><!--end-inner4-->
-                </div>
-                <div class="col-md-41">
-                    <div class="inner5">
-                        <div class="hover_content_inner2">
-                            <a><img class="max-width" src="images/sub5.jpg"></a>
-                        </div>
-                        <div class="hover_content_inner">
-                            <div class="hover_data">
-                                <div class="desc-text">SAVE <br> UP TO 50% OFF</div>
-                                <div class="title">MORDEN FURNITURE IN GLORY SHOP</div>
-                                <div class="shop-now">
-                                    <a href="#">shop now ► </a>
+                            <div class="hover_content_inner">
+                                <div class="hover_data">
+                                    <div class="desc-text">sprout side table</div>
+                                    <div class="title">some assembly required</div>
                                 </div>
                             </div>
-                        </div>
-                    </div><!--end-inner5-->
-                    <div class="inner6">
-                        <a><img class="max-width" src="images/sub6.jpg"></a>
-                        <div class="hover_content_inner">
-                            <div class="hover_content_bf_inner1">
+                        </div><!--end-inner2-->
+                        <div class="inner3 col-md-inner3">
+                            <a href="#"><img style="width: 100%" src="images/sub3.jpg" alt=""/></a>
+                        </div><!--end-inner3-->
+                        <div class="inner4">
+                            <a href="#"><img class="max-width" src="images/sub4.jpg" alt=""/></a>
+                            <div id="video_content">
+                                <a href="#" data-videosite="vimeo" data-videoid="#">&nbsp;</a>
+                            </div>
+                            <div class="hover_data">
+                                <div class="title">home furniture</div>
+                                <div class="desc-text">video guideline for online shopper</div>
+                            </div>
+                        </div><!--end-inner4-->
+                    </div>
+                    <div class="col-md-41">
+                        <div class="inner5">
+                            <div class="hover_content_inner2">
+                                <a><img class="max-width" src="images/sub5.jpg"></a>
+                            </div>
+                            <div class="hover_content_inner">
                                 <div class="hover_data">
-                                    <div class="title3">EXTENDING TABLE</div>
-                                    <div class="desc-text">UP TO 40% OFF</div>
-                                    <div class="border-3"></div>
+                                    <div class="desc-text">SAVE <br> UP TO 50% OFF</div>
+                                    <div class="title">MORDEN FURNITURE IN GLORY SHOP</div>
                                     <div class="shop-now">
-                                        <a href="#">SHOP NOW ► </a>
+                                        <a href="#">shop now ► </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div><!--end-inner6-->
+                        </div><!--end-inner5-->
+                        <div class="inner6">
+                            <a><img class="max-width" src="images/sub6.jpg"></a>
+                            <div class="hover_content_inner">
+                                <div class="hover_content_bf_inner1">
+                                    <div class="hover_data">
+                                        <div class="title3">EXTENDING TABLE</div>
+                                        <div class="desc-text">UP TO 40% OFF</div>
+                                        <div class="border-3"></div>
+                                        <div class="shop-now">
+                                            <a href="#">SHOP NOW ► </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end-inner6-->
+                    </div>
                 </div>
             </div>
         </div>
