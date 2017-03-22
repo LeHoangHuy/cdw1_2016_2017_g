@@ -12,9 +12,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type_3_header.less', 'css/type_3_header.css');
+        $less->compileFile('less/836.less', 'css/836.css');
         ?>
-        <link href="css/type_3_header.css" rel="stylesheet" type="text/css" />
+        <link href="css/836.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>

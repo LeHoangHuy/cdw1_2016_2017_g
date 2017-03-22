@@ -12,12 +12,12 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/839.less', 'css/839.css');
         ?>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="css/839.css" rel="stylesheet" type="text/css" />
 
     </head>
 

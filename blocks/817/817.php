@@ -18,9 +18,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/2.less', 'css/2.css');
+        $less->compileFile('less/817.less', 'css/817.css');
         ?>
-     <link href="css/2.css" rel="stylesheet" type="text/css"/>
+     <link href="css/817.css" rel="stylesheet" type="text/css"/>
          
         <div class="type-6">
     <body class="archive woocommerce woocommerce-page tennisclub_body body_style_wide body_filled article_style_stretch top_panel_show top_panel_above sidebar_show sidebar_left">

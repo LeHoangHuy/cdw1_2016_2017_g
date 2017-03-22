@@ -14,10 +14,10 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles_1.css');
+        $less->compileFile('less/838.less', 'css/838.css');
         ?>
 
-        <link href="css/styles_1.css" rel="stylesheet" type="text/css" />
+        <link href="css/838.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
