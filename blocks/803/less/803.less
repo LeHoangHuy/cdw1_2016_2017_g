@@ -2,8 +2,9 @@
     @color_background: #96bd42;
     @font_size_title_next_last_match: 2.4em;
     @color_next_macth: #fff;
-    @background: #f6f7f3 !important;
+    @background: #f6f7f3;
     @color_h2: #1a3150;
+    background-color: @background;
     *{
         box-sizing: border-box;
     }
@@ -30,9 +31,6 @@
 
     .sc_matches_next .sc_item_title .sc_matches_next {
         color: @color_next_macth;
-    }
-    .theme_background_1 {
-        background-color: @background;
     }
     .match_category a:hover
         {
@@ -198,6 +196,9 @@
                     color: @color_next_macth;
                 }
             }
+            .player_name:hover {
+                background-color: #224575;
+            }
         }
         .match_info {
             display: inline-block;
@@ -258,7 +259,7 @@
     /*-------------------end right last_match---------*/
     @media screen and (max-width: 460px) { 
         .match_score {
-            font-size: 20px !important;
+            font-size: 15px !important;
         }
         .match_category {
             font-size: 12px !important;

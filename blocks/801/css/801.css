@@ -3,111 +3,42 @@
 .type-801 .tp-bullets {
   position: absolute;
 }
-.type-801 html,
-.type-801 body,
-.type-801 div,
-.type-801 span,
-.type-801 applet,
-.type-801 object,
-.type-801 iframe,
-.type-801 h1,
-.type-801 h2,
-.type-801 h3,
-.type-801 p {
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  border: 0;
-  outline: 0;
-  -webkit-font-smoothing: antialiased;
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
-}
-.type-801 .slider_wrap .rev_slider_wrapper {
-  z-index: 0;
-}
-.type-801 .fullwidthbanner-container {
-  padding: 0;
-  overflow: hidden;
-}
+.type-801 .tp-caption,
+.type-801 .Fashion-BigDisplay,
 .type-801 .rev_slider_wrapper {
-  z-index: 0;
-  width: 100%;
+  box-sizing: border-box;
 }
-.type-801 .fullwidthbanner-container .fullwidthabanner {
-  width: 100%;
-}
-.type-801 .rev_slider {
-  overflow: visible;
-}
-.type-801 ol,
-.type-801 ul {
-  padding-left: 1.5em;
-}
-.type-801 p,
-.type-801 ul,
-.type-801 ol,
-.type-801 dl,
-.type-801 blockquote,
-.type-801 address {
-  margin-bottom: 1.5em;
-}
-.type-801 h1,
-.type-801 h2,
-.type-801 h3,
-.type-801 p,
-.type-801 ul,
-.type-801 ol,
-.type-801 dl,
-.type-801 blockquote,
-.type-801 address {
-  margin: 0;
-}
-.type-801 ul>li,
-.type-801 ol>li,
-.type-801 dl>dd {
-  margin-bottom: 0.5em;
+.type-801 #rev_slider_1_1 ul {
+  padding-left: 0;
 }
 .type-801 #slide-1-layer-1 {
   z-index: 6;
   white-space: nowrap;
   font-size: 188px;
-  font-weight: 700;
   color: rgba(255,255,255,0.1);
-  font-family: 'Montserrat';
 }
 .type-801 #slide-1-layer-2 {
   z-index: 5;
   min-width: 627px;
   max-width: 627px;
-  white-space: normal;
   font-size: 74px;
   line-height: 80px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
 }
 .type-801 #slide-1-layer-7 {
   z-index: 7;
   min-width: 615px;
   max-width: 615px;
-  white-space: normal;
   font-size: 17px;
   line-height: 24px;
-  font-weight: 400;
   color: #ceddf3;
-  font-family: 'Open Sans';
 }
 .type-801 #slide-1-layer-9 {
   z-index: 8;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 14px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
   background-color: #96bd42;
   padding: 22px 35px 22px 35px;
 }
@@ -115,44 +46,33 @@
   z-index: 5;
   min-width: 547px;
   max-width: 547px;
-  white-space: normal;
-  font-size: 73px;
+  font-size: 74px;
   line-height: 73px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
   text-align: center;
 }
 .type-801 #slide-2-layer-3 {
   z-index: 6;
   min-width: 932px;
   max-width: 932px;
-  white-space: normal;
-  font-size: 190px;
-  font-weight: 700;
+  font-size: 188px;
   color: rgba(255,255,255,0.32);
-  font-family: 'Montserrat';
 }
 .type-801 #slide-2-layer-4 {
   z-index: 7;
   min-width: 492px;
   max-width: 492px;
-  white-space: normal;
   font-size: 17px;
   line-height: 24px;
-  font-weight: 400;
   color: #ffffff;
-  font-family: 'Open Sans';
   text-align: center;
 }
 .type-801 #slide-2-layer-7 {
   z-index: 8;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 14px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
   background-color: #1a3150;
   padding: 22px 35px 22px 35px;
 }
@@ -160,40 +80,30 @@
   z-index: 5;
   min-width: 648px;
   max-width: 648px;
-  white-space: normal;
   font-size: 74px;
   line-height: 74px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
 }
 .type-801 #slide-3-layer-1 {
   z-index: 6;
   white-space: nowrap;
-  font-size: 190px;
-  font-weight: 700;
+  font-size: 188px;
   color: rgba(255,255,255,0.1);
-  font-family: 'Montserrat';
 }
 .type-801 #slide-3-layer-3 {
   z-index: 7;
   min-width: 584px;
   max-width: 584px;
-  white-space: normal;
   font-size: 17px;
   line-height: 24px;
-  font-weight: 400;
   color: #aab2bd;
-  font-family: 'Open Sans';
 }
 .type-801 #slide-3-layer-6 {
   z-index: 8;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 14px;
-  font-weight: 700;
   color: #ffffff;
-  font-family: 'Montserrat';
   background-color: #96bd42;
   padding: 22px 35px 22px 35px;
 }
@@ -205,8 +115,5 @@
   height: 10px;
 }
 .type-801 .tp-bullets {
-  display: block;
   z-index: 1000;
-  top: 0;
-  left: 0;
 }

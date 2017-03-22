@@ -1,3 +1,6 @@
+.type-803 {
+  background-color: #f6f7f3;
+}
 .type-803 * {
   box-sizing: border-box;
 }
@@ -24,9 +27,6 @@
 }
 .type-803 .sc_matches_next .sc_item_title .sc_matches_next {
   color: #fff;
-}
-.type-803 .theme_background_1 {
-  background-color: #f6f7f3 !important;
 }
 .type-803 .match_category a:hover {
   color: #7ca813;
@@ -184,6 +184,9 @@
   display: block;
   color: #fff;
 }
+.type-803 .match_block .player .player_name:hover {
+  background-color: #224575;
+}
 .type-803 .match_block .match_info {
   display: inline-block;
   vertical-align: top;
@@ -241,7 +244,7 @@
 }
 @media screen and (max-width: 460px) {
   .type-803 .match_score {
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
   .type-803 .match_category {
     font-size: 12px !important;

@@ -13,32 +13,27 @@
     $less = new lessc;
     $less->compileFile('less/802.less', 'css/802.css');
     ?>
-    <div class="type-802">
-        <div class="content_wrap">
-            <div class="content">
-                <div class="padding_top_20_imp padding_bottom_20_imp">
-                    <div class="sc_section general_info_section margin_top_huge margin_bottom_huge">
-                        <div class="sc_section_overlay">
-                            <div class="sc_section_content ">
-                                <div class="columns_wrap sc_columns no_margins ">
-                                    <div class="column-1_2"></div><div class="column-1_2 custom_shadow1 even text_align_center">
-                                        <div class="sc_column_item_inner add_color_2_bg">
-                                            <h3 class="sc_title  margin_top_medium margin_bottom_tiny color_white font_weight_600 font_size_3_929em">Welcome</h3>
-                                            <h6 class="sc_title  sc_align_center text_uppercase accent1 margin_bottom_medium ltr-spc2 text_align_center font_weight_400 font_size_0_857em">to our tennis club</h6>
-                                            <div class="margin_top_tiny">
-                                                <p class="color_white width_90_per margin_auto">Founded in 1964 by a team of professional tennis players our club is based in one of the most picturesque areas of the country and is ideal for family membership.</p>
-                                            </div>
-                                            <figure class="margin_bottom_medium">
-                                                <img src="images/signature.png" alt="" />
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
+    <body>
+        <div class="type-802">
+            <div class="container">
+                <div class="row">
+                    <div class="bg-img">
+                        <div class="col-md-6 col-sm-4"></div>
+                        <div class="col-md-6 col-sm-8 col-xs-12">
+                            <div class="row">
+                            <div class="bg-content">
+                                <h3 class="bg-content-title">Welcome</h3>
+                                <h6 class="bg-content-sub-title">TO OUR TENNIS CLUB</h6>
+                                    <p class="bg-content-p">Founded in 1964 by a team of professional tennis players our club is based in one of the most picturesque areas of the country and is ideal for family membership.</p>
+                                <figure class="bg-content-img">
+                                    <img src="images/signature.png" alt="" />
+                                </figure>
+                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </body>
 </html> 

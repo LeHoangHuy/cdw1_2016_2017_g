@@ -1,13 +1,13 @@
-footer a {
+.type-821 a {
   text-decoration: none;
   color: #ff9933;
   font-family: 'Vollkorn', serif;
   transition: all 0.5s;
 }
-footer p {
+.type-821 p {
   color: #9CA0A0;
 }
-footer h3 {
+.type-821 h3 {
   float: left;
   width: 100%;
   color: #fff;
@@ -17,7 +17,7 @@ footer h3 {
   font-family: 'Vollkorn', serif;
   margin-bottom: 30px;
 }
-footer .scrollToTop {
+.type-821 .scrollToTop {
   width: 35px;
   height: 35px;
   line-height: 31px;
@@ -31,44 +31,44 @@ footer .scrollToTop {
   border: 1px solid #ff9933;
   overflow: hidden;
 }
-footer .scrollToTop .down {
+.type-821 .scrollToTop .down {
   width: 100%;
   height: 100%;
   position: relative;
   top: 21px;
 }
-footer .scrollToTop:hover {
+.type-821 .scrollToTop:hover {
   color: #fff;
   background: #ff9933;
   text-decoration: none;
 }
-footer .scrollToTop:hover i {
+.type-821 .scrollToTop:hover i {
   display: none;
   transform: translateY(-15px);
   transition: all 0.5s ease-in;
 }
-footer .scrollToTop:hover .down {
+.type-821 .scrollToTop:hover .down {
   display: block;
 }
-footer .lms_theme_color {
+.type-821 .lms_theme_color {
   color: #ff9933;
 }
-footer .lms_footer_top {
+.type-821 .lms_footer_top {
   width: 100%;
   float: left;
   padding: 20px 0px;
   background: url(../images/bg.png);
 }
-footer .lms_footer_top .lms_newsletter {
+.type-821 .lms_footer_top .lms_newsletter {
   width: 100%;
   float: left;
   margin-bottom: 20px;
 }
-footer .lms_footer_top .lms_newsletter form {
+.type-821 .lms_footer_top .lms_newsletter form {
   display: block;
   margin-top: 0em;
 }
-footer .lms_footer_top .lms_newsletter .form-inline .form-group {
+.type-821 .lms_footer_top .lms_newsletter .form-inline .form-group {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: middle;
@@ -76,14 +76,14 @@ footer .lms_footer_top .lms_newsletter .form-inline .form-group {
   width: 100%;
   position: relative;
 }
-footer .lms_footer_top .lms_newsletter .form-inline .form-group #form-control {
+.type-821 .lms_footer_top .lms_newsletter .form-inline .form-group #form-control {
   width: 72%;
   display: inline-block;
   border-radius: none;
   border: 1px solid #e1e3e7;
   transition: all 0.5s;
 }
-footer .lms_footer_top .lms_newsletter .form-inline .form-group #form-control .form-control {
+.type-821 .lms_footer_top .lms_newsletter .form-inline .form-group #form-control .form-control {
   border: none;
   height: 38px;
   font-size: 14px;
@@ -95,10 +95,10 @@ footer .lms_footer_top .lms_newsletter .form-inline .form-group #form-control .f
   width: 100%;
   font-style: italic;
 }
-footer .lms_footer_top .lms_newsletter .form-inline .form-group #form-control:hover {
+.type-821 .lms_footer_top .lms_newsletter .form-inline .form-group #form-control:hover {
   border-color: #ff9933;
 }
-footer .lms_footer_top .lms_newsletter .form-inline .form-group .lms_newsletter_widget_btn {
+.type-821 .lms_footer_top .lms_newsletter .form-inline .form-group .lms_newsletter_widget_btn {
   padding: 9px 1px;
   font-size: 20px;
   font-weight: normal;
@@ -111,15 +111,15 @@ footer .lms_footer_top .lms_newsletter .form-inline .form-group .lms_newsletter_
   min-width: 65px;
   border-left: none;
 }
-footer .lms_footer_top .lms_newsletter .mailchimp_message {
+.type-821 .lms_footer_top .lms_newsletter .mailchimp_message {
   color: #9CA0A0;
   display: none;
 }
-footer .lms_footer_top .lms_newsletter .mailchimp_message1 {
+.type-821 .lms_footer_top .lms_newsletter .mailchimp_message1 {
   color: green;
   display: none;
 }
-footer .lms_footer_top .postform {
+.type-821 .lms_footer_top .postform {
   display: block;
   width: 100%;
   height: 40px;
@@ -135,55 +135,55 @@ footer .lms_footer_top .postform {
   background-position: right;
   -webkit-appearance: none;
 }
-footer .lms_footer_top .postform option {
+.type-821 .lms_footer_top .postform option {
   color: #333;
 }
-footer .lms_footer_top .postform:hover {
+.type-821 .lms_footer_top .postform:hover {
   border-color: #ff9933;
   outline: 0;
   -webkit-transition: all 0.2s;
 }
-footer .lms_footer_top .lms_happening {
+.type-821 .lms_footer_top .lms_happening {
   width: 100%;
   float: left;
 }
-footer .lms_footer_top .lms_happening .lms_happy_user {
+.type-821 .lms_footer_top .lms_happening .lms_happy_user {
   width: 100%;
   float: left;
 }
-footer .lms_footer_top .lms_happening .lms_happy_user img {
+.type-821 .lms_footer_top .lms_happening .lms_happy_user img {
   width: 48px;
   height: 48px;
   float: left;
   display: inline-block;
   margin-right: 10px;
 }
-footer .lms_footer_center {
+.type-821 .lms_footer_center {
   width: 100%;
   float: left;
   background: #1a1a1a;
   padding: 50px 0px 20px 0px;
 }
-footer .lms_footer_center .lms_footer_logo img {
+.type-821 .lms_footer_center .lms_footer_logo img {
   vertical-align: middle;
   margin-bottom: 15px;
 }
-footer .lms_footer_center p {
+.type-821 .lms_footer_center p {
   margin: 0 10px 10px 0;
 }
-footer .lms_footer_center .lms_social {
+.type-821 .lms_footer_center .lms_social {
   width: 100%;
   float: left;
   margin-top: 30px;
 }
-footer .lms_footer_center .lms_social ul {
+.type-821 .lms_footer_center .lms_social ul {
   list-style: none;
   padding: 0;
 }
-footer .lms_footer_center .lms_social ul li {
+.type-821 .lms_footer_center .lms_social ul li {
   display: inline-block;
 }
-footer .lms_footer_center .lms_social ul li a {
+.type-821 .lms_footer_center .lms_social ul li a {
   width: 34px;
   height: 34px;
   line-height: 34px;
@@ -197,22 +197,22 @@ footer .lms_footer_center .lms_social ul li a {
   background: transparent;
   text-decoration: none;
 }
-footer .lms_footer_center .lms_social ul li :hover {
+.type-821 .lms_footer_center .lms_social ul li :hover {
   border-color: #ff9933;
 }
-footer .lms_footer_center .lms_footer_popular_course {
+.type-821 .lms_footer_center .lms_footer_popular_course {
   width: 100%;
   float: left;
 }
-footer .lms_footer_center .lms_footer_popular_course .lms_footer_course {
+.type-821 .lms_footer_center .lms_footer_popular_course .lms_footer_course {
   width: 100%;
   float: left;
-  border: 1px solid #555555;
+  border: 1px solid #555;
   padding-left: 7px;
   padding-bottom: 6px;
   margin-bottom: 30px;
 }
-footer .lms_footer_center .lms_footer_popular_course .lms_footer_course img {
+.type-821 .lms_footer_center .lms_footer_popular_course .lms_footer_course img {
   width: 75px;
   height: 79px;
   border: 1px solid #565656;
@@ -222,51 +222,51 @@ footer .lms_footer_center .lms_footer_popular_course .lms_footer_course img {
   margin-right: 12px;
   margin-top: 7px;
 }
-footer .lms_footer_center .lms_footer_popular_course .lms_footer_course a h4 {
+.type-821 .lms_footer_center .lms_footer_popular_course .lms_footer_course a h4 {
   font-family: 'Vollkorn', serif;
   margin-top: 6px;
   margin-bottom: 0;
 }
-footer .lms_footer_center .lms_footer_course_category :last-child {
+.type-821 .lms_footer_center .lms_footer_course_category :last-child {
   border-bottom: none;
 }
-footer .lms_footer_center .lms_footer_course_category li {
+.type-821 .lms_footer_center .lms_footer_course_category li {
   list-style: none;
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555;
 }
-footer .lms_footer_center .lms_footer_course_category li a {
+.type-821 .lms_footer_center .lms_footer_course_category li a {
   font-family: 'Open Sans', sans-serif;
   transition: all .5s;
   color: #9CA0A0;
   line-height: 52px;
 }
-footer .lms_footer_center .lms_footer_course_category li :hover {
+.type-821 .lms_footer_center .lms_footer_course_category li :hover {
   color: #ff9933;
 }
-footer .lms_footer_center .lms_footer_contact {
+.type-821 .lms_footer_center .lms_footer_contact {
   width: 100%;
   float: left;
 }
-footer .lms_footer_center .lms_footer_contact .pad {
+.type-821 .lms_footer_center .lms_footer_contact .pad {
   padding-bottom: 20px;
 }
-footer .lms_footer_center .lms_footer_contact p {
+.type-821 .lms_footer_center .lms_footer_contact p {
   margin-bottom: 10px;
 }
-footer .lms_footer_center .lms_footer_contact p .color_hover {
+.type-821 .lms_footer_center .lms_footer_contact p .color_hover {
   color: #9CA0A0;
 }
-footer .lms_footer_center .lms_footer_contact p :hover {
+.type-821 .lms_footer_center .lms_footer_contact p :hover {
   color: #ff9933;
 }
-footer .lms_footer_bottom {
+.type-821 .lms_footer_bottom {
   width: 100%;
   float: left;
   background: #171717;
   font-size: 13px;
   text-align: center;
 }
-footer .lms_footer_bottom p {
+.type-821 .lms_footer_bottom p {
   margin-bottom: 0px;
   padding: 20px 0px;
 }

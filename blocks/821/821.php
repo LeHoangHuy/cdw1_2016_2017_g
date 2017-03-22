@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <footer>
+        <div class="type-821">
             <div class="lms_footer_top">
                 <div class="container">
                     <div class="row">
@@ -88,10 +88,10 @@
                             </p>
                             <div class="lms_social">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook" class="colortooltip"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter" class="colortooltip"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google+" class="colortooltip"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Pinterest" class="colortooltip"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google+"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -153,6 +153,6 @@
                 <i class="fa fa-arrow-up"></i>
                 <i class="fa fa-arrow-up down"></i>
             </a>
-        </footer>
+        </div>
     </body>
 </html>

@@ -1,202 +1,125 @@
 .type-801 {
-    @font-family-m: 'Montserrat';
-    @font-famity-os: 'Open Sans';
-    @color-trans-word: rgba(255, 255, 255, 0.10);
-    @color-trans-word-slide2: rgba(255, 255, 255, 0.32);
-    @color-title: rgba(255, 255, 255, 1.00);
-    @color-title-slide3: rgba(255, 255, 255, 1.00);
-    @color-info: rgba(206, 221, 243, 1.00);
-    @color-info-slide2: rgba(255, 255, 255, 1.00);
-    @color-info-slide3: rgba(170, 178, 189, 1.00);
-    @color-word-button: rgba(255, 255, 255, 1.00);
-    @color-bg-button: rgba(150, 189, 66, 1.00);
-    @color-bg-button-slide2: rgba(26, 49, 80, 1.00);
-    @color-bg-button-slide3: rgba(150, 189, 66, 1.00);
-    @color-bg-bullet: rgba(255,255,255,.3);
+    @color-white: rgba(255, 255, 255, 1.00);
+    @color-tran-word: rgba(255, 255, 255, 0.10);
+    @font-size-tran-word: 188px;
+    @font-size-title: 74px;
+    @font-size-p: 17px;
 
     .tp-revslider-slidesli, .tp-bullet, .tp-bullets {
         position: absolute;
     }
-
-    html, body, div, span, applet, object, iframe, h1,h2,h3, p, {
-        font-family: inherit;
-        font-size: 100%;
-        font-style: inherit;
-        font-weight: inherit;
-        line-height: inherit;
-        border: 0;
-        outline: 0;
-        -webkit-font-smoothing: antialiased;
-        -ms-word-wrap: break-word;
-        word-wrap: break-word;
+    .tp-caption, .Fashion-BigDisplay, .rev_slider_wrapper {
+        box-sizing: border-box;
     }
-    .slider_wrap .rev_slider_wrapper {
-        z-index: 0;
-    }
-    .fullwidthbanner-container {
-        padding: 0;
-        overflow: hidden;
-    }
-    .rev_slider_wrapper {
-        z-index: 0;
-        width: 100%;
-    }
-    .fullwidthbanner-container .fullwidthabanner {
-        width: 100%;
-    }
-    .rev_slider {
-        overflow: visible;
-    }
-    ol, ul {
-        padding-left: 1.5em;
-    }
-    p, ul, ol, dl, blockquote, address {
-        margin-bottom: 1.5em;
-    }
-    h1, h2, h3, p, ul, ol, dl, blockquote, address {
-        margin: 0;
-    }
-    ul>li, ol>li, dl>dd {
-        margin-bottom: 0.5em;
+    #rev_slider_1_1 {
+        ul {
+            padding-left: 0;
+        }
     }
     #slide-1-layer-1 {
         z-index: 6;
         white-space: nowrap;
-        font-size: 188px;
-        font-weight: 700;
-        color: @color-trans-word;
-        font-family: @font-family-m;
+        font-size: @font-size-tran-word;
+        color: @color-tran-word;
     }
     #slide-1-layer-2 {
         z-index: 5;
         min-width: 627px;
         max-width: 627px;
-        white-space: normal;
-        font-size: 74px;
+        font-size: @font-size-title;
         line-height: 80px;
-        font-weight: 700;
-        color: @color-title;
-        font-family: @font-family-m;
+        color: @color-white;
     }
     #slide-1-layer-7 {
         z-index: 7;
         min-width: 615px;
         max-width: 615px;
-        white-space: normal;
-        font-size: 17px;
+        font-size: @font-size-p;
         line-height: 24px;
-        font-weight: 400;
-        color: @color-info;
-        font-family: @font-famity-os;
+        color: rgba(206, 221, 243, 1.00);
     }
     #slide-1-layer-9 {
         z-index: 8;
         white-space: nowrap;
-        font-size: 14px;
+        font-size: @font-size-p;
         line-height: 14px;
-        font-weight: 700;
-        color: @color-word-button;
-        font-family: @font-family-m;
-        background-color: @color-bg-button;
+        color: @color-white;
+        background-color: rgba(150, 189, 66, 1.00);
         padding: 22px 35px 22px 35px;
     }
     #slide-2-layer-2 {
         z-index: 5;
         min-width: 547px;
         max-width: 547px;
-        white-space: normal;
-        font-size: 73px;
+        font-size: @font-size-title;
         line-height: 73px;
-        font-weight: 700;
-        color: @color-title;
-        font-family: @font-family-m;
+        color: @color-white;
         text-align: center;
     }
     #slide-2-layer-3 {
         z-index: 6;
         min-width: 932px;
         max-width: 932px;
-        white-space: normal;
-        font-size: 190px;
-        font-weight: 700;
-        color: @color-trans-word-slide2;
-        font-family: @font-family-m;
+        font-size: @font-size-tran-word;
+        color: rgba(255, 255, 255, 0.32);
     }
     #slide-2-layer-4 {
         z-index: 7;
         min-width: 492px;
         max-width: 492px;
-        white-space: normal;
-        font-size: 17px;
+        font-size: @font-size-p;
         line-height: 24px;
-        font-weight: 400;
-        color: @color-info-slide2;
-        font-family: @font-famity-os;
+        color: @color-white;
         text-align: center;
     }
     #slide-2-layer-7 {
         z-index: 8;
         white-space: nowrap;
-        font-size: 14px;
+        font-size: @font-size-p;
         line-height: 14px;
-        font-weight: 700;
-        color: @color-word-button;
-        font-family: @font-family-m;
-        background-color: @color-bg-button-slide2;
+        color: @color-white;
+        background-color: rgba(26, 49, 80, 1.00);
         padding: 22px 35px 22px 35px;
     }
     #slide-3-layer-2 {
         z-index: 5;
         min-width: 648px;
         max-width: 648px;
-        white-space: normal;
-        font-size: 74px;
+        font-size: @font-size-title;
         line-height: 74px;
-        font-weight: 700;
-        color: @color-title-slide3;
-        font-family: @font-family-m;
+        color: @color-white;
     }
     #slide-3-layer-1 {
         z-index: 6;
         white-space: nowrap;
-        font-size: 190px;
-        font-weight: 700;
-        color: @color-trans-word;
-        font-family: @font-family-m;
+        font-size: @font-size-tran-word;
+        color: @color-tran-word;
     }
     #slide-3-layer-3 {
         z-index: 7;
         min-width: 584px;
         max-width: 584px;
-        white-space: normal;
-        font-size: 17px;
+        font-size: @font-size-p;
         line-height: 24px;
-        font-weight: 400;
-        color: @color-info-slide3;
-        font-family: @font-famity-os;
+        color: rgba(170, 178, 189, 1.00);
     }
     #slide-3-layer-6 {
         z-index: 8;
         white-space: nowrap;
-        font-size: 14px;
+        font-size: @font-size-p;
         line-height: 14px;
-        font-weight: 700;
-        color: @color-word-button;
-        font-family: @font-family-m;
-        background-color: @color-bg-button-slide3;
+        color: @color-white;
+        background-color: rgba(150, 189, 66, 1.00);
         padding: 22px 35px 22px 35px;
     }
     .tp-bullet {
-        background: @color-bg-bullet;
+        background: rgba(255,255,255,.3);
         border-radius: 50%;
         cursor: pointer;
         width: 10px;
         height: 10px;
     }
     .tp-bullets {
-        display: block;
         z-index: 1000;
-        top: 0;
-        left: 0;
     }
 }

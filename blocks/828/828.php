@@ -21,21 +21,23 @@
     <body>
         <div class="type-828">
             <div class="container">
-                <div class="vc_row quote-section custom-border">
-                    <div class="col-sm-8">
-                        <div class="wpb_wrapper">
-                            <div class="wpb_text_column wpb_content_element ">
-                                <div class="wpb_wrapper">
-                                    <h1>Professional metal processing. Highly experienced &amp; equiped personnel</h1>
+                <div class="row">
+                    <div class="quote-section custom-border">
+                        <div class="col-sm-8">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <h1>Professional metal processing. Highly experienced &amp; equiped personnel</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="wpb_wrapper">
-                            <div class="wpb_text_column wpb_content_element ">
-                                <div class="wpb_wrapper">
-                                    <p style="text-align: center;"><a class="btn btn-outline" href="#">Request an order</a></p>
+                        <div class="col-sm-4">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element ">
+                                    <div class="wpb_wrapper">
+                                        <p style="text-align: center;"><a class="btn btn-outline" href="#">Request an order</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

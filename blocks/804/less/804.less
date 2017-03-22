@@ -5,12 +5,12 @@
     @background: #f6f7f3;
     @color_h2: #1a3150;
     @color-accent: #96bd42;
-    @color-word-info: #ffffff;
+    @color-word-info: #fff;
     @color-bg-info-hover: rgba(255,255,255,0.8);
     @color-button: #1ca9eb;
     @color-button-hover: #1295d2;
-    @color-word-button: #ffffff;
-    
+    @color-word-button: #fff;
+
     *{
         box-sizing: border-box;
     }
@@ -27,65 +27,33 @@
         color: @color_background;
     }
     /*-------------------begin Lasted Photo---------*/
-
-    .padding_top_84_imp {
+    .page {
         padding-top: 84px;
-    }
-    .margin_bottom_50_imp {
         margin-bottom: 50px;
     }
-    .sc_title.sc_align_center {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .sc_title {
+    .post-header {
         overflow: hidden;
         position: relative;
-        padding-bottom: 2px;
         color: @color_h2;
-    }
-    .font_weight_600 {
-        font-weight: 600;
-    }
-    .font_size_3_929em {
-        font-size: 3.929em;
-    }
-    .margin_bottom_tiny {
-        margin-bottom: 10px;
-    }
-    .margin_top_null {
-        margin-top: 0;
-    }
-    .accent1 {
-        color: @color-accent;
-    }
-    .text_uppercase {
-        text-transform: uppercase;
-    }
-    .ltr-spc {
-        letter-spacing: 1px;
-    }
-    .font_weight_400 {
-        font-weight: 600;
-    }
-    .font_size_0_857em {
-        font-size: 0.857em;
-    }
-    .margin_bottom_medium {
-        margin-bottom: 40px;
-    }
-    .add_color_3 {
-        color: #1a3150;
-    }
-    .margin_bottom_4_286em_imp {
-        margin-bottom: 4.286em;
-    }
-    .text_uppercase {
-        text-transform: uppercase;
-    }
-    .text_align_center {
         text-align: center;
+        padding-bottom: 2px;
+        margin: 0 auto;
+        h3 {
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 3.929em;
+        }
+        h5 {
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            color: @color-accent;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        p {
+            color: #1a3150;
+            margin-bottom: 4.286em;
+        }
     }
     .sc_blogger{
         padding-left: 40px;
@@ -253,4 +221,17 @@
         height: 55px;
     }
     /*-------------------end Lasted Photo---------*/
+    @media all and (max-width: 480px) {
+        .post-header {
+            h3 {
+                font-size: 26px;
+            }
+            h5 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
 }

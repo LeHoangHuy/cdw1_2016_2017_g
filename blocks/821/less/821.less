@@ -1,36 +1,18 @@
-footer {
-    @color-link-recent: #ff9933;
+.type-821 {
+    @color-orange: #ff9933;
+    @color-white: #fff;
     @color-word: #9CA0A0;
-    @color-border-button-scroll-hover: #ff9933;
-    @color-arrow-button-scroll-hover: #fff;
-    @color-button-scroll-hover: #ff9933;
-    @color-hightlight-word: #ff9933;
     @color-border-form: #e1e3e7;
-    @color-border-form-hover: #ff9933;
-    @color-border-form-cate-after-click: #9a9a9a;
-    @color-form-button: #fff;
-    @color-form-bg-button: #ff9933;
-    @color-form-border-button: #fff;
     @mailchimp-message: #9CA0A0;
-    @mailchimp-message1: green;
     @color-border-form-cate: #e1e3e7;
-    @color-border-form-cate-hover: #ff9933;
-    @color-word-option-cate: #333;
-    @color-bg-footer-center: #1a1a1a;
-    @color-border-social: #9ea6b0;
-    @color-social: #ff9933;
-    @color-border-social-hover: #ff9933;
-    @color-border-popular-course: #555555;
-    @color-border-course-cate: #555555;
+    @color-border-popular-course: #555;
+    @color-border-course-cate: #555;
     @color-word-course-cate: #9CA0A0;
-    @color-word-course-cate-hover: #ff9933;
     @color-contact-email: #9CA0A0;
-    @color-contact-email-hover: #ff9933;
-    @color-bg-footer-bottom: #171717;
     
     a {
         text-decoration: none;
-        color: @color-link-recent;
+        color: @color-orange;
         font-family: 'Vollkorn', serif;
         transition: all 0.5s;
     }
@@ -58,9 +40,8 @@ footer {
         position: fixed;
         bottom: 40px;
         left: 40px;
-        border: 1px solid @color-border-button-scroll-hover;
+        border: 1px solid @color-orange;
         overflow: hidden;
-
         .down {
             width: 100%;
             height: 100%;
@@ -77,12 +58,12 @@ footer {
         .down {
             display: block;
         }
-        color: @color-arrow-button-scroll-hover;
-        background: @color-button-scroll-hover;
+        color: @color-white;
+        background: @color-orange;
         text-decoration: none;
     }
     .lms_theme_color {
-        color: @color-hightlight-word;
+        color: @color-orange;
     }
     .lms_footer_top {
         width: 100%;
@@ -117,7 +98,7 @@ footer {
                             height: 38px;
                             font-size: 14px;
                             line-height: 1.42857143;
-                            color: @color-border-form-cate-after-click;
+                            color: #9a9a9a;
                             background-color: transparent;
                             background-image: none;
                             transition: all 0.5s;
@@ -126,7 +107,7 @@ footer {
                         }
                     }
                     #form-control:hover{
-                        border-color: @color-border-form-hover;
+                        border-color: @color-orange;
                     }
                     .lms_newsletter_widget_btn {
                         padding: 9px 1px;
@@ -134,10 +115,10 @@ footer {
                         font-weight: normal;
                         position: absolute;
                         line-height: 1;
-                        color: @color-form-button;
+                        color: @color-white;
                         text-align: center;
-                        background-color: @color-form-bg-button;
-                        border: 1px solid @color-form-border-button;
+                        background-color: @color-orange;
+                        border: 1px solid @color-white;
                         min-width: 65px;
                         border-left: none;
                     }
@@ -148,7 +129,7 @@ footer {
                 display: none;
             }
             .mailchimp_message1 {
-                color: @mailchimp-message1;
+                color: green;
                 display: none;
             }
         }
@@ -168,11 +149,11 @@ footer {
             background-position: right;
             -webkit-appearance: none;
             option {
-                color: @color-word-option-cate;
+                color: #333;
             }
         }
         .postform:hover {
-            border-color: @color-border-form-cate-hover;
+            border-color: @color-orange;
             outline: 0;
             -webkit-transition: all 0.2s;
         }
@@ -195,7 +176,7 @@ footer {
     .lms_footer_center {
         width: 100%;
         float: left;
-        background: @color-bg-footer-center;
+        background: #1a1a1a;
         padding: 50px 0px 20px 0px;
         .lms_footer_logo {
             img{
@@ -221,8 +202,8 @@ footer {
                         line-height: 34px;
                         text-align: center;
                         display: inline-block;
-                        border: 1px solid @color-border-social;
-                        color: @color-social;
+                        border: 1px solid #9ea6b0;
+                        color: @color-orange;
                         font-size: 18px;
                         margin-right: 11px;
                         margin-bottom: 11px;
@@ -230,7 +211,7 @@ footer {
                         text-decoration: none;
                     }
                     :hover {
-                        border-color: @color-border-social-hover;
+                        border-color: @color-orange;
                     }
                 }
             }
@@ -279,7 +260,7 @@ footer {
                     line-height: 52px;
                 }
                 :hover {
-                    color: @color-word-course-cate-hover;
+                    color: @color-orange;
                 }
             }
         }
@@ -296,7 +277,7 @@ footer {
 
                 }
                 :hover{
-                    color: @color-contact-email-hover;
+                    color: @color-orange;
                 }
             }
         }
@@ -304,7 +285,7 @@ footer {
     .lms_footer_bottom {
         width: 100%;
         float: left;
-        background: @color-bg-footer-bottom;
+        background: #171717;
         font-size: 13px;
         text-align: center;
         p {

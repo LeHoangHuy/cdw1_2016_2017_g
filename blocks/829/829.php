@@ -20,131 +20,166 @@
 
     <body>
         <div class="type-829">
-            <div class="container1">
-                <div class="col-sm-12">
-                    <article  class=" page">
-                        <div class=" vc_custom_1437539259227">
-                            <div class="col-sm-12"> 
-                                <div class=" wpb_content_element  vc_custom_1437539195297">
-                                    <h1 style="text-align: center;">We are Providing good services</h1>
-                                </div>
-                                <div class="tp-service-page">
-                                    <div class="service-list normal">
-                                        <div class="col-md-6 col-xs-12 ">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service2.jpg"  alt="service-2"  data-lazy-loaded="true" style="display: block;">
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service1.jpg"  alt="service"  sizes="(max-width: 555px) 100vw, 555px" data-lazy-loaded="true" style="display: block;">                 
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12 ">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service1.jpg"  alt="service-2"  data-lazy-loaded="true" style="display: block;">
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service2.jpg"  alt="service"  sizes="(max-width: 555px) 100vw, 555px" data-lazy-loaded="true" style="display: block;">                 
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12 ">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service2.jpg"  alt="service-2"  data-lazy-loaded="true" style="display: block;">
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service2.jpg"  alt="service"  sizes="(max-width: 555px) 100vw, 555px" data-lazy-loaded="true" style="display: block;">                 
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12 ">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service1.jpg"  alt="service-2"  data-lazy-loaded="true" style="display: block;">
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img src="images/service2.jpg"  alt="service"  sizes="(max-width: 555px) 100vw, 555px" data-lazy-loaded="true" style="display: block;">                 
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12 ">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service2.jpg"  alt="service-2"  data-lazy-loaded="true" style="display: block;">
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="tp-service-block">
-                                                <div class="service-block-pic image-scale">
-                                                    <img  src="images/service1.jpg"  alt="service"  sizes="(max-width: 555px) 100vw, 555px" data-lazy-loaded="true" style="display: block;">                 
-                                                </div>
-                                                <h2 class="service-title"><a href="#">Mine construction</a></h2>
-                                                <p>Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor.
-                                                </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h1> We are Providing good services</h1>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="cont">
+                        <!-- BEGIN BLOCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service1.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Machine Service</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
                                 </div>
                             </div>
                         </div>
-                    </article>
+                        <!-- END BLOCCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Design Services</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="clearfix"></div>
+                        <!-- BEGIN BLOCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Blasting systems</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service1.jpg" alt=""/>
+
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Blasting systems</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="clearfix"></div>
+                        <!-- BEGIN BLOCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Mine construction</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service1.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Mine construction</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="clearfix"></div>
+                        <!-- BEGIN BLOCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Blasting systems</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Blasting systems</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="clearfix"></div>
+                        <!-- BEGIN BLOCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service1.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Mine construction</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="block col-md-6">
+                            <div class="images">
+                                <img src="images/service2.jpg" alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <h2><a href="#">Blasting systems</a></h2>
+                                <p>Pempor incididuntut labore et dol ore magna aliostr ud exercitation ulla mco laboris nisi ut aliquip simple dummy text.</p>
+                                <div class="button">
+                                    <a href="#"> READ MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END BLOCCK -->
+                        <div class="clearfix"></div>
+                    </div>
                 </div>
             </div>
         </div>
