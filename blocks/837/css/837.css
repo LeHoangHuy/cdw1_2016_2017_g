@@ -1,0 +1,23 @@
+.type-12b {
+  margin: 0;
+  line-height: 1.42857143;
+  background-color: #1f1f1f;
+}
+.type-12b #owl-demo .item {
+  margin: 3px;
+}
+.type-12b #owl-demo .item img {
+  display: block;
+  height: auto;
+}
+.type-12b .owl-carousel {
+  overflow: hidden;
+  padding: 70px;
+  background: #282828;
+  box-sizing: border-box;
+}
+.type-12b .owl-controls .owl-page.active span,
+.type-12b .owl-page:hover span {
+  opacity: 1;
+  background: #fde230;
+}

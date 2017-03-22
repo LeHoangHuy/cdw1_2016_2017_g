@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/details.less', 'css/details.css');
+        $less->compileFile('less/826.less', 'css/826.css');
         ?>
-        <link href="css/details.css" rel="stylesheet" type="text/css" />
+        <link href="css/826.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -25,10 +25,10 @@
     <body>
         <div class="details">
             <div class="container">
-                <div class="content">
+                <div>
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="heading">
-                            <div class="title">
+                        <div class="">
+                            <div class="">
                                 <h1>LMS - Course Single Page</h1>
                             </div>
                             <p>This online course is aimed at people interested in IT project management and builds on other business and IT courses available online at</p>
@@ -48,8 +48,8 @@
                                     44 students enrolled
                                 </span>
                                 <span class="course-price">Free</span>
-                                <a class="button view-cart-button" href="#">View cart</a>
-                                <button class="button purchase-button">Take this course</button>
+                                <a class="view-cart-button" href="#">View cart</a>
+                                <button class=" purchase-button">Take this course</button>
                             </div>
                             <h3 class="course-description-heading">Course Description</h3>
                             <div class="course-description">
@@ -67,7 +67,7 @@
                                             Project Management Overview	</h4>
                                         <ul class="section-content">
                                             <li class="course-item" data-type="lp_lesson">
-                                                <span target="_blank" data-id="922" data-complete-nonce="ec1e5f77bb">
+                                                <span target="_blank" data-complete-nonce="ec1e5f77bb">
                                                     Project Management
                                                 </span>
                                                 <div class="course-item-meta">
@@ -75,7 +75,7 @@
                                                 </div>
                                             </li>
                                             <li class="course-item" data-type="lp_lesson">
-                                                <span target="_blank" data-id="920" data-complete-nonce="1c580bbbba">
+                                                <span target="_blank"  data-complete-nonce="1c580bbbba">
                                                     Project Management History
                                                 </span>
                                                 <div class="course-item-meta">
@@ -231,7 +231,7 @@
                                             Quiz	</h4>
                                         <ul class="section-content">
                                             <li class="course-item" data-type="lp_quiz">
-                                                <span target="_blank" data-id="1168">
+                                                <span target="_blank">
                                                     Project Management Quiz
                                                 </span>
                                                 <div class="course-item-meta">

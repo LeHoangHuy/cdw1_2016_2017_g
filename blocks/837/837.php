@@ -10,7 +10,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/837.less', 'css/837.css');
         ?>
         <!-- Important Owl stylesheet -->
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>

@@ -1,5 +1,40 @@
-.details {
+@border-bottom: 1px solid #ccc;
+@padding-left: 15px;
+@float: left;
+@width: 100%;
+@color_a: #000;
+@color_b: #ff9933;
+@course-students:#3a3a3a;
+@view-cart-button:#fff;
+.nbb{
+    float: left;
+    width: 100%;
+}
 
+.bvv{
+    width: 100%;
+    height: auto;
+}
+.details {
+   
+    .border{
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    .padding{
+        padding-right: 20px;
+        margin-right: 20px;
+        margin-bottom: 0;
+        margin-top: 6px;
+        border-right: 1px solid #eee;
+    }
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left:@padding-left;
+        padding-right: 15px;
+        
+    }
     .course-landing-summary{
         h3{
             margin: 0px 0px 10px 0px;
@@ -7,60 +42,45 @@
             font-family: 'Vollkorn', serif;
             font-weight: 500;
             line-height: 1.1;
-            float: left;
-            width: 100%;
-            border-bottom: none;
-            padding-bottom: 0px;
+            .nbb;
+            .border;
             font-size: 2.7rem;
         }
         img{
-            width: 100%;
-            height: auto;
+            .bvv;
             margin-bottom: 15px;
         }
     }
+    
     .lms-single-entry-content{
-        float: left;
-        width: 100%;
+        .nbb;
         padding-top: 5px;
         padding-bottom: 15px;
-        border-bottom: 1px solid #ccc;
+        border-bottom: @border-bottom;
         margin-bottom: 15px;
         .author{
             font-weight: 700;
-            padding-right: 20px;
-            margin-right: 20px;
-            color: #000;
-            margin-bottom: 0;
-            margin-top: 6px;
-            border-right: 1px solid #eee;
+            .padding;
+            color: @color_a;
             a{
-                color: #ff9933;
+                color: @color_b;
             }
         }
         .course-students{
             font-weight: 500;
             line-height: 20px;
-            margin-right: 20px;
-            padding-right: 20px;
-            color: #3a3a3a;
-            border-right: 1px solid #eee;
-            margin-bottom: 0px;
-            margin-top: 6px;
+            .padding;
+            color: @course-students;  
         }
         .course-price{
             line-height: 20px;
-            margin-right: 20px;
-            padding-right: 20px;
-            color: #ff9933;
+            .padding;
+            color: @color_b;
             font-weight: 700;
-            border-right: 1px solid #eee;
-            margin-bottom: 0px;
-            margin-top: 6px;
         }
         .view-cart-button{
-            color: #fff;
-            background-color: #ff9933;
+            color: @view-cart-button;
+            background-color: @color_b;
             display: inline-block;
             padding: 6px 12px;
             margin-bottom: 0px;
@@ -79,8 +99,8 @@
         }
         .purchase-button{
             float: right;
-            color: #fff;
-            background-color: #ff9933;
+            color: @view-cart-button;
+            background-color: @color_b;
             display: inline-block;
             padding: 6px 12px;
             margin-bottom: 0px;
@@ -96,17 +116,17 @@
         }
 
     }
+    .row{}
+    .clearfix{}
     .course-description-heading{
-        border-bottom: none;
-        padding-bottom: 0px;
+        .border;
         margin-bottom: 10px;
         margin: 20px 0px;
         text-transform: capitalize;
         font-family: 'Vollkorn', serif;
         font-weight: 500;
         line-height: 1.1;
-        float: left;
-        width: 100%;
+        .nbb;
         font-size: 2.7rem;
     }
     .course-description{
@@ -114,7 +134,7 @@
             font-family: 'Vollkorn', serif;
             font-weight: 500;
             line-height: 1.1;
-            color: #3a3a3a;
+            color: @course-students;
         }
     }
     .course-curriculum{
@@ -124,9 +144,8 @@
             font-family: 'Vollkorn', serif;
             font-weight: 500;
             line-height: 1.1;
-            float: left;
-            width: 100%;
-            border-bottom: 1px solid #ccc;
+            .nbb;
+            border-bottom: @border-bottom;
             padding-bottom: 5px;
             font-size: 2.7rem;
         }
@@ -137,18 +156,17 @@
         ul{
             padding-left: 0;
             .curriculum-sections{
-                float: left;
-                width: 100%;
+                .nbb;
             }
             .section{
-                width: 100%;
+                width: @width;
                 margin: 0 0 1px 0;
             }
             .section-header {
                 margin: 10px 0 0 0;
                 padding: 10px 15px;
                 background-color: #EEE;
-                color: #3a3a3a;
+                color:@course-students;
             }
             .section-content{
                 background-color: #f5f5f5;
@@ -157,7 +175,7 @@
                 margin: 0 0 0;
                 list-style: none;
                 padding: 10px 15px;
-                border-top: 1px solid #FFF;
+                border-top: 1px solid @view-cart-button;
                 .course-item-meta{
                     display: block;
                     float: right;
@@ -169,9 +187,9 @@
                         line-height: 1;
                         font-size: 65%;
                         vertical-align: baseline;
-                        color: #FFF;
+                        color: @view-cart-button;
                         border-radius: 4px;
-                        background-color: #ff9933;
+                        background-color: @color_b;
                     }
                     .lp-label-quiz {
                         background-color: #53658C;
@@ -197,25 +215,24 @@
                 font-size: 20px;
                 font-weight: normal;
                 line-height: 1;
-                color: #fff;
+                color: @view-cart-button;
                 text-align: center;
-                background-color: #ff9933;
-                border: 1px solid #ff9933;
+                background-color: @color_b;
+                border: 1px solid @color_b;
                 border-radius: 0;
                 border-left: 0;
                 padding: 0px;
                 button{
                     background-color: transparent;
                     border: none;
-                    float: left;
-                    width: 100%;
+                    .nbb;
                     padding: 9px 11px;
 
                 }
             }
             .form-control:hover, .form-control:focus{
                 box-shadow: none;
-                border-color: #ff9933;
+                border-color: @color_b;
                 outline: 0;
                 transition: all 0.5s;
             }
@@ -224,10 +241,10 @@
         ul, li{
             list-style: none;
             padding-left: 0;
-            float: left;
+            float: @float;
         }
         li{
-            width: 100%;
+            width: @width;
             position: relative;
             margin-top: 10px;
             margin-bottom: 10px;
@@ -243,10 +260,10 @@
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.1;
-                    color: #3a3a3a;
+                    color: @course-students;
                 }
                 h4:hover{
-                    color: #ff9933;
+                    color: @color_b;
                     transition: all 0.5s;
                     text-decoration: none;
                 }
@@ -270,13 +287,13 @@
                 color: inherit;
                 font-size: 14px;
                 position: relative;
-                padding-left: 15px;
+                padding-left: @padding-left;
                 display: table;
-                float: left;
+                float: @float;
                 text-transform: capitalize;
             }
             a:hover{
-                color: #ff9933;
+                color: @color_b;
                 transition: all 0.5s;
             }
         }
@@ -289,13 +306,13 @@
                 color: inherit;
                 font-size: 14px;
                 position: relative;
-                padding-left: 15px;
+                padding-left: @padding-left;
                 display: table;
-                float: left;
+                float: @float;
                 text-transform: capitalize;
             }
             a:hover{
-                color: #ff9933;
+                color: @color_b;
                 transition: all 0.5s;
             }
         }
@@ -307,14 +324,14 @@
                 }
                 a{
                     p{
-                        color: #ff9933;
+                        color: @color_b;
                         font-style: italic;
                         font-weight: bold;
                     }
                 }
             }
             .lms_rt_time{
-                color: #3a3a3a;
+                color: @course-students;
                 font-style: italic;
                 font-weight: bold;
             }
@@ -323,7 +340,7 @@
             .tagcloud{
                 a{
                     font-size: 13px !important;
-                    color: #fff;
+                    color: @view-cart-button;
                     padding: 10px 10px;
                     background: rgba(0, 2, 7, 0.22);
                     display: inline-block;
@@ -345,7 +362,7 @@
     .lms_hover_section {
         overflow: hidden;
         position: relative;
-        width: 100%;
+        width: @width;
     }
     .lms_hover_section:hover{
         overflow: visible;
@@ -366,7 +383,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: @width;
         height: 100%;
         .lms_hover_readmore {
             width: 100px;
@@ -377,29 +394,27 @@
             margin-top: -17px;
             opacity: 0;
             a{
-                color: #fff;
-                background-color: #ff9933;
-                border-color: #ff9933;
+                color: @view-cart-button;
+                background-color: @color_b;
+                border-color: @color_b;
             }
         }
     }
     .lms_hover_section
     {
         img {
-            width: 100%;
-            height: auto;
+            .bvv;
             margin-bottom: 0px;
         }
     }
     .lms_course_mid_content{
-        float: left;
-        width: 100%;
+        .nbb;
         border: 1px solid #ccc;
         border-top: none;
         padding: 15px;
         padding-top: 0;
         a{
-            color: #000;
+            color: @color_a;
 
         }
         h3{
@@ -412,42 +427,39 @@
             }
         }
         a:hover{
-            color: #ff9933;
+            color: @color_b;
             text-decoration: none;
             transition: all 0.5s;
         }
         .lms_course_instruct {
-            float: left;
-            width: 100%;
-            border-bottom: 1px solid #ccc;
+            .nbb;
+            border-bottom: @border-bottom;
             padding-bottom: 10px;
             margin-bottom: 10px;
         }
         .course-introduce {
-            float: left;
-            width: 100%;
+            .nbb;
             border-top: 1px solid #ccc;
             margin-top: 10px;
             padding-top: 10px;
         }
         .lms_course_meta {
             .lms-course-students {
-                float: left;
+                float: @float;
                 width: 60%;
                 text-align: left;
             }
             .lms-course-price {
-                color: #ff9933;
+                color: @color_b;
                 font-weight: bold;
-                float: left;
+                float: @float;
                 width: 40%;
                 text-align: right;
             }
         }
     }
     .lms_pagination {
-        width: 100%;
-        float: left;
+        .nbb;
         text-align: center;
         margin-bottom: 50px;
         font-size: 20px;
@@ -462,26 +474,26 @@
                 text-align: center;
                 position: relative;
                 margin: 30px 0px 0px;
-                float: left;
+                float: @float;
                 .current {
                     font-size: 34px;
                     padding: 9px 5px;
                     margin-right: 5px;
-                    color: #ff9933;
+                    color: @color_b;
                     border-bottom: 2px solid #ff9933;
                 }
                 a {
-                    color: #000;
+                    color: @color_a;
                     -webkit-transition: all 0.3s;
                     padding: 6px 15px;
                     line-height: 34px;
-                    float: left;
+                    float: @float;
                 }
                 a:hover{
                     font-size: 34px;
                     padding: 0px 6px;
                     padding: 6px 15px;
-                    color: #ff9933;
+                    color: @color_b;
                     text-decoration: none;
                     -webkit-transition: all 0.3s;
                 }
