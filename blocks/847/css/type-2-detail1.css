@@ -1,0 +1,203 @@
+.chi-tiet {
+  font: normal 13px/18px Georgia, "Times New Roman";
+}
+.chi-tiet .name {
+  width: 100%;
+}
+.chi-tiet h3 {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  font: normal 20px/26px Georgia;
+}
+.chi-tiet #product_reference {
+  padding-top: 20px;
+}
+.chi-tiet .star {
+  float: right;
+}
+.chi-tiet .details-product {
+  padding-bottom: 50px;
+  padding-right: 0;
+}
+.chi-tiet .product-manufacturer {
+  margin: 0px;
+}
+.chi-tiet .product_name {
+  text-decoration: none;
+  color: #000;
+}
+.chi-tiet #product_condition {
+  margin: 0px;
+}
+.chi-tiet #availability_value {
+  font-weight: bold;
+}
+.chi-tiet #exTab1 .tab-content {
+  color: black;
+  background-color: #fff;
+  padding: 25px 22px;
+  border: 1px #000 solid;
+}
+.chi-tiet #exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+.chi-tiet #exTab1 .nav-pills > li.active > a {
+  color: #000;
+  background-color: #fff;
+}
+.chi-tiet table td,
+.chi-tiet table th {
+  padding: 9px 10px;
+  text-align: left;
+}
+.chi-tiet #exTab1 {
+  width: 100%;
+}
+.chi-tiet .nav-pills {
+  margin-top: 25px;
+  background: #57A270;
+}
+.chi-tiet .nav-pills li {
+  margin: 2px;
+  font-size: 12px;
+}
+.chi-tiet .accessories-block {
+  margin: 0;
+}
+.chi-tiet .accessories-block .block_content {
+  overflow: hidden;
+}
+.chi-tiet .accessories-block ul {
+  margin: 0 !important;
+  padding: 0px;
+}
+.chi-tiet .accessories-block ul li {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+  border: none;
+}
+.chi-tiet .accessories-block ul li .product_desc {
+  margin-bottom: 13px;
+}
+.chi-tiet .accessories-block .product_image {
+  display: block;
+  border: 1px solid #d1d1d1;
+}
+.chi-tiet .page-product-box ul {
+  list-style-position: inside;
+}
+.chi-tiet .block ul {
+  list-style-type: none;
+}
+.chi-tiet a,
+.chi-tiet a:active,
+.chi-tiet a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+.chi-tiet img {
+  width: 100%;
+}
+.chi-tiet .item_last {
+  margin-right: 0px !important;
+}
+.chi-tiet h5 {
+  font-weight: bold;
+}
+.chi-tiet .price {
+  color: #c5988b;
+  font-size: 16px !important;
+}
+.chi-tiet .s_title_block {
+  text-align: center;
+}
+.chi-tiet .button_add {
+  text-align: center;
+  margin: 10px;
+}
+.chi-tiet .accessories-block ul li .ajax_add_to_cart_button {
+  width: 80px;
+  text-align: center;
+  padding: 6px 15px;
+  color: #fff;
+  font: normal 12px/18px Georgia;
+  background-color: #7a7975;
+}
+.chi-tiet a.button:hover,
+.chi-tiet a.exclusive:hover,
+.chi-tiet .ajax_add_to_cart_button:hover {
+  background-color: #57A270 !important;
+}
+.chi-tiet select {
+  border: 1px solid #cdcdcd;
+  margin-left: 15px;
+}
+.chi-tiet .properties {
+  margin-top: 30px;
+}
+.chi-tiet .size {
+  font-weight: bold;
+}
+.chi-tiet #quantity_wanted_p {
+  margin-top: 10px;
+}
+.chi-tiet #our_price_display {
+  float: left;
+  font-size: 24px;
+  line-height: 40px;
+  margin-right: 15px;
+}
+.chi-tiet #add_to_cart {
+  position: static;
+  float: left;
+  padding: 0;
+}
+.chi-tiet #add_to_cart .exclusive {
+  padding: 12px 25px;
+}
+.chi-tiet button.exclusive:hover {
+  background-color: #57A270;
+  background-position: 0 0;
+  color: #c00;
+}
+@media (max-width: 979px) and (min-width: 728px) {
+  .chi-tiet .center-containt {
+    width: 90%;
+  }
+}
+@media (max-width: 727px) {
+  .chi-tiet .container-modify {
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .chi-tiet .center-containt div {
+    display: none;
+  }
+  .chi-tiet .images-container ul.thumb-list-frame {
+    padding: 8px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .chi-tiet .images-container ul.thumb-list-frame {
+    padding: 2px;
+  }
+}
+@media (max-width: 990px) and (min-width: 768px) {
+  .chi-tiet .images-container .views-block {
+    padding: 0 10px;
+  }
+  .chi-tiet .images-container ul.thumb-list-frame {
+    padding: 3.2px;
+    margin-top: -3px;
+  }
+}
+@media (max-width: 768px) and (min-width: 728px) {
+  .chi-tiet .images-container ul.thumb-list-frame {
+    padding: 8.5px;
+    margin-top: -8px;
+  }
+}

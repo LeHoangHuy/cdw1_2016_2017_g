@@ -1,0 +1,183 @@
+.type-i-3 {
+    background: #f3f3f4;
+    font-family: "LMRoman10Regular";
+    #pb-left-column {
+        float: left;
+        margin-top: 80px;
+        .blockproductscategory{
+            width: 100%;
+            overflow: hidden;
+            margin: 40px 0;
+            .productscategory_h2{
+                color: #7B7975!important;
+                font-style: italic;
+                font-size: 16px;
+                padding: 0 10px 8px 10px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+            #productscategory{
+                overflow: auto;
+                position: relative;
+                #productscategory_slider{
+                    margin: 0 30px;
+                    img{
+                        border: 1px solid #e6e6e6;
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                }
+            }
+
+            .fdi-Carousel{
+
+                .carousel-control{ 
+                    width: 4%;
+                    background-image:none;
+                    top: 50%;
+                    border: 1px solid #e6e5e5;
+                    box-shadow: 0 0 0 1px #e6e5e5,0 0 0 2px #e6e5e5;
+                    width: 25px;
+                    height: 25px;
+                }
+                .carousel-control:hover{ 
+                    background-color: #fe99a1; 
+                    border: 1px solid #fe99a1;
+                    box-shadow: 0 0 0 1px #fff,0 0 0 2px #fe99a1;
+                    transition: all .2s ease-in-out;
+                }
+
+                .cloneditem-1, .cloneditem-2, .cloneditem-3{
+                    display: none;
+                }
+
+                .carousel-inner{
+                    @media (min-width: 768px){
+                        @media (transform-3d), (-webkit-transform-3d){
+                            > .item.active.right,
+                            > .item.next
+                            { 
+                                transform: translate3d(50%, 0, 0);  
+                                left: 0;
+                            }
+
+                            > .item.active.left,
+                            > .item.prev
+                            { 
+                                transform: translate3d(-50%, 0, 0);
+                                left: 0;
+                            }
+
+                            > .item.left,
+                            > .item.prev.right,
+                            > .item.active
+                            {
+                                transform: translate3d(0, 0, 0);
+                                left: 0;
+                            }    
+                        } 
+
+                        > .active.left,
+                        > .prev
+                        {
+                            left: -50%;
+                        }
+
+                        > .active.right,
+                        > .next
+                        {
+                            left:  50%;
+                        }
+
+                        > .left,
+                        > .prev.right,
+                        > .active
+                        {
+                            left: 0;
+                        }
+
+                        .cloneditem-1 
+                        {
+                            display: block;
+                        }
+                    }
+
+                    @media (min-width: 992px){
+                        @media (transform-3d), (-webkit-transform-3d){
+                            > .item.active.right,
+                            > .item.next
+                            { 
+                                transform: translate3d(33%, 0, 0);  
+                                left: 0;
+                            }    
+
+                            > .item.active.left,
+                            > .item.prev
+                            { 
+                                transform: translate3d(-33%, 0, 0);
+                                left: 0;
+                            }
+
+                            > .item.left,
+                            > .item.prev.right,
+                            > .item.active
+                            {
+                                transform: translate3d(0, 0, 0);
+                                left: 0;
+                            }
+                        }
+
+                        > .active.left,
+                        > .prev
+                        {
+                            left: -33%;
+                        }
+
+                        > .active.right,
+                        > .next
+                        {
+                            left:  33%;
+                        }
+
+                        > .left,
+                        > .prev.right,
+                        > .active
+                        {
+                            left: 0;
+                        }
+
+                        .cloneditem-2, 
+                        .cloneditem-3
+                        {
+                            display: block;
+                        }
+                    }    
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .container{
+        min-width: 1180px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    #pb-left-column {
+        float: left;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 540px){
+
+    #pb-left-column{
+        width: 50%;
+    }
+}

@@ -1,0 +1,348 @@
+.zaro .right-content {
+  padding-right: 0;
+  float: right;
+}
+.zaro .right-content #layer_block_right {
+  padding-left: 20px;
+}
+.zaro .right-content ul {
+  list-style: none;
+  padding: 0;
+}
+.zaro .right-content ul li input.checkbox,
+.zaro .right-content ul li label {
+  display: inline-block;
+}
+.zaro .right-content ul li label {
+  line-height: 20px;
+}
+.zaro .right-content ul li label a {
+  padding: 0 !important;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  line-height: 16px !important;
+}
+.zaro .right-content div.checker {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.zaro .right-content div.checker span {
+  display: inline-block;
+  zoom: 1;
+  text-align: center;
+  background-position: 0 -257px;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 0;
+}
+.zaro .right-content .block:first-child {
+  margin-top: 0;
+}
+.zaro .right-content .block-content form ul {
+  max-height: 280px !important;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+.zaro .right-content .block-content form ul li {
+  padding-bottom: 6px;
+}
+.zaro .right-content .block-content form div {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.zaro .right-content .block-content form div ul {
+  max-height: 280px !important;
+  overflow: auto;
+}
+.zaro .right-content .block-content form div ul li.nomargin {
+  margin-left: 0;
+}
+.zaro .right-content .block-content form div.checker {
+  display: inline-block;
+  vertical-align: top;
+}
+.zaro .right-content #layer_block_right span.layered_subtitle {
+  float: left;
+  font-weight: bold;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.zaro .right-content #layer_block_right span.layered_close {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+  float: right;
+}
+.zaro .right-content #layer_block_right span.layered_close a {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-indent: -9999px;
+  text-decoration: none;
+  background: url(../images/plus-minus.gif) no-repeat 0 0;
+}
+.zaro .right-content #layer_block_right .layered_close {
+  padding: 0;
+}
+.zaro .right-content #layer_block_right span.layered_close.closed a {
+  width: 18px;
+  height: 18px;
+  background: url(../images/plus-minus.gif) no-repeat 0 -18px !important;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider {
+  position: relative;
+  text-align: left;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider .ui-slider-range {
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0;
+  background-color: #e17365;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-widget-header {
+  border-radius: 0;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider-range {
+  top: 0;
+  height: 100%;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-widget {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.1em;
+  position: relative;
+  text-align: left;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: #ffffff url(../images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+  color: #222222;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-corner-all {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-state-default {
+  color: #666;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: none;
+  background: #e6e6e6 url(../images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider-horizontal {
+  height: 4px;
+  background-color: #CCC;
+  margin: 15px;
+  margin-left: 0;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider-horizontal .ui-slider-handle {
+  margin: -6px 0 0 0;
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.zaro .right-content #layer_block_right .layered_price .ui-slider-handle::before {
+  content: '' !important;
+  width: 0;
+}
+.zaro .right-content h4.title_block {
+  margin-bottom: 30px;
+  font: normal 20px/46px Georgia;
+  color: #505050;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: 2px solid #aeaba3;
+  padding: 0;
+}
+.zaro .right-content h4.title_block a {
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+}
+.zaro .right-content h4.title_block:after {
+  content: "";
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  border-bottom: 1px solid #bdbcbc;
+}
+.zaro .right-content .products_block .product_images li {
+  overflow: hidden;
+  padding: 0 0 10px 0;
+}
+.zaro .right-content .products_block .product_images .product_image {
+  width: 90px;
+  margin: 0 20px 10px 0;
+  border: 1px solid #e0e0e0;
+  padding: 0;
+  float: left;
+}
+.zaro .right-content .products_block .product_images .product_image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.zaro .right-content .products_block .block_product_info h5 {
+  color: #757575;
+  font: normal 14px/20px Georgia;
+  margin-bottom: 10px;
+}
+.zaro .right-content .products_block .block_product_info h5 a {
+  color: #757575;
+}
+.zaro .right-content .products_block .price {
+  color: #009900;
+}
+.zaro .right-content .ph_simpleblog {
+  width: 100%;
+}
+.zaro .right-content .ph_simpleblog figure {
+  margin: 0;
+}
+.zaro .right-content .ph_simpleblog .ph_row {
+  content: "";
+  display: table;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.zaro .right-content .ph_simpleblog .ph_row:before {
+  content: "";
+  display: table;
+}
+.zaro .right-content .simpleblog-featured .blog-item {
+  margin-bottom: 40px;
+}
+.zaro .right-content .simpleblog-featured .post-item h2 {
+  color: #444;
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  padding-top: 0;
+}
+.zaro .right-content .simpleblog-featured .post-item h2 a {
+  color: #444;
+  font-family: Georgia;
+  font-size: 18px;
+  line-height: 20px;
+}
+.zaro .right-content .simpleblog-featured .post-item figure {
+  margin-bottom: 20px;
+  position: relative;
+}
+.zaro .right-content .simpleblog-featured .post-item figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.zaro .right-content .simpleblog-featured .post-item a.button {
+  line-height: 36px;
+  background-color: #7a7975;
+  color: #ffffff;
+  font-family: "LMRomanCaps10-Regular";
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 15px;
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.zaro .right-content .simpleblog-featured .blog-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+}
+.zaro .right-content .simpleblog-featured .blog-date {
+  background-color: #009900;
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 17px;
+  border: 1px solid rgba(255,255,255,0.2);
+  float: left;
+  color: #FFF;
+  text-align: center;
+  margin: 2px 0 0 2px;
+}
+.zaro .right-content .simpleblog-featured .blog-date div {
+  padding-top: 10px;
+}
+.zaro .right-content .simpleblog-featured .blog-date span {
+  text-transform: uppercase;
+  display: block;
+}
+.zaro .right-content .simpleblog-featured .grayshadow {
+  box-shadow: 0 0 0 1px #7a7975, 0 0 0 2px #7a7975;
+  border: 1px solid rgba(255,255,255,0.2);
+  margin: 2px 0 0 2px;
+}
+.zaro .right-content .simpleblog-featured .blog-post-likes {
+  background-color: #7e7d79;
+  cursor: pointer;
+  float: left;
+  color: #FFF;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 17px;
+}
+.zaro .right-content .simpleblog-featured .bshadow {
+  box-shadow: 0 0 0 1px #009900, 0 0 0 2px #009900;
+}
+.zaro .right-content .simpleblog-featured .fa {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  pointer-events: none;
+  margin-top: 10px;
+}
+.zaro .right-content .simpleblog-featured div.post-content {
+  color: #808080;
+  font-size: 14px;
+}
+.zaro .right-content .simpleblog-featured div.post-content p {
+  font: normal 13px/20px Georgia;
+  color: #7c7c7c;
+  padding-bottom: 20px;
+}
+.zaro .right-content .simpleblog-featured a.button:hover {
+  background-color: #009900;
+  color: #FFF;
+}
+.zaro .right-content .clear {
+  clear: both;
+}
+@media (max-width: 768px) {
+  .zaro .right-content {
+    display: none;
+  }
+}

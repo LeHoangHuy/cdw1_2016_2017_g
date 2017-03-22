@@ -1,0 +1,66 @@
+body {
+  background: #ebebeb;
+  height: 100%;
+  min-height: 100%;
+  color: #666;
+}
+body a,
+body a:hover {
+  text-decoration: none;
+}
+body a {
+  color: #000;
+}
+body .smooth02 {
+  transition: all .2s ease-in-out;
+}
+body .smooth05 {
+  transition: all .5s ease-in-out;
+}
+body .fa {
+  display: inline-block;
+  vertical-align: top;
+  fill: currentColor;
+  pointer-events: none;
+}
+body .block {
+  margin-bottom: 20px;
+}
+body .align-center {
+  text-align: center;
+}
+body .container-modify {
+  margin: 0 auto;
+}
+body .white-background {
+  background-color: #f9f9f9;
+}
+body .white-background .main-background {
+  background-color: #009900;
+}
+body .white-background .main-color {
+  color: #009900;
+  opacity: 1 !important;
+}
+body .clearfix {
+  zoom: 1;
+}
+body .full-width {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+body .main-bg-hover:hover {
+  background-color: #009900 !important;
+}
+body .main-color-hover:hover {
+  color: #009900 !important;
+}
+body .main-bg {
+  background-color: #009900;
+}
+@media (max-width: 727px) {
+  .container-modify {
+    width: 450px;
+  }
+}

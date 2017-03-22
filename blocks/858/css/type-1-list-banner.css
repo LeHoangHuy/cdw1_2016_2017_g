@@ -1,0 +1,67 @@
+.zaro .breadcrumb {
+  background-color: #f9f9f9;
+  line-height: 30px;
+  margin: 10px 0;
+  font-size: 13px;
+  margin-top: 0;
+}
+.zaro .breadcrumb a {
+  color: #000;
+}
+.zaro .breadcrumb .navigation-pipe {
+  margin: 0 3px 0 5px;
+}
+.zaro .banner-list .center-containt {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.zaro .banner-list .center-containt h1 {
+  display: none !important;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 22px;
+}
+.zaro .banner-list .center-containt .content_scene_cat {
+  border: none;
+  position: relative;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  height: auto;
+}
+.zaro .banner-list .center-containt .content_scene_cat img {
+  width: 100%;
+  height: auto;
+}
+.zaro .banner-list .center-containt .cat_desc {
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  top: 31%;
+  left: 4%;
+  width: 40%;
+}
+.zaro .banner-list .center-containt .cat_desc h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 36px;
+}
+.zaro .banner-list .center-containt .cat_desc div {
+  font: normal 16px/22px Georgia;
+}
+.zaro .banner-list .center-containt .background-light {
+  color: #434343;
+}
+@media (max-width: 980px) {
+  .zaro .banner-list .center-containt .cat_desc {
+    width: 90%;
+  }
+}
+@media (max-width: 727px) {
+  .zaro .banner-list .center-containt .cat_desc {
+    top: 20%;
+  }
+}

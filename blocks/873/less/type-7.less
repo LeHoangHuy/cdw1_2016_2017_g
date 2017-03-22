@@ -1,0 +1,92 @@
+.type-7 {
+
+
+    a{
+        text-decoration:none;
+    }
+    a:hover{
+        text-decoration:none;
+    }
+    ul li{
+        list-style:none;
+    }
+
+    /* Swiper */
+    .swiper-container {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+  
+       
+        }
+        .swiper-slide{
+            position: relative;
+        }
+              .info
+        {
+            z-index:9999;
+            position: absolute;
+            top:380px;
+        }
+
+    .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+        background-image: url("../img/arrow-right-white.svg") !important;
+
+    }
+    .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+        background-image: url("../img/arrow-left-white.svg") !important;
+
+    }
+    .swipper-btn{
+        display:none;
+        color:#222;
+    }
+    .swipper-btn>div{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: #222;
+    }
+    .swiper-container:hover{
+        .swipper-btn{
+            display:block;
+        }
+    }
+    /* End Swiper */
+
+
+    .photo img:last-child{
+        display:none;
+    }
+    .photo:hover img:first-child{display:none}
+    .photo:hover img:last-child{display:inline-block}
+    
+    .product-cat{
+        margin: 55px auto;
+    }
+    .product-cat h2 small{
+        font-size: 13px;
+        display: block;
+        margin-top: 8px;
+    }
+
+
+
+
+}

@@ -1,0 +1,91 @@
+.type-i-2 {
+  background: #f3f3f4;
+}
+.type-i-2 #pb-left-column {
+  float: left;
+  margin-top: 80px;
+}
+.type-i-2 #pb-left-column .image_container {
+  border-right: 1px solid #e6e6e6;
+  position: relative;
+}
+.type-i-2 #pb-left-column .image_container #image-block {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
+.type-i-2 #pb-left-column .image_container .dress-large-image {
+  cursor: crosshair;
+}
+.type-i-2 #pb-left-column .image_container .dress-large-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-i-2 #pb-left-column .image_container #views_block .dress-box {
+  height: 557px;
+  overflow: hidden;
+  display: inline-block;
+}
+.type-i-2 #pb-left-column .image_container #views_block .dress-box .dress-box-slide {
+  position: relative;
+  top: 0;
+  transition: 1s all ease;
+}
+.type-i-2 #pb-left-column .image_container #views_block .dress-box .dress-box-slide img {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+  height: auto;
+  z-index: 999;
+  width: 100%;
+  cursor: pointer;
+}
+.type-i-2 #pb-left-column .image_container #views_block .slide-down,
+.type-i-2 #pb-left-column .image_container #views_block .slide-up {
+  cursor: pointer;
+  color: #dedede;
+  opacity: 1;
+  position: relative;
+  right: -40px;
+  border: 1px solid #ccc;
+  padding: 5px 5px 6px;
+  border-radius: 50%;
+}
+.type-i-2 #pb-left-column .image_container #views_block .slide-down:hover,
+.type-i-2 #pb-left-column .image_container #views_block .slide-up:hover {
+  color: #fe99a1;
+}
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1180px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  #pb-left-column {
+    float: left;
+    margin-top: 80px;
+  }
+  #pb-left-column .image_container #image-block {
+    float: left;
+    width: 250px;
+    position: relative;
+  }
+  #pb-left-column .image_container #views_block {
+    width: 60px;
+    padding: 0;
+    float: right;
+    margin-left: 19px;
+  }
+  #pb-left-column .image_container #views_block #dress-boxmobile {
+    height: 305px;
+  }
+  #pb-left-column .image_container #views_block .slide-down,
+  #pb-left-column .image_container #views_block .slide-up {
+    left: 14px;
+  }
+}
+@media (max-width: 767px) and (min-width: 540px) {
+  #pb-left-column {
+    width: 50%;
+  }
+}

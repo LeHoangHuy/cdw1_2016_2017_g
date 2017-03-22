@@ -1,0 +1,205 @@
+.type-2 {
+  margin-top: 50px;
+}
+.type-2 .ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+.type-2 .ibox-title {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #ffffff;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 3px 0 0;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 14px 15px 7px;
+  min-height: 48px;
+}
+.type-2 .ibox-title h5 {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 7px;
+  padding: 0;
+  text-overflow: ellipsis;
+  float: left;
+  font-weight: 600;
+}
+.type-2 .ibox-tools {
+  display: block;
+  float: none;
+  margin-top: 0;
+  position: relative;
+  padding: 0;
+  text-align: right;
+}
+.type-2 .ibox-tools a {
+  cursor: pointer;
+  margin-left: 5px;
+  color: #c4c4c4;
+}
+.type-2 .ibox-tools .dropdown-menu > li > a {
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: inherit;
+  line-height: 25px;
+  margin: 4px;
+  text-align: left;
+  font-weight: normal;
+  display: block;
+  clear: both;
+  line-height: 1.42857143;
+  white-space: nowrap;
+}
+.type-2 .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0,0);
+}
+.type-2 .fa-chevron-up:before {
+  content: "\f077";
+}
+.type-2 .fa-wrench:before {
+  content: "\f0ad";
+}
+.type-2 .fa-remove:before,
+.type-2 .fa-close:before,
+.type-2 .fa-times:before {
+  content: "\f00d";
+}
+.type-2 .fa-map-marker:before {
+  content: "\f041";
+}
+.type-2 .fa-briefcase:before {
+  content: "\f0b1";
+}
+.type-2 .dropdown-menu {
+  border: medium none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(86,96,117,0.7);
+  display: none;
+  float: left;
+  font-size: 12px;
+  left: 0;
+  list-style: none outside none;
+  padding: 0;
+  position: absolute;
+  text-shadow: none;
+  top: 100%;
+  z-index: 1000;
+  min-width: 160px;
+  margin: 2px 0 0;
+  text-align: left;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+.type-2 .ibox-heading {
+  background-color: #f3f6fb;
+  border-bottom: none;
+}
+.type-2 .ibox-heading h3 {
+  font-weight: 200;
+  font-size: 24px;
+  margin-top: 5px;
+}
+.type-2 small {
+  font-size: 85%;
+}
+.type-2 .ibox-content {
+  background-color: #ffffff;
+  color: inherit;
+  padding: 15px 20px 20px 20px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+.type-2 .ibox-content {
+  clear: both;
+}
+.type-2 .timeline-item .date {
+  text-align: right;
+  width: 110px;
+  position: relative;
+  padding-top: 10px;
+}
+.type-2 .timeline-item .date i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  border-top: 1px solid #e7eaec;
+  border-bottom: 1px solid #e7eaec;
+  border-left: 1px solid #e7eaec;
+  background: #f8f8f8;
+}
+.type-2 .text-navy {
+  color: #1ab394;
+}
+.type-2 .m-b-xs {
+  margin-bottom: 5px;
+}
+.type-2 .timeline-item .content {
+  border-left: 1px solid #e7eaec;
+  padding-top: 10px;
+  min-height: 100px;
+}
+.type-2 .no-top-border {
+  border-top: 0 !important;
+}
+.type-2 img.img-circle,
+.type-2 .dropdown-messages-box img.img-circle {
+  width: 38px;
+  height: 38px;
+}
+.type-2 .avatar-user img {
+  margin-bottom: 10px;
+}
+.type-2 .attr-user {
+  text-align: left;
+}
+.type-2 .timeline-item .content:hover {
+  background: #f6f6f6;
+}
+.type-2 .list-group-item {
+  background-color: inherit;
+  border: 1px solid #e7eaec;
+  display: block;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  position: relative;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.type-2 .yt-uix-button-opacity {
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+.type-2 .like {
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.type-2 .like i {
+  margin-right: 5px;
+}
+.type-2 .dislike {
+  text-decoration: none;
+}
+.type-2 .dislike i {
+  margin-right: 5px;
+}

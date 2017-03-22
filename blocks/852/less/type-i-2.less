@@ -1,0 +1,100 @@
+.type-i-2{
+    background: #f3f3f4;
+    #pb-left-column {
+        float: left;
+        margin-top: 80px;
+        .image_container {
+            border-right: 1px solid #e6e6e6;
+            position: relative;
+            #image-block {
+                background: #fff;
+                border: 1px solid #e6e6e6;
+            }
+            .dress-large-image{
+                cursor: crosshair;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            #views_block {
+                .dress-box{
+                    height: 557px;
+                    overflow: hidden;
+                    display: inline-block;
+                    .dress-box-slide{
+                        position: relative;
+                        top: 0;
+                        transition: 1s all ease;
+                        img{
+                            display: block;
+                            margin: 0;
+                            padding: 10px 0;
+                            height: auto;
+                            z-index: 999;
+                            width: 100%;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .slide-down, .slide-up{
+                    cursor: pointer;
+                    color: #dedede;
+                    opacity: 1;
+                    position: relative;
+                    right: -40px;
+                    border:  1px solid #ccc;
+                    padding: 5px 5px 6px;
+                    border-radius: 50%;
+                }
+                .slide-down:hover, .slide-up:hover{
+                    color: #fe99a1;
+                }
+
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .container{
+        min-width: 1180px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    #pb-left-column {
+        float: left;
+        margin-top: 80px;
+        .image_container {
+            #image-block {
+                float: left;
+                width: 250px;
+                position: relative;
+
+            }
+            #views_block {
+                width: 60px;
+                padding: 0;
+                float: right;
+                margin-left: 19px;
+                #dress-boxmobile{
+                    height: 305px;
+                }
+                .slide-down, .slide-up{
+                    left: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) and (min-width: 540px){
+
+    #pb-left-column{
+        width: 50%;
+    }
+}
