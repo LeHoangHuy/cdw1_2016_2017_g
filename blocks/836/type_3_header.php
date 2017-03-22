@@ -12,9 +12,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/836.less', 'css/836.css');
+        $less->compileFile('less/type_3_header.less', 'css/type_3_header.css');
         ?>
-        <link href="css/836.css" rel="stylesheet" type="text/css" />
+        <link href="css/type_3_header.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
@@ -23,11 +23,11 @@
 
         <!-------Header-------->
         <div class="type_3_header">
-            <div>
+            <div class="nav-container">
                 <div id="tp-top-bar">
 
                     <div class=" col-sm-4">
-                        <ul class="social-icon-ft ">
+                        <ul class="social-icon-ft pull-">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="vc_row header-row tp-navigations vc_custom_1437478756869">
                     <div class="sticky-wrapper">
-                        <div class="header-row  stuck">
+                        <div class="header-row tp-navigation stuck">
                             <div class="container">
                                 <div class=" col-sm-3 col-md-2 col-xs-12">
                                     <div class=" vc_custom_1438140764928">
@@ -66,13 +66,13 @@
                                         <div class="container-fluid">
                                             <div class="navbar-header">
                                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-                                                    <span>Toggle navigation</span>
+                                                    <span class="sr-only">Toggle navigation</span>
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                 </button>
                                             </div>
-                                            <div class="navbar-collapse collapse in" aria-expanded="true">
+                                            <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
                                                 <ul id="menu-indus-v3" class="nav navbar-nav navbar-right">
                                                     <li class=" current-menu-item current_ menu-item-has-children parent-current-menu-item">
                                                         <a href="#" class=" dropdown-toggle">Home</a>
