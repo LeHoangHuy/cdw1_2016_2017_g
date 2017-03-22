@@ -1,0 +1,96 @@
+.type-i-22 {
+  background-color: #f3f3f4;
+}
+.type-i-22 .layered_subtitle {
+  padding-bottom: 10px;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+  font-family: "LMRoman10Regular";
+  margin-bottom: 4px;
+}
+.type-i-22 .nav-tabs {
+  border-bottom: none;
+  text-align: left;
+  width: 70%;
+}
+.type-i-22 .bb {
+  text-align: left;
+  left: 0px;
+}
+.type-i-22 .hh a {
+  color: #fff;
+  padding: 1px;
+}
+.type-i-22 .nomargin {
+  display: inline-block;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  padding: 0;
+}
+.type-i-22 .glyphicon:hover .nav-tabs {
+  display: none;
+}
+.type-i-22 .checker {
+  display: inline-block;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  margin-top: 5px;
+  background-position: 0 -257px;
+}
+.type-i-22 .checker .checkbox {
+  width: 15px;
+  height: 15px;
+  background-position: 0 -257px;
+  display: inline-block;
+  opacity: 0.3;
+  border: 1px solid #000;
+  color: #666;
+}
+.type-i-22 .checker a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+  font: normal 13px/20px Georgia;
+}
+.type-i-22 .checker .list {
+  padding: 0 !important;
+  margin-top: 4px;
+  margin-left: 10px;
+  line-height: 16px !important;
+  float: right;
+  display: inline-block;
+}
+.type-i-22 .glyphicon {
+  float: right;
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+  padding: 0;
+  width: 17px;
+  background: #ededed;
+  height: 18px;
+  display: inline-block;
+}
+.type-i-22 .well {
+  margin-top: 15px;
+  padding-top: 0px;
+  width: 100%;
+  min-height: 20px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media all and (min-width: 767px) {
+  .type-i-22 .image {
+    width: 100%;
+  }
+}

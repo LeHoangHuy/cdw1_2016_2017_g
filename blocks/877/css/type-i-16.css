@@ -1,0 +1,298 @@
+.type-i-16 .tab-pill {
+  margin-top: 30px;
+  padding-top: 36px;
+  font: normal 13px/18px Georgia, "Times New Roman";
+}
+.type-i-16 .tab-pill .svgic {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  pointer-events: none;
+}
+.type-i-16 .tab-pill .dib {
+  display: inline-block;
+  vertical-align: top;
+}
+.type-i-16 .tab-pill a.button {
+  box-shadow: inset 0 0 0 2px #706e69;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #706e69 !important;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  background-color: transparent;
+}
+.type-i-16 .tab-pill .bx-controls {
+  position: absolute;
+  z-index: 99;
+  bottom: 25px;
+  right: 25px;
+  text-align: center;
+}
+.type-i-16 .tab-pill .bx-controls-direction a {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  margin-right: 10px;
+  position: relative;
+}
+.type-i-16 .tab-pill .trangsanpham .bx-controls-direction .smooth02:hover {
+  background: #7accbe;
+}
+.type-i-16 .tab-pill .button {
+  font-style: inherit;
+  margin: 0;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  font: 13.3333px Arial;
+  -webkit-writing-mode: horizontal-tb;
+  box-shadow: inset 0 0 0 2px #706e69;
+}
+.type-i-16 .tab-pill .button.button {
+  font-family: "LMRomanCaps10-Regular";
+  background-color: transparent;
+}
+.type-i-16 .tab-pill .sanpham {
+  margin-top: 70px;
+}
+.type-i-16 .tab-pill .nav-tabs>li>a:hover {
+  border-color: transparent;
+}
+.type-i-16 .tab-pill .nav>li>a:focus,
+.type-i-16 .tab-pill .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.type-i-16 .tab-pill a {
+  margin: 0;
+  padding: 0;
+  color: #878787;
+}
+.type-i-16 .tab-pill .nav-tabs>li.active>a {
+  background: transparent;
+  border-radius: 0;
+  border: 3px solid #515151;
+}
+.type-i-16 .tab-pill .nav-tabs>li.active>a:hover {
+  background-color: transparent;
+}
+.type-i-16 .tab-pill .navfix {
+  font-family: "LMRoman10Regular";
+  color: #878787;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 0 20px;
+  margin: 0 10px 30px 0;
+  line-height: 36px;
+  display: block;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+.type-i-16 .tab-pill a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+.type-i-16 .tab-pill .ima {
+  border: 1px solid #e6e5e5;
+}
+.type-i-16 .tab-pill .price_container {
+  opacity: 1;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 0;
+  margin-top: 20px;
+}
+.type-i-16 .tab-pill p {
+  margin: 0;
+  display: block;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+.type-i-16 .tab-pill .price {
+  font-size: 17px;
+  margin: 7px 0;
+  font-family: "lm_roman_demi_10regular";
+  color: #3ea8a4;
+}
+.type-i-16 .tab-pill .altview {
+  display: block;
+}
+.type-i-16 .tab-pill .s_title_block  .ellipsis {
+  text-align: left;
+  font: normal 17px/20px Georgia;
+  margin-bottom: 10px;
+  color: #787878;
+}
+.type-i-16 .tab-pill .icon4 {
+  left: 0px;
+  width: 4.5rem;
+  top: -10px;
+  margin-left: 0px;
+}
+.type-i-16 .tab-pill .icon5 {
+  width: 2.0rem;
+  margin-top: 22px;
+  margin-left: -18px;
+}
+.type-i-16 .tab-pill .icon6 {
+  width: 2.7rem;
+  margin-left: 2px;
+}
+.type-i-16 .tab-pill .giang {
+  top: 150px;
+  right: 15px;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(0px,0px) rotate(0deg);
+  -ms-transform: translate(0px,0px) rotate(0deg);
+  transform: translate(0px,0px) rotate(0deg);
+  -webkit-transition: all 0.1s 0.1s ease-in-out;
+  transition: all 0.1s 0.1s ease-in-out;
+  width: 86%;
+  height: 292px;
+}
+.type-i-16 .tab-pill .giang1:hover {
+  background: #fe99a1;
+}
+.type-i-16 .tab-pill .giang1 {
+  margin-top: 102%;
+  width: 64%;
+}
+.type-i-16 .tab-pill .sp {
+  width: 100%;
+  height: 440px;
+}
+.type-i-16 .tab-pill .sp:hover  .giang {
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  -webkit-transform: translate(0px,0px);
+  -ms-transform: translate(0px,0px);
+  transform: translate(0px,0px);
+}
+.type-i-16 .tab-pill .bx-controls-direction .smooth02 {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: transparent;
+  position: relative;
+}
+.type-i-16 .tab-pill .addcart {
+  opacity: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 99;
+  color: #706e69;
+  font-family: "LMRoman10Regular";
+  margin: 0 !important;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #706e69;
+  text-transform: uppercase;
+  padding: 10px 18.5px;
+  line-height: 16px;
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+}
+.type-i-16 .tab-pill .bb {
+  box-shadow: 0 0 0 0.1px #fff, 0 0 0 2px #e17365;
+}
+.type-i-16 .tab-pill .trangsanpham .bx-controls-direction .smooth02 {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e6e5e5;
+  padding: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #cdcdcd;
+  position: relative;
+}
+.type-i-16 .tab-pill .bx-controls-direction .smooth02:hover {
+  border: 0px solid #7accbe;
+  background-color: #7accbe;
+  position: relative;
+}
+.type-i-16 .tab-pill .nav-tabs {
+  border-bottom: none;
+}
+.type-i-16 .tab-pill .trangsanpham .bx-controls-direction .button {
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.type-i-16 .tab-pill .ima1 {
+  width: 100%;
+}
+.type-i-16 .tab-pill .addcart:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 2px #fe99a1;
+}
+@media all and (max-width: 992px) {
+  .type-i-16 .tab-pill .addcart {
+    display: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  .type-i-16 .tab-pill .giang1 {
+    margin-top: 69%;
+    width: 72%;
+  }
+  .type-i-16 .tab-pill .addcart {
+    padding: 10px 10px;
+  }
+  .type-i-16 .tab-pill .giang {
+    top: 130px;
+    width: 82%;
+  }
+}
+@media all and (max-width: 768px) {
+  .type-i-16 .tab-pill .navfix {
+    font-size: 10px;
+    padding: 0 10px;
+    margin: 0 0px 30px 0;
+  }
+  .type-i-16 .tab-pill .addcart {
+    display: none;
+  }
+  .type-i-16 .tab-pill .glyphicon {
+    top: -7px;
+  }
+  .type-i-16 .tab-pill .aaa {
+    display: none;
+  }
+  .type-i-16 .tab-pill .sp {
+    width: 100%;
+    height: auto;
+  }
+  .type-i-16 .tab-pill .giang {
+    top: 35%;
+    right: 12%;
+    position: absolute;
+    width: 75%;
+    text-align: center;
+    height: auto;
+  }
+  .type-i-16 .tab-pill .trangsanpham .bx-controls-direction .smooth02 {
+    margin-right: 0px;
+  }
+}
