@@ -1,212 +1,109 @@
 .type-832 {
-    margin: 0;
-    line-height: 1.42857143;
-    font-family: 'Coda',cursive;
-    -webkit-font-smoothing: antialiased;
-    background-color: #1f1f1f;
-    font-size: 18px;
-    color: #666;
-
-    
-    .footer-section {
-        background-color: #171717;
+    background-color: #171717;
+    @color-word: #666;
+    @color-title: #fff;
+    a{
+        color: @color-word;
     }
-    .vc_custom_1436786731050 {
-        margin-bottom: 0px !important;
-        padding-top: 60px !important;
-        padding-bottom: 79px !important;
-    }
-    .vc_row[data-vc-full-width] {
-        transition: opacity .5s ease;
-        overflow: hidden;
-    }
-    .tp-ft-about .ft-logo {
-        margin-bottom: 30px;
-        margin-top: 30px;
-        border-bottom: 1px solid #282828;
-        padding-bottom: 14px;
-    }
-    .wpb_single_image.vc_align_left {
-        text-align: left;
-    }
-    .wpb_single_image .vc_figure {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        max-width: 100%;
-    }
-    .wpb_single_image .vc_single_image-wrapper {
-        display: inline-block;
-        vertical-align: top;
-        max-width: 100%;
-    }
-    img {
-        border: 0;
-    }
-    .wpb_single_image img {
-        height: auto;
-        max-width: 100%;
-        vertical-align: top;
-    }
-    .wpb_content_element {
-        margin-bottom: 35px;
-    }
-    .tp-ft-about .address {
-        margin-top: 30px;
-    }
-    .wpb_text_column :last-child, .wpb_text_column p:last-child {
-        margin-bottom: 0;
-    }
-    ul {
-        display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        -webkit-padding-start: 40px;
-        margin: 0;
-        padding: 0;
-        list-style: disc;
-    }
-    footer ul {
-        margin-left: 0px;
-    }
-    li {
-        display: list-item;
-        text-align: -webkit-match-parent;
-    }
-    ul li {
-        line-height: 31px;
-        font-size: 14px;
-        color: #666;
-        font-weight: 300;
-        list-style: none;
-    }
-    .tp-ft-about .address ul li,  .tp-investor-relation ul li, .twitter-widget ul li {
-        list-style: none;
-        margin-bottom: 8px;
-    }
-    .tp-investor-relation, .twitter-widget, .tp-ft-newsletter {
-        margin-top: 30px;
-    }
-    h2 {
-        color: #fff;
-        margin-top: 0;
-        font-size: 24px;
-        letter-spacing: -1px;
-        font-family: 'Coda',cursive;
-    }
-    .tp-investor-relation h2, .twitter-widget h2, .tp-ft-newsletter h2 {
-        margin-bottom: 30px;
-        border-bottom: 1px solid #282828;
-        padding-bottom: 30px;
-    }
-    .tp-investor-relation ul li i {
-        margin-right: 20px;
-    }
-    a {
-        font-family: 'Coda',cursive;
-        color: #666;
+    a:hover{
         text-decoration: none;
-        transition: all .3s;
+        color:#fde230;
     }
-    a:focus, a:hover {
-        text-decoration: none;
-        color: #fde230;
+    footer{
+        padding-bottom: 130px;
+        .columns{
+            overflow:hidden;
+            .title{
+                margin-top: 90px;   
+                img{
+                    text-align: center;
+                    margin-bottom: 31px;
+                }
+                h3{
+                    margin-bottom: 42px;
+                    color: @color-title;
+                }
+                border-bottom: 1px solid #282828;
+            }
+            .nav{
+                margin-top: 40px;
+                margin-left: 0;
+                ul {
+                    li{
+                        list-style: none;
+                        margin-left: 20px;
+                    } 
+                }
+                li{
+                    magin: 10px 0;
+                    color: @color-word;
+                }
+                li a:hover{
+                    background: #171717;
+                }
+                .items{
+                    padding: 10px 0;
+                }
+                span{
+                    color: @color-word;
+                }
+                .email{
+                    margin-top:  40px;
+                }
+            }
+            button{
+                border-radius: 5px;
+                padding: 0 10px;
+                margin-top: 30px;
+                a{
+                    span{
+                        color:@color-word; 
+                    }
+                }
+            }
+            button:hover{
+                background-color: #fde230;;
+            }
+        } 
     }
-    .tp-investor-relation ul li a {
-        list-style: none;
-        text-transform: inherit;
-    }
-    .twitter-widget ul li {
-        margin-bottom: 30px;
-    }
-    p {
-        margin: 0 0 10px;
-        -webkit-font-smoothing: antialiased;
-        font-size: 14px;
-        font-weight: 300;
-        color: #666;
-        margin-bottom: 30px;
-        line-height: 21px;
-    }
-    .mc4wp-form {
-        margin: 1em 0;
-    }
-    .mc4wp-form form, .mc4wp-form input, .mc4wp-form label {
-        width: auto;
-        display: block;
-        box-sizing: border-box;
-        cursor: auto;
-        height: auto;
-        vertical-align: baseline;
-        line-height: normal;
-    }
-    .mc4wp-form label {
-        font-weight: 700;
-        margin-bottom: 5px;
-        display: none;
-    }
-    .mc4wp-form form input[type=email] {
+    .sub-footer{
         background-color: #151515;
-        border: 1px solid #282828;
-        border-radius: 0px;
-        height: 45px;
-        margin-bottom: 25px;
-        color: #fff;
-        font-family: 'Coda', cursive;
-        font-weight: normal;
-        display: block;
-        width: 100%;
-        padding: 6px 12px;
-        font-size: 14px;
-        line-height: 1.42857143;
-        background-image: none;
-        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        padding-bottom: 25px;
+        .copy{
+            margin-top: 30px;
+            span{
+                color: @color-word;
+            }
+        }
+        .menu-footer{
+            .copy;
+            ul{
+                float: right;
+                margin-right: 0;
+            }
+            ul li{
+                display: inline-block;
+            }
+
+        }
     }
-    input[type=submit] {
-        -webkit-appearance: button;
+    @media(max-width:1200px){
+        .columns{
+            .title{
+                .last{
+                    font-size: 20px;
+                    padding-bottom: 4px;
+                }
+            }
+        }
     }
-    .mc4wp-form form input[type=submit] {
-        background: #fde230;
-        text-transform: uppercase;
-        font-size: 18px;
-        border-radius: 0px;
-        color: #0f1a25;
-        padding: 10px 20px;
-        display: inline-block;
-        margin-bottom: 0;
-        font-weight: 400;
-        line-height: 1.42857143;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: middle;
-        touch-action: manipulation;
-        cursor: pointer;
-        border: 1px solid transparent;
-    }
-    .menu-footer{
-        box-sizing: border-box;
-    }
-    .tiny-footer {
-        background: #151515;
-        padding-top: 30px;
-    }
-    .tiny-footer, .tiny-footer p, .tiny-footer p.copyright-ct {
-        color: #666;
-    }
-    .vc_custom_1436839546058 {
-        margin-bottom: 0px !important;
-        padding-bottom: 30px !important;
-    }
-    .tiny-footer .copyright-ct {
-        font-size: 14px;
-    }
-    .pull-right {
-        float: right!important;
-    }
-    .social-icon-ft li {
-        float: left;
-        margin-right: 10px;
+    @media(max-width: 640px){
+        .sub-footer{
+            .copy{
+                span{
+                    font-size: 5px;
+                }
+            }
+        }
     }
 }

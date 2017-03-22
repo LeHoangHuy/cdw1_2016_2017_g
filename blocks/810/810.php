@@ -14,8 +14,6 @@
         $less = new lessc;
         $less->compileFile('less/810.less', 'css/810.css');
         ?>
-        <script src="js/112.js" type="text/javascript"></script>
-        <script src="js/npm.js" type="text/javascript"></script>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -23,122 +21,126 @@
     </head>
     <body>
         <div class="type-810">
-            <div class="theme_background">
-                <div class="container">
-                    <h3 class="sc_align_center  margin_bottom_null font_weight_600 font_size_3_571em">Club Membership</h3>
-                    <h4 class="sc_align_center text_uppercase ltr-spc2 margin_bottom_large font_weight_600 font_size_0_857em accent1">Select the best plan</h4>
-                    <div class=sc_price>
-                        <!-- Price block -->
-                            <div class="sc_price_block col-md-3">
-                                <div class="sc_price_block_title">
-                                    <span>Junior</span>
-                                </div>
-                                <div class="sc_price_block_money">
-                                    <div class="sc_price">
-                                        <span class="sc_price_currency">$</span>
-                                        <span class="sc_price_money">250</span>
-                                        <span class="sc_price_period">mth</span>
-                                    </div>
-                                </div>
-                                <div class="sc_price_block_description">Juniors must be less than 19 years old as at 1st January</div>
-                                <div class="sc_price_block_link">
-                                    <a href="#" class="sc_button sc_button_style_filled sc_button_size_large">
-                                        <span class="cube flip-to-top">
-                                            <span class="default-state">
-                                                <span>Order now</span>
-                                            </span>
-                                            <span class="active-state">
-                                                <span>Order now</span>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
+            <!-- BEGIN CONTENT -->
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h3>Club Membership</h3>
+                        <h4>Select the best plan</h4>
+                    </div>
+                    <div class="order col-md-12">
+                        <!-- BEGIN COLUMNS -->
+                        <div class="columns col-md-3">
+                            <div class="block-title">
+                                <h4>Junior</h4>
                             </div>
-                        <!-- /Price block -->
-                        <!-- Price block -->
-                            <div class="sc_price_block col-md-3">
-                                <div class="sc_price_block_title">
-                                    <span>Individual</span>
+                            <div class="info">
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="money"> 250</span>
+                                    <span class="period"> /mth</span>
                                 </div>
-                                <div class="sc_price_block_money">
-                                    <div class="sc_price">
-                                        <span class="sc_price_currency">$</span>
-                                        <span class="sc_price_money">350</span>
-                                        <span class="sc_price_period">mth</span>
-                                    </div>
+                                <div class="description">
+                                    <p>Juniors must be less than 19 years old as at 1st January</p>
                                 </div>
-                                <div class="sc_price_block_description">Save $98 every year compared to the monthly plan by paying yearly.</div>
-                                <div class="sc_price_block_link">
-                                    <a href="#" class="sc_button sc_button_style_filled sc_button_size_large">
-                                        <span class="cube flip-to-top">
-                                            <span class="default-state">
-                                                <span>Order now</span>
-                                            </span>
-                                            <span class="active-state">
-                                                <span>Order now</span>
-                                            </span>
+                                <a href="#" class="button">
+                                    <span class="cube flip-to-top">
+                                        <span class="default">
+                                            <span>Order now</span>
                                         </span>
-                                    </a>
-                                </div>
-                            </div>
-                        <!-- /Price block -->
-                        <!-- Price block -->
-                            <div class="sc_price_block col-md-3">
-                                <div class="sc_price_block_title">
-                                    <span>Recommended</span>
-                                </div>
-                                <div class="sc_price_block_money">
-                                    <div class="sc_price">
-                                        <span class="sc_price_currency">$</span>
-                                        <span class="sc_price_money">450</span>
-                                        <span class="sc_price_period">mth</span>
-                                    </div>
-                                </div>
-                                <div class="sc_price_block_description">Save $128 by inviting your family to train with you monthly</div>
-                                <div class="sc_price_block_link">
-                                    <a href="#" class="sc_button sc_button_style_filled sc_button_size_large">
-                                        <span class="cube flip-to-top">
-                                            <span class="default-state">
-                                                <span>Order now</span>
-                                            </span>
-                                            <span class="active-state">
-                                                <span>Order now</span>
-                                            </span>
+                                        <span class="active">
+                                            <span>Order now</span>
                                         </span>
-                                    </a>
-                                </div>
+                                    </span>
+                                </a>
                             </div>
-                        <!-- /Price block -->
-                        <!-- Price block -->
-                            <div class="sc_price_block col-md-3">
-                                <div class="sc_price_block_title">
-                                    <span>Family</span>
+                        </div>
+                        <!-- END COLUMNS -->
+                        <!-- BEGIN COLUMNS -->
+                        <div class="columns col-md-3">
+                            <div class="block-title">
+                                <h4>Individual</h4>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="money"> 350</span>
+                                    <span class="period"> /mth</span>
                                 </div>
-                                <div class="sc_price_block_money">
-                                    <div class="sc_price">
-                                        <span class="sc_price_currency">$</span>
-                                        <span class="sc_price_money">450</span>
-                                        <span class="sc_price_period">mth</span>
-                                    </div>
+                                <div class="description">
+                                    <p>Save $98 every year compared to the monthly plan by paying yearly.</p>
                                 </div>
-                                <div class="sc_price_block_description">Save $128 by inviting your family to train with you monthly</div>
-                                <div class="sc_price_block_link">
-                                    <a href="#" class="sc_button sc_button_style_filled sc_button_size_large">
-                                        <span class="cube flip-to-top">
-                                            <span class="default-state">
-                                                <span>Order now</span>
-                                            </span>
-                                            <span class="active-state">
-                                                <span>Order now</span>
-                                            </span>
+                                <a href="#" class="button">
+                                    <span class="cube flip-to-top">
+                                        <span class="default">
+                                            <span>Order now</span>
                                         </span>
-                                    </a>
-                                </div>
+                                        <span class="active">
+                                            <span>Order now</span>
+                                        </span>
+                                    </span>
+                                </a>
                             </div>
-                        <!-- /Price block -->
+                        </div>
+                        <!-- END COLUMNS --> 
+                        <!-- BEGIN COLUMNS -->
+                        <div class="columns col-md-3">
+                            <div class="block-title">
+                                <h4>Recommended</h4>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="money"> 450</span>
+                                    <span class="period"> /mth</span>
+                                </div>
+                                <div class="description">
+                                    <p>Save $128 by inviting your family to train with you monthly</p>
+                                </div>
+                                <a href="#" class="button">
+                                    <span class="cube flip-to-top">
+                                        <span class="default">
+                                            <span>Order now</span>
+                                        </span>
+                                        <span class="active">
+                                            <span>Order now</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END COLUMNS --> 
+                        <!-- BEGIN COLUMNS -->
+                        <div class="columns col-md-3">
+                            <div class="block-title">
+                                <h4>Family</h4>
+                            </div>
+                            <div class="info">
+                                <div class="price">
+                                    <span class="currency">$</span>
+                                    <span class="money"> 450</span>
+                                    <span class="period"> /mth</span>
+                                </div>
+                                <div class="description">
+                                    <p>Juniors must be less than 19 years old as at 1st January</p>
+                                </div>
+                                <a href="#" class="button">
+                                    <span class="cube flip-to-top">
+                                        <span class="default">
+                                            <span>Order now</span>
+                                        </span>
+                                        <span class="active">
+                                            <span>Order now</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END COLUMNS -->
                     </div>
                 </div>
             </div>
+            <!-- END CONTENT -->
         </div>
     </body>
 </html>

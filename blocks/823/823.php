@@ -26,6 +26,7 @@
     </head>
     <body>
         <div class="type-823">
+            <!-- BEGIN LIST -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -36,6 +37,7 @@
                             <p>Duis tortor lacus, dictum nec augue a, euismod sagittis eros. Aliquam id ligula malesuada, egestas est ultricies, ullamcorper diam.</p>
                         </div>
                     </div>
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -63,6 +65,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY --> 
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -90,6 +94,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY --> 
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -118,6 +124,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY --> 
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -148,6 +156,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY --> 
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -177,6 +187,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY -->
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -206,6 +218,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY -->
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -235,6 +249,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY -->
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -265,6 +281,8 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY -->
+                    <!-- BEGIN COURSE CATEGORY -->
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="course_category"> 
                             <div class="lms_hover_section">
@@ -294,7 +312,9 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+                    <!-- END COURSE CATEGORY -->
                     <div class="clearfix"></div>
+                    <!-- BEGIN PAGINATION -->
                     <div class="lms_pagination">
                         <ul>
                             <li><span class="current" >1</span></li>
@@ -302,8 +322,10 @@
                             <li><a class="next" href="#">Next</a></li>
                         </ul>
                     </div>
+                    <!-- END PAGINATION -->
                 </div>
             </div>
+            <!-- END LIST -->
         </div>
     </body>
 </html>

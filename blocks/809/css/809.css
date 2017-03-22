@@ -9,7 +9,7 @@
   text-align: center;
   background: #96bd42;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 .type-809 .slide-show .testimonials .Title {
   text-align: center;
@@ -19,6 +19,7 @@
   color: #fff;
   font-weight: bold;
   font-size: 40px;
+  padding-top: 10px;
 }
 .type-809 .slide-show .testimonials p {
   color: #fff;
@@ -32,8 +33,9 @@
   text-align: center;
 }
 .type-809 .slide-show .testimonials .button {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 70px;
+  padding-bottom: 20px;
 }
 .type-809 .slide-show .testimonials .button a {
   background: #fff;

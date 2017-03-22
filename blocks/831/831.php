@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
     <head>
@@ -14,90 +13,85 @@
         $less = new lessc;
         $less->compileFile('less/831.less', 'css/831.css');
         ?>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <link href="css/831.css" rel="stylesheet" type="text/css" />
-
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="type-831">
+            <!-- BEGIN CONTENT-->
             <div class="container">
                 <div class="row">
-                    <div class="blog col-md-12">
-                        <h1 style="text-align: center;">Latest From Blog News</h1>
-                        <p style="text-align: center;">Quisque porttitor sem liberoet auctor lorem fringilla sit amehasellus gravida nisi elitam egestda.</p>
-                        <div class="tp-news-section">
-                            <div class="tp-blog-page">
-                                <div class="blog-left col-sm-6">
-                                    <div class="tp-blog-pic">
-                                        <a href="#"> <img alt="blog-img" title="blog-img" class="img-responsive" src="images/blog-img1-e1440641700467.jpg"></a>
-                                    </div>
-                                    <div class="tp-blog-info">
-                                        <!-- blog-info -->
-                                        <div class="row">        
-                                            <div class="tp-meta col-md-2 col-xs-4">
-                                                <!-- tp-meta -->
-                                                <span class="tp-meta-date">27 / 07</span>
-                                                <span class="tp-meta-year">2015</span>
-                                            </div>
-                                            <!-- END tp-meta -->
-
-                                            <div class="post col-md-10 col-xs-8">
-                                                <h1 class="tp-post-title">
-                                                    <a href="#">The dumbest smartphone debate</a></h1>
-                                                <span class="tp-meta">  <i class="fa fa-comments-o"></i>0 <a href="#">Comment</a> <i class="fa fa-user"></i><a href="#">admin</a> <i class="fa fa-tags"></i><a href="#" rel="tag">Bars</a>, <a href="#" rel="tag">Copper Base</a> <span class="the_category">in</span> <a href="#" rel="category tag">Plates</a>, <a href="#" rel="category tag">Rolled</a> </span>
-                                            </div>
-                                            <div class="end-post col-md-12">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis consequat hendrerit. Etiam et aliquet mauris. Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula. </p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="title">
+                        <h1>Latest From Blog News</h1>
+                        <p>Quisque porttitor sem liberoet auctor lorem fringilla sit amehasellus gravida nisi elitam egestda.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!-- BEGIN BLOCK -->
+                    <div class="block col-md-6">
+                        <div class="images">
+                            <img src="images/blog-img1-e1440641700467.jpg" alt=""/>
+                        </div>
+                        <div class="info">
+                            <div class="time col-md-3">
+                                <div class="day-month"><span>27 / 07</span></div>
+                                <div class="clearfix"></div>
+                                <div class="years"><span>2015</span></div>
+                            </div>
+                            <div class="name col-md-9">
+                                <h1><a href="#"> The dumbest smartphone debate</a></h1>
+                                <div class="clearfix"></div>
+                                <div class="menu">
+                                    <li><a href="#" class="fa fa-comment-o"><span>0 Comment</span></a></li>
+                                    <li><a href="#" class="fa fa-user"><span>Admin</span></a></li>
+                                    <li><a href="#" class="fa fa-tags"><span>Bars</span></a></li>
+                                    <li><a href="#"><span>, Copper Base</span></a></li>
+                                    <li><a href="#"><span style="color:#fde230;">in</span><span>Plates</span></a></li>
+                                    <li><a href="#"><span>, Rolled</span></a></li>
                                 </div>
-                                <div class=" blog-right col-sm-6">
-                                    <div class="tp-blog-pic">
-                                        <a href="#"><img alt="blog-img" title="blog-img" class="img-responsive" src="images/blog-img2-e1440641680103.jpg"></a>
-                                    </div>
-                                    <div class="tp-blog-info">
-                                        <!-- blog-info -->
-                                        <div class="row">
-
-                                            <div class="tp-meta col-md-2 col-xs-4">
-                                                <!-- tp-meta -->
-                                                <span class="tp-meta-date">27 / 07</span>
-                                                <span class="tp-meta-year">2015</span>
-                                            </div>
-                                            <!-- /.tp-meta -->
-
-                                            <div class="post col-md-10 col-xs-8">
-                                                <h1 class="tp-post-title"><a href="#">Robots Replace Miners In Oz</a></h1>
-                                                <span class="tp-meta">  
-                                                    <i class="fa fa-comments-o"></i>0 <a href="#">Comment</a>
-                                                    <i class="fa fa-user"></i>
-                                                    <a href="#">admin</a> 
-                                                    <i class="fa fa-tags"></i>
-                                                    <a href="#" rel="tag">Industrial</a>, 
-                                                    <a href="#" rel="tag">Mining</a>, 
-                                                    <a href="#" rel="tag">Steel Forgings</a>  
-                                                    <span class="the_category">in</span> 
-                                                    <a href="#" rel="category tag">Bars</a>, 
-                                                    <a href="#" rel="category tag">Plates</a>, 
-                                                    <a href="#" rel="category tag">Sheet Steel</a>
-                                                </span>
-                                            </div>
-                                            <div class="end-post col-md-12">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis consequat hendrerit. Etiam et aliquet mauris. Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula.</p>
-                                                <a href="#" class="btn btn-outline">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="descripttion">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis consequat hendrerit. Etiam et aliquet mauris. Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula.</p>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <!-- END BLOCK -->
+                    <!-- BEGIN BLOCK -->
+                    <div class="block col-md-6">
+                        <div class="images">
+                            <img src="images/blog-img2-e1440641680103.jpg" alt=""/>
+                        </div>
+                        <div class="info">
+                            <div class="time col-md-3">
+                                <div class="day-month"><span>27 / 07</span></div>
+                                <div class="clearfix"></div>
+                                <div class="years"><span>2015</span></div>
+                            </div>
+                            <div class="name col-md-9">
+                                <h1><a href="#"> Robots Replace Miners In Oz</a></h1>
+                                <div class="clearfix"></div>
+                                <div class="menu">
+                                    <li><a href="#" class="fa fa-comment-o"><span>0 Comment</span></a></li>
+                                    <li><a href="#" class="fa fa-user"><span>Admin</span></a></li>
+                                    <li><a href="#" class="fa fa-tags"><span>Industrial</span></a></li>
+                                    <li><a href="#"><span>,Mining</span></a></li>
+                                    <li><a href="#"><span>,Steel Forgings</span></a></li>
+                                    <li><a href="#"><span style="color:#fde230;">in</span><span>Bars</span></a></li>
+                                    <li><a href="#"><span>,Plates</span></a></li>
+                                    <li><a href="#"><span>,Sheet Steel</span></a></li>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="descripttion">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis consequat hendrerit. Etiam et aliquet mauris. Fusce nunc nisl, varius non nulla vitae, euismod ultricies ligula.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END BLOCK -->
+                </div>        
             </div>
+            <!-- END CONTENT -->
         </div>
     </body>
 </html>

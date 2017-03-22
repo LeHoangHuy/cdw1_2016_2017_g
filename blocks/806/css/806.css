@@ -19,8 +19,25 @@
 .type-806 .video-tennis-tip .image {
   text-align: center;
 }
+.type-806 .video-tennis-tip .image .hover-icon-play {
+  position: absolute;
+  left: 160px;
+  top: 200px;
+  display: none;
+}
+.type-806 .video-tennis-tip .image .hover-icon-play a {
+  padding: 20px 20px;
+  background-color: #96bd42;
+  color: #fff;
+}
+.type-806 .video-tennis-tip .image .hover-icon-play a:hover {
+  text-decoration: none;
+}
 .type-806 .video-tennis-tip .image img {
   width: 70%;
+}
+.type-806 .video-tennis-tip .image:hover .hover-icon-play {
+  display: block;
 }
 .type-806 .video-tennis-tip h1 {
   text-align: center;
@@ -36,8 +53,26 @@
 .type-806 .coaching-tips .colums {
   padding-bottom: 30px;
 }
-.type-806 .coaching-tips .colums img {
+.type-806 .coaching-tips .colums .images img {
   width: 90%;
+  text-align: center;
+}
+.type-806 .coaching-tips .colums .images .hover-icon-plus {
+  position: absolute;
+  top: 85px;
+  left: 85px;
+  display: none;
+}
+.type-806 .coaching-tips .colums .images .hover-icon-plus a {
+  color: #fff;
+  padding: 20px 20px;
+  background-color: #96bd42;
+}
+.type-806 .coaching-tips .colums .images .hover-icon-plus a:hover {
+  text-decoration: none;
+}
+.type-806 .coaching-tips .colums .images:hover .hover-icon-plus {
+  display: block;
 }
 .type-806 .coaching-tips .colums h2 {
   margin-top: 30px;
@@ -51,7 +86,7 @@
   color: #96bd42;
 }
 .type-806 .coaching-tips .colums .name a {
-  color: #000;
+  color: #1a3150;
 }
 .type-806 .coaching-tips .colums .name a:hover {
   text-decoration: none;
@@ -64,5 +99,6 @@
   text-decoration: none;
 }
 .type-806 .coaching-tips span {
-  color: #000;
+  magin-left: 20px;
+  color: #96bd42;
 }

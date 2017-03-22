@@ -1,174 +1,124 @@
-.type-810 a,
-.type-810 h1,
-.type-810 h2,
-.type-810 h3 {
+.type-810 {
   font-family: "Arial" inherit;
-}
-.type-810 .sc_align_center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.type-810 .font_weight_600 {
-  font-weight: 600;
-}
-.type-810 .font_size_3_571em {
-  font-size: 3.571em;
-}
-.type-810 .margin_bottom_null {
-  margin-bottom: 0 !important;
-}
-.type-810 h3 {
-  color: #1a3150;
-  line-height: 125%;
-}
-.type-810 .accent1 {
-  color: #96bd42;
-}
-.type-810 .ltr-spc2 {
-  letter-spacing: 2px;
-}
-.type-810 .font_size_0_857em {
-  font-size: 0.857em;
-}
-.type-810 .margin_bottom_large {
-  margin-bottom: 60px !important;
-}
-.type-810 .sc_price_block {
-  color: #aab2bd;
-  background-color: #ffffff;
-}
-.type-810 .sc_price_block .sc_price_block_title {
-  color: #ffffff;
-  background-color: #1a3150;
-}
-.type-810 .sc_price_block .sc_price_block_title {
-  text-align: center;
-  font-size: 1.214em;
-  font-weight: 700;
-  line-height: 3.235em;
-  min-height: 3.235em;
-}
-.type-810 .sc_price_block .sc_price_block_money {
-  background-color: #ffffff;
-}
-.type-810 .sc_price_block .sc_price_block_money {
-  text-align: center;
-  line-height: 7.857em;
-  height: 7.857em;
+  background-color: #f6f7f3;
+  margin: 0 auto;
+  box-sizing: border-box;
   overflow: hidden;
 }
-.type-810 .sc_price_block .sc_button .active-state {
-  background-color: #1295d2;
-  color: #ffffff;
+.type-810 a:hover {
+  text-decoration: none;
 }
-.type-810 .active-state {
+.type-810 .title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.type-810 .title h3 {
+  color: #1a3150;
+  font-size: 3.571em;
+  font-weight: bold;
+}
+.type-810 .title h4 {
+  color: #96bd42;
+  font-weight: bold;
+}
+.type-810 .order .columns {
+  margin-bottom: 100px;
+}
+.type-810 .order .columns .block-title {
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #1a3150;
+  text-align: center;
+}
+.type-810 .order .columns .block-title h4 {
+  color: #fff;
+}
+.type-810 .order .columns .info {
+  background-color: #fff;
+  margin-top: -10px;
+}
+.type-810 .order .columns .info .price {
+  margin-top: 10px;
+  color: #1a3150;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.type-810 .order .columns .info .price .currency {
+  font-weight: 900;
+  font-size: 1.429em;
+  line-height: 4.7em;
+  vertical-align: bottom;
+}
+.type-810 .order .columns .info .price .money {
+  font-weight: 900;
+  font-size: 2.857em;
+  line-height: inherit;
+}
+.type-810 .order .columns .info .price .period {
+  color: #1a3150;
+}
+.type-810 .order .columns .info .description {
+  font-size: 1em;
+  text-align: center;
+  padding: 0 30px;
+  font-weight: 600;
+  color: #7a7f87;
+  padding-bottom: 40px;
+}
+.type-810 .order .columns .info .description p {
+  text-align: center;
+}
+.type-810 .order .columns .info .button {
+  text-align: center;
+}
+.type-810 .order .columns .info .button .default span {
+  background-color: #1295d2;
+  color: #fff;
   line-height: 55px;
   padding: 0 35px;
-  color: #ffffff;
+  padding: 20px 50px;
 }
-.type-810 .cube {
+.type-810 .order .columns .info .button .active span {
+  background-color: #1295d2;
+  color: #fff;
+  line-height: 55px;
+  padding: 0 35px;
+  padding: 20px 50px;
+}
+.type-810 .order .columns .info .button .cube {
   display: block;
   text-align: center;
   margin: 0 auto;
   transition: all 250ms ease;
   transform-style: preserve-3d;
 }
-.type-810 .cube.flip-to-top:hover {
+.type-810 .order .columns .info .button .cube.flip-to-top:hover {
   -webkit-transform: rotateX(-89deg);
   transform: rotateX(-89deg);
 }
-.type-810 .sc_button_size_large .default-state,
-.type-810 .sc_button_size_large .active-state {
-  line-height: 55px;
-  padding: 0 35px;
-}
-.type-810 .default-state,
-.type-810 .active-state {
+.type-810 .order .columns .info .button .default.active {
   display: block;
   transition: background 250ms ease;
 }
-.type-810 :active,
-.type-810 :focus {
+.type-810 .order .columns .info .button :active,
+.type-810 .order .columns .info .button :focus {
   outline: 0;
 }
-.type-810 input[type="submit"],
-.type-810 input[type="button"],
-.type-810 button,
-.type-810 .sc_button {
-  display: inline-block;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1em;
-}
-.type-810 .sc_price_block:hover {
-  margin-top: -10px;
-  box-shadow: -2px 2px 25px 0px rgba(0,0,0,0.1);
-}
-.type-810 .sc_price_block {
-  color: #aab2bd;
-  background-color: #ffffff;
-}
-.type-810 .sc_price_block .sc_price_block_money .sc_price_money {
-  font-weight: 900;
-  font-size: 2.857em;
-  line-height: inherit;
-}
-.type-810 .sc_price .sc_price_currency,
-.type-810 .sc_price .sc_price_money,
-.type-810 .sc_price .sc_price_period,
-.type-810 .sc_price {
-  color: #1a3150;
-}
-.type-810 .sc_price_block .sc_price_block_description {
-  text-align: center;
-  font-size: 1em;
-  line-height: 1.3em;
-  height: 5.2857em;
-  padding: 0 2em;
-  overflow: hidden;
-  font-weight: 600;
-}
-.type-810 .sc_price_block {
-  color: #aab2bd;
-  background-color: #ffffff;
-  margin-bottom: 30px;
-}
-.type-810 .sc_price .sc_price_period {
-  font-weight: 700;
-}
-.type-810 .sc_price_block .sc_price_block_money .sc_price_currency {
-  font-weight: 900;
-  font-size: 1.429em;
-  line-height: 4.7em;
-  vertical-align: top;
-}
-.type-810 .theme_background {
-  background-color: #f6f7f3 !important;
-  padding-right: 48px;
-}
-.type-810 .text_uppercase {
-  text-transform: uppercase;
-}
-.type-810 .ltr-spc2 {
-  letter-spacing: 2px;
-}
-.type-810 .sc_price_block .sc_price_block_link {
-  height: 7.4em;
-  text-align: center;
-}
-.type-810 input[type="submit"]:hover,
-.type-810 input[type="reset"]:hover,
-.type-810 input[type="button"]:hover,
-.type-810 button:hover,
-.type-810 .sc_button.sc_button_style_filled:hover {
-  color: #ffffff;
-}
-.type-810 .sc_price_block .sc_button .default-state {
-  background-color: #1ca9eb;
-  color: #ffffff;
-}
-.type-810 .flip-to-top .active-state {
+.type-810 .order .columns .info .button .flip-to-top .active {
   -webkit-transform: rotateX(90deg) translateZ(75px);
   transform: rotateX(90deg) translateZ(75px);
+  display: block;
+}
+.type-810 .order .columns:hover {
+  margin-top: -15px;
+}
+@media (max-width: 420px) {
+  .type-810 .title h3 {
+    font-size: 2em;
+  }
+  .type-810 .title h4 {
+    font-size: 1em;
+  }
 }

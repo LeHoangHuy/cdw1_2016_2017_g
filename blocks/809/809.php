@@ -21,26 +21,24 @@
     </head>
     <body>
         <div class="type-809">
+            <!-- BEGIN SLIDESHOW -->
             <div class="container">
                 <div class="row">
                     <div class="slide-show">
-                        <div class="testimonials col-md-10">
+                        <div class="testimonials">
                             <div class="Title">
                                 <h1>Testimonials</h1>
                             </div>
                             <div id="mySlide" class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate sed lorem a congue. Donec consequat et sem in porta." </p>
                                         <span> John Snow, CEO</span>
                                     </div>
-
                                     <div class="item">
                                         <p>"Excellent project that helps discovering young talents and keep us healthy. Professional coaches and staff are doing great job!"</p>
                                         <span> Martin Moore, Manger </span>
                                     </div>
-
                                     <div class="item">
                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate sed lorem a congue. Donec consequat et sem in porta."</p>
                                         <span>Lisa Kudrow, Manager </span>
@@ -57,6 +55,7 @@
                     </div>
                 </div>
             </div>
+            <!-- END SLIDESHOW -->
         </div>
     </body>
 </html>

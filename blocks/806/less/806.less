@@ -4,14 +4,12 @@
     *{
         box-sizing: border-box;
     }
-
     body { 
         font-family: 'Open Sans';
         font-size: 14px;
         font-weight: 400;
         line-height: 2.000em;
     }
-
     .tips{
         margin: 0 auto;
         overflow: hidden;
@@ -22,8 +20,27 @@
         background: @main-color;
         .image{
             text-align: center;
+            .hover-icon-play{
+                position: absolute;
+                left: 160px;
+                top: 200px;
+                display: none;
+                a{
+                    padding: 20px 20px;
+                    background-color: @main-color;
+                    color:#fff;
+                }
+                a:hover{
+                    text-decoration: none;
+                }
+            }
             img{
                 width: 70%;
+            }
+        }
+        .image:hover{
+            .hover-icon-play{
+                display: block;
             }
         }
         h1{
@@ -41,8 +58,30 @@
         float:right;
         .colums{
             padding-bottom: 30px;
-            img{
-                width: 90%;
+            .images{
+                img{
+                    width: 90%;
+                    text-align: center;
+                }
+                .hover-icon-plus{
+                    position: absolute;
+                    top: 85px;
+                    left: 85px;
+                    display: none;
+                    a{
+                        color: #fff;
+                        padding:20px 20px;
+                        background-color: @main-color;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+            .images:hover{
+                .hover-icon-plus{
+                    display: block;
+                }
             }
             h2{
                 margin-top: 30px;
@@ -51,16 +90,14 @@
                 float: left;
                 margin-right: 20px;
                 color:#000;
-
             }
             .name{
                 h2 a:hover{
                     color:@link-color;
                 }
                 a{
-                    color:#000;
+                    color: #1a3150;
                 }
-
                 a:hover{
                     text-decoration: none;
                     color:@link-color;
@@ -74,7 +111,8 @@
             }
         }
         span{
-            color: #000;
+            magin-left: 20px;
+            color: @main-color;
         }
     }
 }
