@@ -1,37 +1,28 @@
-$('#myCarousel').carousel({
-  interval: 40000
-});
+(function () {
+    // setup your carousels as you normally would using JS
+    // or via data attributes according to the documentation
+    // http://getbootstrap.com/javascript/#carousel
+    $('#carousel123').carousel({interval: 2000});
+    $('#carouselABC').carousel({interval: 3600});
+}());
 
-$('.4 .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
+(function () {
+    $('.carousel-showmanymoveone .item').each(function () {
+        var itemToClone = $(this);
 
-  if (next.next().length>0) {
- 
-      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
-      
-  }
-  if (next.next().length>0) {
- 
-      next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
-      
-  }
-  else {
-      $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-     
-  }
-});
+        for (var i = 1; i < 4; i++) {
+            itemToClone = itemToClone.next();
 
+            // wrap around if at end of item collection
+            if (!itemToClone.length) {
+                itemToClone = $(this).siblings(':first');
+            }
 
-$('.2 .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-});
-
+            // grab item, clone, add marker class, add to collection
+            itemToClone.children(':first-child').clone()
+                    .addClass("cloneditem-" + (i))
+                    .appendTo($(this));
+        }
+    });
+}());
 
