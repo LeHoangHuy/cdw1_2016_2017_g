@@ -1,0 +1,85 @@
+.type-861{
+    box-sizing: border-box;
+    overflow: hidden;
+    .slideshow{
+        padding: 50px 0;
+        #myCarousel{
+            .button-slide{
+                display: none;
+                .left-button{
+                    .left{
+                        position: absolute;
+                        top: 50%;
+                        bottom: 0;
+                        left: 30px;
+                        font-size: 20px;
+                        color: #fff;
+                        text-align: center;
+                        background-color: rgba(0,0,0,0);
+                        filter: alpha(opacity=50);
+                        opacity: .5;
+                        span{
+                            color: #000;
+                            border: 1px solid #e6e5e5;
+                            box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+                            background-color: #fff;
+                            padding: 10px 20px;
+                        }
+                        span:hover{
+                            background-color: #e17365;
+                        }
+                    }
+                }
+                .right-button{
+                    .right{
+                        position: absolute;
+                        top: 50%;
+                        bottom: 0;
+                        right: 30px;
+                        font-size: 20px;
+                        color: #fff;
+                        text-align: center;
+                        background-color: rgba(0,0,0,0);
+                        filter: alpha(opacity=50);
+                        opacity: .5;
+                        span{
+                            color: #000;
+                            border: 1px solid #e6e5e5;
+                            box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+                            background-color: #fff;
+                            padding: 10px 20px;
+                        }
+                        span:hover{
+                            background-color: #e17365;
+                        }
+                    }
+                }
+            }
+        }
+        #myCarousel:hover{
+            .button-slide{
+                display: block;
+            }
+        }
+    }
+    @media(max-width: 353px){
+        .button-slide{
+            .left-button{
+                .left{                 
+                    span{                        
+                        padding: 5px 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .right-button{
+                .right{                        
+                    span{
+                        padding: 5px 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

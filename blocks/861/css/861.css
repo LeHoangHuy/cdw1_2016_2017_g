@@ -1,0 +1,67 @@
+.type-861 {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.type-861 .slideshow {
+  padding: 50px 0;
+}
+.type-861 .slideshow #myCarousel .button-slide {
+  display: none;
+}
+.type-861 .slideshow #myCarousel .button-slide .left-button .left {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 30px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.type-861 .slideshow #myCarousel .button-slide .left-button .left span {
+  color: #000;
+  border: 1px solid #e6e5e5;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.type-861 .slideshow #myCarousel .button-slide .left-button .left span:hover {
+  background-color: #e17365;
+}
+.type-861 .slideshow #myCarousel .button-slide .right-button .right {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 30px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.type-861 .slideshow #myCarousel .button-slide .right-button .right span {
+  color: #000;
+  border: 1px solid #e6e5e5;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.type-861 .slideshow #myCarousel .button-slide .right-button .right span:hover {
+  background-color: #e17365;
+}
+.type-861 .slideshow #myCarousel:hover .button-slide {
+  display: block;
+}
+@media (max-width: 353px) {
+  .type-861 .button-slide .left-button .left span {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .type-861 .button-slide .right-button .right span {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}

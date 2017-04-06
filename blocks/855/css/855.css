@@ -1,0 +1,66 @@
+.type-855 li {
+  list-style: none;
+}
+.type-855 .gold {
+  color: #FFBF00;
+}
+.type-855 .product-rating {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.type-855 .product-title {
+  font-size: 20px;
+}
+.type-855 .product-desc {
+  font-size: 14px;
+}
+.type-855 .product-price {
+  font-size: 22px;
+}
+.type-855 .product-info {
+  margin-top: 50px;
+}
+.type-855 .container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.type-855 .container-fluid .thumbnail {
+  padding: 0px;
+  border: none !important;
+}
+.type-855 .container-fluid .arrow_left {
+  position: fixed;
+  top: 40%;
+  left: 10px;
+  font-size: 20px;
+}
+.type-855 .container-fluid .arrow_right {
+  position: fixed;
+  top: 40%;
+  right: 10px;
+  font-size: 20px;
+}
+.type-855 .zoom-section {
+  clear: both;
+  margin-top: 20px;
+  display: inline;
+}
+.type-855 .zoom-section .zoom-desc {
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.type-855 .zoom-small-image {
+  border: 4px solid #CCC;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.type-855 .zoom-tiny-image {
+  border: 1px solid #CCC;
+  margin: 0px;
+}
+.type-855 .zoom-tiny-image:hover {
+  border: 1px solid #C00;
+}
