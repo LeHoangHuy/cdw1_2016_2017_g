@@ -14,15 +14,12 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-i-22.less', 'css/type-i-22.css');
+        $less->compileFile('less/878.less', 'css/878.css');
         ?>
-        <link href="css/type-i-22.css" rel="stylesheet" type="text/css" />  
+        <link href="css/878.css" rel="stylesheet" type="text/css" />  
         <script src="js/jquery.min.js" type="text/javascript"></script>
-
     </head>
-
     <body>
-      
         <div class="type-i-22">
             <div class="container">
                 <div class="row">
@@ -191,13 +188,9 @@
                                 <a href="#"><i class="glyphicon glyphicon-minus"></i></a>
                                 <ul id="ul_layered_price_0"> <label for="price">Range:</label>
                                     <span id="layered_price_range">$0.00 - $288.00</span>
-
                                 </ul>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
