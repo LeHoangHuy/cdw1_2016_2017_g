@@ -1,0 +1,229 @@
+.type-848 {
+    @color-background: #666;
+    @color-title: #fff;
+    @color-link-info: #fff;
+    @font-verdana: normal 13px Verdana;
+    background-color: @color-background;
+    color: #efefef;
+    overflow: hidden;
+    footer {
+        padding-bottom: 5px;
+        h4 {
+            font: normal 15px Georgia;
+            text-transform: uppercase;
+            color: @color-title;
+            line-height: 18px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            margin: 0;
+        }
+        #footer-info {
+            h4 {
+                padding-left: 10px;
+            }
+            ul {
+                list-style: none;
+                padding: 0 0 0 10px;
+                li {
+                    padding: 11px 0 11px 10px;
+                    border-top: 1px solid rgba(0,0,0,.05);
+                    border-bottom: 1px solid rgba(255,255,255,.05);
+                    transition: all .2s ease-in-out;
+                    a {
+                        font: @font-verdana;
+                        color: @color-link-info;
+                        text-decoration: none;
+                        line-height: 18px;
+                    }
+                    a:hover {
+                        color: #efefef;
+                    }
+                }
+                li:hover {
+                    background-color: rgba(255,255,255,.05);
+                    padding-left: 14px;
+                }
+            }
+        }
+        #footer-link {
+            #footer-info;
+        }
+        #footer-tweet {
+            font: @font-verdana;
+            .tweet-content {
+                padding: 0 0 25px 28px;
+                position: relative;
+                .tweet-icon {
+                    color: #a3a19d;
+                    position: absolute;
+                    font-size: 18px;
+                    top: 2px;
+                    left: 0;
+                }
+                p {
+                    padding-right: 30px;
+                    margin: 0;
+                }
+                a{
+                    text-decoration: none;
+                    .tweet-link {
+                        color: #c5988b;
+                        padding-right: 15px;
+                        margin-right: 20px;
+                        transition: all .2s ease-in-out;
+                    }
+                    .tweet-link:hover {
+                        color: #ccc;
+                    }
+                }
+                .tweet-day {
+                    color: #efefef;
+                    transition: all .2s ease-in-out;
+                }
+                .tweet-day:hover {
+                    color: #c6ccc5;
+                }
+            }
+        }
+        #footer-fb {
+            padding-right: 10px;
+            h4 {
+                float: left;
+            }
+            .like-button {
+                float: right;
+                color: white;
+                text-decoration: none;
+                background-color: #c5988b;
+                padding: 4px 9px;
+                margin-top: 28px;
+                transition: all .2s ease-in-out;
+            }
+            .like-button:hover {
+                background-color: #e17365;
+            }
+            .people-like {
+                font: @font-verdana;
+                a {
+                    color: white;
+                }
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    margin: 0 30px 30px 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .sub-footer {
+        border-top: 1px solid rgba(0,0,0,.05);
+        padding: 30px 0 20px;
+        clear: both;
+        p {
+            float: left;
+            color: #e1e1e1;
+            font: @font-verdana;
+            padding-top: 6px;
+            margin: 0;
+        }
+        ul {
+            float: right;
+            list-style: none;
+            padding: 0;
+            li {
+                display: inline-block;
+            }
+        }
+    }
+    @media all and (max-width: 991px) {
+        #footer-fb {
+            ul {
+                li {
+                    margin: 0 20px 20px 0 !important;
+                }
+            }
+        }
+    }
+    @media all and (min-width: 767px) {
+        .footer-btn {
+            display: none;
+        }
+        #footer-info, #footer-link, #footer-tweet, #footer-fb {
+            display: block;
+        }
+        .sub-footer {
+            p {
+                padding-left: 10px;
+            }
+            ul {
+                padding-right: 10px;
+            }
+        }
+    }
+    @media all and (max-width: 767px) {
+        footer {
+            h4 {
+                display: none;
+            }
+            #footer-info {
+                margin-top: 10px;
+            }
+            #footer-link {
+                #footer-info;
+            }
+            #footer-tweet {
+                #footer-info;
+            }
+            #footer-fb {
+                #footer-info;
+            }
+            .footer-btn {
+                background: none;
+                border: none;
+                outline: none;
+                display: block;
+                font-size: 25px;
+                padding-left: 10px;
+                margin-top: 25px;
+                width: 100%;
+                text-align: left;
+                border-bottom: 1px solid rgba(0,0,0,0.2);
+                background: url(../images/footer_arrows.png) no-repeat 100% 0;
+            }
+            #footer-info {
+                padding-top: 10px;
+                ul {
+                    padding: 0 !important;
+                }
+            }
+            .like-button {
+                display: none;
+            }
+        }
+    }
+    @media all and (max-width: 627px) {
+        .sub-footer {
+            p {
+                width: 45%;
+            }
+            ul {
+                width: 45%;
+            }
+        }
+    }
+    @media all and (max-width: 480px) {
+        .sub-footer {
+            ul {
+                li {
+                    margin: 0 0 10px 10px;
+                }
+            }
+        }
+    }
+}
