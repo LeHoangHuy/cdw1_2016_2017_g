@@ -1,0 +1,24 @@
+.type-863 .well {
+  background-color: #ffffff;
+  padding: 19px;
+}
+.type-863 h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.type-863 .btn-default {
+  background: #222;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
+  padding: 4px 12px;
+}
+.type-863 p {
+  text-transform: uppercase;
+}
+.type-863 .addui-slider .addui-slider-track .addui-slider-range {
+  background: #222;
+}
+.type-863 .addui-slider .addui-slider-track .addui-slider-handle:after {
+  background: #222;
+}

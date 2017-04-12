@@ -1,0 +1,105 @@
+.type-864 #topheader ul li {
+  float: left;
+  position: relative;
+  list-style: none;
+}
+.type-864 #topheader li a {
+  padding: 5px 10px;
+}
+.type-864 #topheader li a:hover {
+  color: #ffffff;
+}
+.type-864 #topheader {
+  color: #959595;
+  background: #222;
+  padding: 10px 0;
+  font-size: 12px;
+  padding-top: 10px;
+}
+.type-864 a {
+  background-color: transparent;
+  text-decoration: none;
+}
+.type-864 #topheader a {
+  color: #959595;
+}
+.type-864 #topheader .sub-menu {
+  position: absolute;
+  display: none;
+}
+.type-864 .show-on-hover:hover > ul.dropdown-menu {
+  display: block;
+}
+.type-864 .dropdown-menu a {
+  width: 100% !important;
+}
+.type-864 .dropdown-menu a:hover {
+  background: #2F2F2F !important;
+  color: #fff !important;
+}
+.type-864 .affix {
+  top: 0;
+  width: 100%;
+  background: #fff !important;
+}
+.type-864 .affix .brand {
+  color: #000;
+}
+.type-864 .affix + .container-fluid {
+  padding-top: 70px;
+}
+.type-864 .navbar {
+  margin-bottom: 0px !important;
+  z-index: 999;
+  margin-bottom: -5px !important;
+}
+.type-864 .navbar {
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+.type-864 .brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  display: block;
+  top: 20px;
+}
+.type-864 .navbar-inverse .navbar-nav>li>a {
+  color: #222;
+}
+.type-864 .navbar-inverse .navbar-nav>li>a:hover {
+  color: #222;
+  background: none;
+}
+.type-864 .mega-dropdown {
+  position: static !important;
+}
+.type-864 .mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.type-864 .mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.type-864 .mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.type-864 .mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.type-864 .mega-dropdown-menu > li ul > li > a:hover,
+.type-864 .mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.type-864 .mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
