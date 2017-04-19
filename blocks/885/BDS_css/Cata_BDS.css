@@ -1,0 +1,371 @@
+*{ text-decoration: none;}
+.sidebar-page {
+    position: relative;
+    padding: 70px 0px 40px;
+}
+.side .search-form button{
+    background-color: rgb(113, 177, 0);
+}
+.search-form form-group input[type="search"]:focus{
+    border-color: rgb(113, 177, 0) !important;
+}
+.side .search-form button {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    line-height: 24px;
+    display: block;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 7px 10px 8px;
+    background: rgb(113, 177, 0);
+    border-radius: 0px 3px 3px 0px;
+}
+.side .search-form input[type="search"]{
+    position: relative;
+    width: 100%;
+    line-height: 24px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    height: 42px;
+    font-size: 14px;
+    color: rgb(41, 41, 41);
+    padding: 8px 50px 8px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(208, 208, 208);
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.side .widget {
+    position: relative;
+    margin-bottom: 40px;
+}
+.side .side-title {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+}
+.side .side-title::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    width: 60px;
+    border-top: 1px solid rgb(113, 177, 0);
+}
+.side .side-title h3 {
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    text-transform: capitalize;
+}
+.side .side-title::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid rgb(113, 177, 0);
+}
+.widget ul li {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    line-height: 32px;
+    position: relative;
+    border-bottom: 1px solid rgb(213, 213, 213);
+    padding: 7px 0px 7px 20px;
+}
+.side li {
+    width: 100%;
+}
+.widget ul li::before {
+    content: "";
+    width:100%;
+    color: rgb(113, 177, 0);
+    display: block;
+    font-size: 14px;
+    height: 32px;
+    left: 0px;
+    line-height: 32px;
+    position: absolute;
+    top: 5px;
+    width: 20px;
+    font-family: FontAwesome;
+}
+.widget ul li a {
+    color: rgb(61, 61, 61);
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    border-bottom: none;
+}
+.widget ul li a:hover {
+    color: rgb(113, 177, 0);
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0px;
+    margin: 20px 0px;
+    border-radius: 4px;
+}
+.pager-outer .pagination li {
+    position: relative;
+    float: left;
+    margin: 3px 6px 3px 0;
+    border-width: initial !important;
+    border-style: none !important;
+    border-color: initial !important;
+
+}
+
+.pagination > li:first-child > span {
+    color: rgb(80, 80, 80);
+    display: block;
+    font-size: 14px;
+    min-width: 40px;
+    text-align: center;
+    padding: 7px 15px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(113, 177, 0) !important;
+
+}
+.pagination > li:first-child > span:hover,.pagination > li:first-child > span:focus, .pagination > li > span:hover, .pagination > li > span{
+    background-color: rgb(113, 177, 0);
+    color: #ffffff;
+}
+.pagination > li:first-child > span:hover, .pagination > li > span:hover {
+    color: rgb(255, 255, 255);
+    background: none 0px 0px repeat scroll rgb(113, 177, 0);
+}
+.pagination > li > span {
+    color: rgb(255, 255, 255);
+}
+.pager-outer .pagination a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(113, 177, 0);
+}
+.sunhouse-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sunhouse-title .main-title {
+    font-size: 2.143em;
+    color: rgb(61, 68, 72);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0px 0px 10px;
+}
+.sunhouse-title .sub-title {
+    color: rgb(94, 109, 119);
+    font-size: 1.14em;
+    margin: 0px;
+}
+.pagination > li > a{
+    color: #000000;
+}
+.blog-container .blog-post {
+    position: relative;
+    margin-bottom: 30px;
+    background: none;
+}
+.blog-post .inner-box .image{
+    max-width: 100%;
+}
+.blog-container .blog-post .image {
+    position: relative;
+    overflow: hidden;
+}
+.blog-container .blog-post .image img {
+    display: block;
+    width: 100%;
+}
+.blog-container .blog-post .image .post-options {
+    position: absolute;
+    right: -100px;
+    bottom: 0px;
+    opacity: 0;
+    transition: all 500ms ease;
+}
+.blog-container .blog-post .image .post-options .plus-icon {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 18px;
+    z-index: 1;
+    margin: 0px 15px 15px 0px;
+    background: rgb(113, 177, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(66, 103, 2);
+}
+.blog-container .blog-post .image .post-options .heart-icon {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 18px;
+    z-index: 1;
+    margin: 15px 15px 15px 0px;
+    background: rgb(113, 177, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(66, 103, 2);
+}
+.blog-container .blog-post .lower-part {
+    position: relative;
+    padding: 30px 0px;
+}
+.blog-container .blog-post .post-info {
+    color: #707070;
+    margin-bottom: 0px;
+}
+.blog-container .blog-post .post-info {
+    position: relative;
+    color: #707070;
+    font-size: 13px;
+    font-family: 'Bitter',serif;
+}
+.lower-part .post-info a.extraspace {
+    margin-left: 15px !important;
+}
+.blog-container .blog-post .post-info a {
+    color: #202020;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.blog-container .blog-post h3 {
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #191919 !important;
+}
+.blog-container .blog-post h3 a {
+    color: #202020;
+    transition: all 300ms ease 0s;
+}
+.blog-container .blog-post .post-text {
+    color: #212a2b;
+}
+.blog-container .blog-post .post-text {
+    position: relative;
+    margin-bottom: 20px;
+    color: #212A2B;
+}
+.blog-container .blog-post .post-info.lower {
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+    color: #707070;
+    padding: 15px 0;
+}
+.blog-container .blog-post .post-info.lower i {
+    color: #71b100;
+    font-size: 1.25em;
+}
+.blog-container .blog-post .post-info.lower a strong {
+    color: inherit;
+    font-weight: normal;
+}
+.blog-container .blog-post .post-info.lower i {
+    color: #71b100;
+    font-size: 1.25em;
+}
+.blog-container .blog-post .post-info a:hover{
+    color: #71b100;
+}
+.blog-container .blog-post:hover .image .post-options {
+    right: 0px !important;
+    opacity: 1;
+}
+.page-title {
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 70px 0px 76px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.page-title {
+    background-image: url(../images/page-title-bg-1.jpg);
+}
+.page-title::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.298039);
+}
+.page-title .auto-container {
+    position: relative;
+    z-index: 3;
+}
+.page-title .content-box {
+    border-radius: 10px;
+    opacity: 0.8;
+    position: relative;
+    display: inline-block;
+    max-width: 500px;
+    min-width: 180px;
+    padding: 15px 25px 20px;
+    background: rgb(255, 255, 255);
+}
+.page-title h1 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(34, 34, 34);
+}
+.content-box .page-title .bread-crumb {
+    position: relative;
+    color: rgb(53, 53, 53);
+}
+.content-box .bread-crumb .breadcrumb.pull-right {
+    background: none;
+    float: none !important;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.page-title .bread-crumb a {
+    display: inline-block;
+    color: rgb(170, 170, 170);
+    font-style: italic;
+    font-family: Bitter, serif;
+    margin: 0px 3px;
+}
+.page-title .bread-crumb a:hover, .page-title .bread-crumb a.current {
+    color: rgb(85, 85, 85);
+}

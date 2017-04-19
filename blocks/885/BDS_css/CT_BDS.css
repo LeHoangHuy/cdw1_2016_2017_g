@@ -1,0 +1,87 @@
+
+
+.intro-section{
+    background-color: #71b100 !important;
+    position: relative;
+    padding: 30px 0px;
+    background: #71b100;
+    color: #ffffff;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.intro-section .outer-box {
+    position: relative;
+    padding-left: 300px;
+}
+.intro-section .outer-box .anim-image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.animated{
+    webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.intro-section p {
+    margin-top: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+    border-left: 3px solid #ffffff;
+
+    position: relative;
+    line-height: 1.8em;
+
+}
+.intro-section .theme-btn {
+    margin-top: 18px;
+    padding: 10px 25px;
+}
+.btn-style-two {
+    position: relative;
+    padding: 8px 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    background: none;
+    color: #ffffff !important;
+    font-size: 11px;
+    border: 2px solid #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.btn-style-two:hover
+{
+    background-color: #ffffff !important;
+    color: #71b100 !important;
+}
+
+@media only screen and (max-width: 1023px)
+{
+    .intro-section .outer-box {
+        padding-left: 0px;
+    }
+    .intro-section .outer-box .anim-image {
+        position: relative;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.main-footer {
+    position: relative;
+    background: #1a1d1f;
+    padding: 0px;
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.main-footer .footer-content {
+    color: #999999;
+}
+.footer-content {
+    position: relative;
+    padding: 50px 0px 40px;
+    color: #3b3b3b;
+    text-align: center;
+}
+.footer-content .social-links {
+    position: relative;
+    margin-bottom: 15px;
+}
+.footer-content .social-links a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    background: #3b3b3b;
+    font-size: 16px;
+    margin: 0px 5px;
+    border-radius: 3px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
