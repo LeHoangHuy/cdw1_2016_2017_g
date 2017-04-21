@@ -1,0 +1,483 @@
+.type-868{
+    .slide3 {
+        background: transparent;
+        .carousel-showmanymoveone
+        {
+            .carousel-control
+            { 
+                width: 4%;
+                background-image:none;
+
+                &.left 
+                {
+                    margin-left:15px;
+                }
+
+                &.right 
+                {
+                    margin-right:15px;
+                }
+            }
+
+            .cloneditem-1, 
+            .cloneditem-2, 
+            .cloneditem-3
+            {
+                display: none;
+            }
+
+            .carousel-inner
+            {
+                @media all and (min-width: 768px)
+                    {
+                    @media (transform-3d), (-webkit-transform-3d)
+                    {
+                        > .item.active.right,
+                        > .item.next
+                        { 
+                            transform: translate3d(50%, 0, 0);  
+                            left: 0;
+                        }
+
+                        > .item.active.left,
+                        > .item.prev
+                        { 
+                            transform: translate3d(-50%, 0, 0);
+                            left: 0;
+                        }
+
+                        > .item.left,
+                        > .item.prev.right,
+                        > .item.active
+                        {
+                            width: calc(102.4%);   
+                            transform: translate3d(0, 0, 0);
+                            left: 0;
+                        }    
+                    } 
+
+                    > .active.left,
+                    > .prev
+                    {
+                        left: -50%;
+                    }
+
+                    > .active.right,
+                    > .next
+                    {
+                        left:  50%;
+                    }
+
+                    > .left,
+                    > .prev.right,
+                    > .active
+                    {
+                        left: 0;
+                    }
+
+                    .cloneditem-1 
+                    {
+                        display: block;
+                    }
+                }
+
+                @media all and (min-width: 992px)
+                    {    
+                    @media (transform-3d), (-webkit-transform-3d)
+                    {
+                        > .item.active.right,
+                        > .item.next
+                        { 
+                            transform: translate3d(25%, 0, 0);  
+                            left: 0;
+                        }    
+
+                        > .item.active.left,
+                        > .item.prev
+                        { 
+                            transform: translate3d(-25%, 0, 0);
+                            left: 0;
+                        }
+
+                        > .item.left,
+                        > .item.prev.right,
+                        > .item.active
+                        {
+                            width: calc(102.4%);                                  
+                            transform: translate3d(0, 0, 0);
+                            left: 0;
+                        }
+                    }
+
+                    > .active.left,
+                    > .prev
+                    {
+                        left: -25%;
+                    }
+
+                    > .active.right,
+                    > .next
+                    {
+                        left:  25%;
+                    }
+
+                    > .left,
+                    > .prev.right,
+                    > .active
+                    {
+                        left: 0;
+                    }
+
+                    .cloneditem-2, 
+                    .cloneditem-3
+                    {
+                        display: block;
+                    }
+                }    
+            }
+        }
+        font: normal 13px/18px Georgia,"Times New Roman";
+        .svgic {
+            display: inline-block;
+            vertical-align: top;
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+            pointer-events: none;
+        }
+
+
+        .dib {
+            display: inline-block;
+            vertical-align: top;
+        }
+        a.button{
+            box-shadow: inset 0 0 0 2px #706e69;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            color: #706e69!important;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center; 
+
+            background-color: transparent;
+        }
+        .bx-controls {
+            position: absolute;
+            z-index: 99;
+            bottom: 25px;
+            right: 0px;
+            text-align: center;
+
+        }
+        .bx-controls-direction a {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            text-align: center;
+            padding: 0;
+            margin-right: 10px;
+            position: relative;
+
+        }
+        .trangsanpham .bx-controls-direction .smooth02:hover {
+            background: #7accbe;
+        }
+        .button {
+            font-style: inherit;
+            margin: 0;
+            align-items: flex-start;
+            box-sizing: border-box;
+            text-rendering: auto;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            font: 13.3333px Arial;
+            -webkit-writing-mode: horizontal-tb;
+            box-shadow: inset 0 0 0 2px #706e69;
+        }
+        .button.button{
+            font-family: "LMRomanCaps10-Regular";
+            background-color: transparent;
+        }
+        .col-sm-6 {
+            padding-left: 0px;
+            padding-right: 20px;
+        }
+        a {
+            margin: 0;
+            padding: 0;
+            color: #878787;
+        }
+        .carousel-control.left {
+            background-image: none;
+            background-repeat: repeat-x;
+        }
+        .carousel-control.right {
+            background-image: none;
+            background-repeat: repeat-x;
+        } 
+        .glyphicon {
+            top: 1px;
+            margin-left: -10px;
+            margin: 5px 5px;
+            right: 0px;
+            left: 3px;
+        }
+        .glyphicon:hover {
+            color: #fff;
+        }
+        a:hover {
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .ima {
+            height: auto;
+            border: 1px solid #e6e5e5;
+        }
+        .price_container {
+            opacity: 1;
+            margin-bottom: 10px;
+            text-align: left;
+            padding: 0;
+            margin-top: 20px;
+
+        }
+        p {
+            margin: 0;
+            display: block;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+
+        }
+        .price {
+            font-size: 17px;
+            margin: 7px 0;
+            font-family: "lm_roman_demi_10regular";
+            color: #3ea8a4;
+        }
+        .altview {
+            display: block;
+        }
+
+
+        .s_title_block  .ellipsis {
+            text-align: left;
+            font: normal 17px/20px Georgia;
+            margin-bottom: 10px;
+            color:  #787878;
+        }
+
+        .icon4 {
+            left: 0px;
+            width: 4.5rem;
+            top: -11px;
+            margin-left: -2px;
+        }
+        .icon5 {
+            width: 2.0rem;
+            margin-top: 25px;
+            margin-left: -18px;
+        }
+        .icon6 {
+            width: 2.7rem;
+            margin-left: 2px;
+        }
+        .giang {
+            top: 150px;
+            right: 15px;
+            position: absolute;
+            overflow: hidden;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            -webkit-transform: translate(0px, 0px) rotate(0deg);
+            -ms-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+            -webkit-transition: all 0.1s 0.1s ease-in-out;
+            transition: all 0.1s 0.1s ease-in-out;
+            width: 90%;
+            height: 292px;
+        }
+        .sp {
+            width: 100%;
+            height: 440px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        .sp:hover  .giang {
+            opacity: 1;
+            -webkit-transition-delay: 0s;
+            -webkit-transform: translate(0px, 0px);
+            -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px); 
+        }
+        .bx-controls-direction .smooth02 {
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            text-align: center;
+            padding: 0;
+            margin-right: 10px;
+            background: transparent;
+            position: relative;
+        }
+        .nextbutton:hover {
+            background: #e17365;
+        }
+        .prebutton:hover {
+            background: #e17365;
+        }
+        .lmroman1  {
+            font-family: "LMRoman10Regular";      
+            padding: 0;
+            cursor: pointer;
+            border-bottom: 2px solid #aeaba3;
+            margin-bottom: 1px;
+            font-size: 25px;
+            text-align: left;
+            line-height: 46px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            color: #666;
+        }
+        .nextbutton {
+            left: auto;
+            right: 30px;
+            width: 25px;
+            height: 25px;
+            border: 2px solid #8a8882;
+            right:  25px;
+            top: -15px;
+            position: absolute;
+            transition: all .2s ease-in-out;
+            text-align: center;
+            cursor: pointer;
+            margin-right: 1px;
+        }
+        .prebutton {
+            left: auto;
+            right: 0;
+            width: 25px;
+            height: 25px;
+            border: 2px solid #8a8882;
+            top: -15px;
+            position: absolute;
+            transition: all .2s ease-in-out;
+            text-align: center;
+            cursor: pointer;
+
+        }
+        .bx-controls-direction1 {
+            z-index: 99;
+            bottom: 25px;
+            right: 25px;
+            text-align: right;
+            left: 15px; 
+
+            .glyphicon {
+                left: -9px;
+                top: -2px;
+                font-size: 15px;
+            }   
+        }
+        .hovereffect-2 {
+            width: 100%;
+            height: 100%;
+            float: left;
+            position: relative;
+            text-align: center;
+            cursor: default;
+            margin-left: 0px;
+
+        }
+        .carousel-title {
+            border-bottom: 1px solid #bdbcbc;
+        }
+        .new {
+            margin-bottom: -30px;
+        }
+        .addcart1 {
+            font-size: 14px;
+            opacity: 1;
+            position: relative;
+            display: inline-block;
+            z-index: 99;
+            font: normal 13px/18px Georgia,"Times New Roman";
+            margin: 0 !important;
+            background-color: #7accbe;
+            text-transform: uppercase;
+            padding: 7px 11px;
+            color: #fff;
+            bottom: 310px;
+            left: 10px;
+            line-height: 16px;
+            cursor: pointer;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+        }
+        .giang2 {
+            text-align: left;
+            margin-bottom: -30px;
+        }
+        .trangsanpham .bx-controls-direction .smooth02 {
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            text-align: center;
+            border: 1px solid #e6e5e5;
+            padding: 0;
+            margin-right: 10px;
+            background: #cdcdcd;
+            position: relative;
+        }
+        .bx-controls-direction .smooth02:hover{
+            border: 0px solid #7accbe;
+            background-color: #7accbe;
+            position: relative;
+        }
+        .trangsanpham .bx-controls-direction .button {
+            box-shadow: inset 0 0 0 1px #fff;
+        }
+        .ima1 {           
+            width: 100%;
+        }
+        @media all and (max-width: 768px) {
+            .banners_carousel_wrap {
+                margin-right: 0px;
+            }
+            .bx-controls-direction1 .glyphicon {
+                left: -1px;
+            }
+            .aaa{
+                display: none;
+            } 
+            .sp {
+                width: 100%;
+                height: auto;  
+
+            }
+            .item.active
+            {
+                transform: translate3d(0, 0, 0);
+                left: 0;
+                width: calc(102.5%);
+            }
+            .giang {
+                top: 40%;
+                right: 14%;
+                position: absolute;          
+                width: 75%;
+                text-align: center;
+                height: auto;
+            }
+            .carousel-title .bx-controls {          
+                right: 0px;
+            }
+
+        }     
+    }
+}
