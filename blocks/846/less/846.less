@@ -1,0 +1,230 @@
+.type-846 {
+    box-sizing: border-box;
+    background: #f9f9f9;
+    a {
+        text-decoration: none;
+        color: #222;
+    }
+    .product-detail {
+        .title {
+            .name {
+                float: left;
+                h3 {
+                    color: #222;
+                    font-size: 19px;
+                }
+            }
+            .rating {
+                float: right;
+                margin-top: 20px;
+                ul li {
+                    list-style: none;
+                    display: inline-block;
+                    a {
+                        color: #222;
+                    }
+                }
+            }
+        }
+        .description {
+            margin-top: 25px;
+            p {
+                label {
+                    font-weight: normal;
+                }
+                a {
+                    color: #999;
+                }
+                a:hover {
+                    color: #e17365;
+                }
+            }
+        }
+        .menu-tab {
+            .nav-pills {
+                .active {
+                    a {
+                        background: #fff;
+                        color: #000;
+                        border: 1px #e0e0e0 solid;
+                        border-bottom: none;
+                        border-radius: 0;
+                    }
+                }
+                a {
+                    background: #e0e0e0;
+                    border-radius: 0;
+                    width: 100%;
+                }
+            }
+            .tab-info {
+                background-color: #fff;
+                border: 1px #e0e0e0 solid;
+                border-top: none;
+                padding: 10px;
+                p {
+                    margin: 0;
+                    iframe {
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
+            .tab-content {
+                #home {
+                    box-sizing: border-box;
+                }
+                #menu1 {
+                    padding: 15px;
+                    img {
+                        width: 100%;
+                    }                      
+                }
+                #menu2 {
+                    #home;
+                }
+                #menu3 {
+                    #home;
+                }
+            }
+            .comment {
+                padding: 1px;
+                border-bottom: 1px solid #e0e0e0;
+                h5 {
+                    color: #666;
+                    float: left;
+                }
+                .rate {
+                    margin-top: 7px;
+                    margin-left: 5px;
+                    ul li {
+                        list-style: none;
+                        display: inline;
+                        span {
+                            color: #666;
+                        }
+                    }
+                    .star-empty {
+                        span {
+                            color: #e0e0e0;
+                        }
+                    }
+                }
+                .time {
+                    h5 {
+                        font-weight: bold;
+                    }
+                }
+                .cmt {
+                    h1 {
+                        font-size: 28px;
+                        margin: 0 0 5px;
+                    }
+                }
+            }  
+        }
+        .addtocart {
+            overflow: hidden;
+            .cbb-size {
+                box-sizing: border-box;
+                margin-top: 15px;
+            }
+            .cbb-color {
+                .cbb-size;
+            }
+            .quantity {
+                margin-top: 15px;
+            }
+        }
+        .price {
+            padding-top: 30px;
+            span {
+                font-size: 18px;
+                color: #c5988b;
+                margin-right: 20px;
+            }
+            a {
+                background: #7a7975;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 12px;
+                padding: 8px 20px;
+                font-weight: normal;
+                width: 27%;
+                transition: all 0.2s ease-in-out;
+            }
+            a:hover {
+                background-color: #e1423c;
+                color: #fff;
+                border: none;
+            }
+        }
+        .link{
+            border-top: 1px solid #e0e0e0; 
+            margin-top: 30px;
+            ul {
+                padding: 0;
+                li{
+                    margin-top: 20px;
+                    list-style: none;
+                    display: inline-block;
+                    overflow: hidden;
+                    a{
+                        img{
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }    
+                }
+            }
+            .addmywistlist{
+                margin-left: 30px;
+            }
+        }
+    }
+    @media all and (max-width: 490px) {
+        .product-detail {
+            .title {
+                .rating {
+                    float: left;
+                    ul {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    @media all and (max-width: 480px) {
+        .addtocart {
+            .cbb-size {
+                select {
+                    width: 100%;
+                }
+            }
+            .cbb-color {
+                .cbb-size;
+            }
+            .quantity {
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @media(max-width: 425px) {
+        .product-detail {
+            .menu-tab {
+                .nav-pills {
+                    li {
+                        float: none;
+                    }
+                }
+            }
+            .price {
+                span {
+                    font-size: 15px; 
+                }
+            }
+        }
+    }
+}

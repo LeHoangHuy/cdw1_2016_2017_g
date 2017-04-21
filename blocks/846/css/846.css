@@ -1,0 +1,191 @@
+.type-846 {
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+.type-846 a {
+  text-decoration: none;
+  color: #222;
+}
+.type-846 .product-detail .title .name {
+  float: left;
+}
+.type-846 .product-detail .title .name h3 {
+  color: #222;
+  font-size: 19px;
+}
+.type-846 .product-detail .title .rating {
+  float: right;
+  margin-top: 20px;
+}
+.type-846 .product-detail .title .rating ul li {
+  list-style: none;
+  display: inline-block;
+}
+.type-846 .product-detail .title .rating ul li a {
+  color: #222;
+}
+.type-846 .product-detail .description {
+  margin-top: 25px;
+}
+.type-846 .product-detail .description p label {
+  font-weight: normal;
+}
+.type-846 .product-detail .description p a {
+  color: #999;
+}
+.type-846 .product-detail .description p a:hover {
+  color: #e17365;
+}
+.type-846 .product-detail .menu-tab .nav-pills .active a {
+  background: #fff;
+  color: #000;
+  border: 1px #e0e0e0 solid;
+  border-bottom: none;
+  border-radius: 0;
+}
+.type-846 .product-detail .menu-tab .nav-pills a {
+  background: #e0e0e0;
+  border-radius: 0;
+  width: 100%;
+}
+.type-846 .product-detail .menu-tab .tab-info {
+  background-color: #fff;
+  border: 1px #e0e0e0 solid;
+  border-top: none;
+  padding: 10px;
+}
+.type-846 .product-detail .menu-tab .tab-info p {
+  margin: 0;
+}
+.type-846 .product-detail .menu-tab .tab-info p iframe {
+  text-align: center;
+  width: 100%;
+}
+.type-846 .product-detail .menu-tab .tab-content #home {
+  box-sizing: border-box;
+}
+.type-846 .product-detail .menu-tab .tab-content #menu1 {
+  padding: 15px;
+}
+.type-846 .product-detail .menu-tab .tab-content #menu1 img {
+  width: 100%;
+}
+.type-846 .product-detail .menu-tab .tab-content #menu2 {
+  box-sizing: border-box;
+}
+.type-846 .product-detail .menu-tab .tab-content #menu3 {
+  box-sizing: border-box;
+}
+.type-846 .product-detail .menu-tab .comment {
+  padding: 1px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.type-846 .product-detail .menu-tab .comment h5 {
+  color: #666;
+  float: left;
+}
+.type-846 .product-detail .menu-tab .comment .rate {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.type-846 .product-detail .menu-tab .comment .rate ul li {
+  list-style: none;
+  display: inline;
+}
+.type-846 .product-detail .menu-tab .comment .rate ul li span {
+  color: #666;
+}
+.type-846 .product-detail .menu-tab .comment .rate .star-empty span {
+  color: #e0e0e0;
+}
+.type-846 .product-detail .menu-tab .comment .time h5 {
+  font-weight: bold;
+}
+.type-846 .product-detail .menu-tab .comment .cmt h1 {
+  font-size: 28px;
+  margin: 0 0 5px;
+}
+.type-846 .product-detail .addtocart {
+  overflow: hidden;
+}
+.type-846 .product-detail .addtocart .cbb-size {
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.type-846 .product-detail .addtocart .cbb-color {
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.type-846 .product-detail .addtocart .quantity {
+  margin-top: 15px;
+}
+.type-846 .product-detail .price {
+  padding-top: 30px;
+}
+.type-846 .product-detail .price span {
+  font-size: 18px;
+  color: #c5988b;
+  margin-right: 20px;
+}
+.type-846 .product-detail .price a {
+  background: #7a7975;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 20px;
+  font-weight: normal;
+  width: 27%;
+  transition: all 0.2s ease-in-out;
+}
+.type-846 .product-detail .price a:hover {
+  background-color: #e1423c;
+  color: #fff;
+  border: none;
+}
+.type-846 .product-detail .link {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 30px;
+}
+.type-846 .product-detail .link ul {
+  padding: 0;
+}
+.type-846 .product-detail .link ul li {
+  margin-top: 20px;
+  list-style: none;
+  display: inline-block;
+  overflow: hidden;
+}
+.type-846 .product-detail .link ul li a img {
+  width: 16px;
+  height: 16px;
+}
+.type-846 .product-detail .link .addmywistlist {
+  margin-left: 30px;
+}
+@media all and (max-width: 490px) {
+  .type-846 .product-detail .title .rating {
+    float: left;
+  }
+  .type-846 .product-detail .title .rating ul {
+    padding: 0;
+  }
+}
+@media all and (max-width: 480px) {
+  .type-846 .addtocart .cbb-size select {
+    width: 100%;
+  }
+  .type-846 .addtocart .cbb-color select {
+    width: 100%;
+  }
+  .type-846 .addtocart .quantity input {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .type-846 .product-detail .menu-tab .nav-pills li {
+    float: none;
+  }
+  .type-846 .product-detail .price span {
+    font-size: 15px;
+  }
+}
