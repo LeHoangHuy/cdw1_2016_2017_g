@@ -1,0 +1,120 @@
+.type-860 {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.type-860 .slide-show #mySlide {
+  text-align: center;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor {
+  position: relative;
+  bottom: 150px;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .name1 h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .name2 h3 {
+  color: #8a877f;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .product1 h2 {
+  text-transform: uppercase;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .product2 h2 {
+  color: #514f4a;
+  text-transform: uppercase;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .description1 p {
+  color: #fff;
+  padding: 12px 0px;
+  font: normal 17px/24px Verdana;
+  padding: 0 0 15px;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .description2 p {
+  color: #8a877f;
+  padding: 12px 0px;
+  font: normal 17px/24px Verdana;
+  padding: 0 0 15px;
+  text-shadow: none;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .take-look a {
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 10px 10px;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .take-look a:hover {
+  text-decoration: none;
+  background-color: #fe99a1;
+  border: none;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .shop-now a {
+  color: #8a877f;
+  text-transform: uppercase;
+  border: 2px solid #8a877f;
+  padding: 10px 10px;
+  text-shadow: none;
+}
+.type-860 .slide-show #mySlide .item .carousel-caption .infor .shop-now a:hover {
+  text-decoration: none;
+  background-color: #fe99a1;
+  border: none;
+  color: #fff;
+}
+.type-860 .slide-show #mySlide .btn-slide #left-btn a {
+  border: 2px solid #706e69;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 25px;
+  right: 100px;
+  font-size: 20px;
+  color: #706e69;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.type-860 .slide-show #mySlide .btn-slide #left-btn a:active .infor {
+  display: block;
+}
+.type-860 .slide-show #mySlide .btn-slide #right-btn a {
+  border: 2px solid #706e69;
+  position: absolute;
+  padding: 5px 10px;
+  bottom: 25px;
+  right: 50px;
+  font-size: 20px;
+  color: #706e69;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+@media (max-width: 465px) {
+  .type-860 .slide-show .slide-show .item .carousel-caption .infor {
+    bottom: 0px;
+  }
+  .type-860 .slide-show .slide-show .item .carousel-caption .infor h3 {
+    font-size: 13px;
+  }
+  .type-860 .slide-show .slide-show .item .carousel-caption .infor h2 {
+    font-size: 15px;
+  }
+  .type-860 .slide-show .slide-show .item .carousel-caption .infor p {
+    font-size: 12px;
+  }
+  .type-860 .slide-show .slide-show .item .carousel-caption .infor a {
+    font-size: 7px;
+  }
+  .type-860 .slide-show .slide-show .btn-slide #right-btn a {
+    right: 10px;
+    font-size: 8px;
+  }
+  .type-860 .slide-show .slide-show .btn-slide #left-btn a {
+    right: 50px;
+    font-size: 8px;
+  }
+}

@@ -24,6 +24,7 @@
 
     <body> 
         <div class="type-861">
+		<!-- BEGIN TYPE-861 -->
             <div class="container">
                 <div class="row">
                     <div class="slideshow">
@@ -56,6 +57,7 @@
                     </div>
                 </div>   
             </div>
+			<!-- END TYPE-861 -->
         </div>        
     </body>
 

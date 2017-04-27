@@ -1,0 +1,171 @@
+.type-857{
+    box-sizing: border-box;
+    @border-color: #e0e0e0;
+    background-color: #f9f9f9;
+    a{
+        text-decoration: none;
+    }
+    .location{
+        margin-top: 30px;
+        a{
+            color: #000;
+        }
+        a:hover{
+            color: #e17365;
+        }
+    }
+    .banner{
+        overflow: hidden;
+        margin-top: 20px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .info-banner{
+            position: absolute;
+            top: 31%;
+            left: 4%;
+            width: 40%;
+            h1{
+                text-transform: uppercase;
+            }
+            p{
+                margin-bottom: 100px;
+                font-size: 16px;
+            }
+        }
+    }
+    .sortPagiBar{
+        background-color: #f1eee7;
+        overflow: hidden;
+    }
+    .product{
+        .block{
+            margin: 20px 0px;
+            .image{
+                .image-show{
+                    border: 1px solid @border-color;
+                    .add{
+                        position: absolute;
+                        border: 1px solid @border-color;
+                        padding: 8px 8px;
+                        top: 5px;
+                        left: 20px;
+                    }
+                    img{
+                        z-index: 1;
+                        width: 100%;
+                        height: auto;
+                        text-align: center;
+                    }
+                    .sale{
+                        position: absolute;
+                        top: 3px;
+                        right: 20px;
+                        span{
+                            color: #fff;
+                            text-transform: uppercase;
+                            background-color: #E1423C;
+                        }
+                    }
+                }
+                .image-hidden{
+                    border: 1px solid @border-color;
+                    display: none;
+                    img{
+                        z-index: 1;
+                        width: 100%;
+                        height: auto;
+                        text-align: center;
+                    }
+                    .add{
+                        position: absolute;
+                        border: 1px solid @border-color;
+                        padding: 8px 8px;
+                        top: 5px;
+                        left: 20px;
+                    }
+                    .sale{
+                        position: absolute;
+                        top: 3px;
+                        right: 20px;
+                        span{
+                            color: #fff;
+                            text-transform: uppercase;
+                            background-color: #e17365;
+                        }
+                    }
+                }
+            }
+            .name{
+                text-align: center;
+                margin-top: 15px;
+                a{
+                    color: #969696;
+                    font-size: 15px;
+                }
+                a:hover{
+                    color: #e17365;
+                }
+            }
+            .price{
+                text-align: center;
+                h3{
+                    color: #c5988b;
+                }
+                .addtocard{
+                    display: none;
+                    position: absolute;
+                    text-align: center;
+                    bottom: 0;
+                    ul{
+                        li{ 
+                            display: inline-block;
+                            a{
+                                color: #fff;
+                                padding: 10px 10px;
+                                background-color: #969696; 
+                            }
+                        }  
+                    }
+                    li:hover{
+                        a{
+                            background-color: #e17365;
+                        }
+                    }
+                }
+            }
+        }
+        .block:hover{
+            .image-show{
+                display: none;
+            }
+            .image-hidden{
+                display: block;
+            }
+
+            .addtocard{
+                display: block;
+            }
+
+        }
+    }
+    @media(max-width: 705px){
+        .banner{
+            .info-banner{
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+    @media(max-width: 350px){
+        .banner{
+            .info-banner{
+                h1{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

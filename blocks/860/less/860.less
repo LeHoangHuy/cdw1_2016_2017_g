@@ -1,0 +1,166 @@
+.type-860{
+    @white-color: #fff;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    .slide-show{
+        #mySlide{
+            text-align: center;
+            .item{
+                .carousel-caption{
+                    .infor{
+                        position: relative;
+                        bottom: 150px;
+                        .name1{
+                            h3{
+                                color: @white-color;
+                                text-transform: uppercase;
+                            }
+                        }
+                        .name2{
+                            h3{
+                                color: #8a877f;
+                                text-transform: uppercase;
+                                font-weight: normal;
+                            }
+                        }
+                        .product1{
+                            h2{
+                                .h3;
+                                text-transform: uppercase;
+                            }
+                        }
+                        .product2{
+                            h2{
+                                color: #514f4a;
+                                text-transform: uppercase;
+                            }
+                        }
+                        .description1{
+                            p{
+                                color: @white-color;
+                                padding: 12px 0px;
+                                font: normal 17px/24px Verdana;
+                                padding: 0 0 15px;
+                            }
+                        }
+                        .description2{
+                            p{
+                                color: #8a877f;
+                                padding: 12px 0px;
+                                font: normal 17px/24px Verdana;
+                                padding: 0 0 15px;
+                                text-shadow: none;
+                            }
+                        }
+                        .take-look{
+                            a{
+                                color: @white-color;
+                                text-transform: uppercase;
+                                border: 2px solid @white-color;
+                                padding: 10px 10px;
+                            }
+                            a:hover{
+                                text-decoration: none;
+                                background-color: #fe99a1;
+                                border: none;
+                            }
+                        }
+                        .shop-now{
+                            a{
+                                color: #8a877f;
+                                text-transform: uppercase;
+                                border: 2px solid #8a877f;
+                                padding: 10px 10px;
+                                text-shadow: none;
+                            }
+                            a:hover{
+                                text-decoration: none;
+                                background-color: #fe99a1;
+                                border: none;
+                                color: @white-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-slide{
+                #left-btn{
+                    a{                 
+                        border: 2px solid #706e69;
+                        padding: 5px 10px;
+                        position: absolute;
+                        bottom: 25px;
+                        right: 100px;
+                        font-size: 20px;
+                        color: #706e69;
+                        text-align: center;
+                        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+                        background-color: rgba(0,0,0,0);
+                        filter: alpha(opacity=50);
+                        opacity: .5;
+                    }
+                    a:active{
+                        .infor{
+                            display: block;
+                        }
+                    }
+                }
+                #right-btn{ 
+                    a{
+                        border: 2px solid #706e69;
+                        position: absolute;
+                        padding: 5px 10px;
+                        bottom: 25px;
+                        right: 50px;
+                        font-size: 20px;
+                        color: #706e69;
+                        text-align: center;
+                        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+                        background-color: rgba(0,0,0,0);
+                        filter: alpha(opacity=50);
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        @media(max-width: 465px){
+            .slide-show{
+                .item{
+                    .carousel-caption{
+                        .infor{
+                            bottom: 0px;
+                            h3{
+                                font-size: 13px;  
+                            }
+                            h2{
+                                font-size: 15px; 
+                            }
+                            p{
+                                font-size: 12px;
+                            }
+                            a{
+                                font-size: 7px;
+                            }
+                        }
+                    }
+                }
+                .btn-slide{
+                    #right-btn{
+
+                        a{
+                            right: 10px;
+                            font-size: 8px; 
+                        }
+                    }
+                    #left-btn{       
+                        a{
+                            right: 50px;
+                            font-size: 8px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

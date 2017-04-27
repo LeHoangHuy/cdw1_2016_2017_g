@@ -1,0 +1,22 @@
+.type-888 {
+  box-sizing: boder-box;
+  overflow: hidden;
+}
+.type-888 .invoice-title h2 {
+  display: inline-block;
+}
+.type-888 .invoice-title h3 {
+  display: inline-block;
+}
+.type-888 .panel .panel-body .table tbody tr .no-line {
+  border-top: none;
+}
+.type-888 .panel .panel-body .table tbody tr .thick-line {
+  border-top: 2px solid;
+}
+.type-888 .panel .panel-body .table thead tr .no-line {
+  border-top: none;
+}
+.type-888 .panel .panel-body .table thead tr .thick-line {
+  border-top: 2px solid;
+}

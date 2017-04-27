@@ -1,0 +1,287 @@
+.type-893 {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.type-893 a {
+  text-decoration: none;
+}
+.type-893 .title {
+  margin-bottom: 20px;
+}
+.type-893 .title h2 {
+  text-align: center;
+}
+.type-893 .border {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+.type-893 .btn-add-more {
+  margin: 10px 0 30px 0;
+  background-color: #5bc0de;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+}
+.type-893 .btn-add-more a {
+  color: #fff;
+}
+.type-893 .pn-tittle {
+  padding: 15px 0;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.type-893 .review {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.type-893 .review .title-review {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+.type-893 .review .title-review h4 {
+  margin-left: 10px;
+}
+.type-893 .review .title-review h4 a {
+  color: #000;
+}
+.type-893 .review .infor {
+  margin: 20px 0 0 40px;
+}
+.type-893 .review .infor .name {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+.type-893 .review .infor .name .posting h6 {
+  margin-top: 10px;
+}
+.type-893 .review .infor .name .btn-close {
+  margin: 10px 0;
+}
+.type-893 .review .infor .name .btn-close a {
+  padding: 3px 8px;
+  background-color: #f0ad4e;
+  float: right;
+  color: #fff;
+  border-color: #eea236;
+}
+.type-893 .review .infor .name .btn-close a:hover {
+  background-color: #d58512;
+}
+.type-893 .review .infor .decs {
+  margin-top: 10px;
+}
+.type-893 .review .infor .text {
+  float: left;
+  padding-bottom: 20px;
+}
+.type-893 .review .infor .cost {
+  float: right;
+}
+.type-893 .review .infor .total h3 {
+  text-align: center;
+}
+.type-893 .review .infor .total h4 {
+  text-align: center;
+  color: green;
+}
+.type-893 .contact {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.type-893 .contact .title-review {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+.type-893 .contact .title-review h4 {
+  margin-left: 10px;
+}
+.type-893 .contact .title-review h4 a {
+  color: #000;
+}
+.type-893 .contact .infor {
+  margin: 20px 0 0 40px;
+}
+.type-893 .contact .infor .name {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+.type-893 .contact .infor .name .posting h6 {
+  margin-top: 10px;
+}
+.type-893 .contact .infor .name .btn-close {
+  margin: 10px 0;
+}
+.type-893 .contact .infor .name .btn-close a {
+  padding: 3px 8px;
+  background-color: #f0ad4e;
+  float: right;
+  color: #fff;
+  border-color: #eea236;
+}
+.type-893 .contact .infor .name .btn-close a:hover {
+  background-color: #d58512;
+}
+.type-893 .contact .infor .decs {
+  margin-top: 10px;
+}
+.type-893 .contact .infor .text {
+  float: left;
+  padding-bottom: 20px;
+}
+.type-893 .contact .infor .cost {
+  float: right;
+}
+.type-893 .contact .infor .total h3 {
+  text-align: center;
+}
+.type-893 .contact .infor .total h4 {
+  text-align: center;
+  color: green;
+}
+.type-893 .contact .post {
+  margin: 0 20px;
+}
+.type-893 .contact .post ul {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.type-893 .contact .post ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.type-893 .contact .post ul .main {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 20px 0 40px 0;
+}
+.type-893 .pay-information {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.type-893 .pay-information .title-review {
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+.type-893 .pay-information .title-review h4 {
+  margin-left: 10px;
+}
+.type-893 .pay-information .title-review h4 a {
+  color: #000;
+}
+.type-893 .pay-information .infor {
+  margin: 20px 0 0 40px;
+}
+.type-893 .pay-information .infor .name {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+.type-893 .pay-information .infor .name .posting h6 {
+  margin-top: 10px;
+}
+.type-893 .pay-information .infor .name .btn-close {
+  margin: 10px 0;
+}
+.type-893 .pay-information .infor .name .btn-close a {
+  padding: 3px 8px;
+  background-color: #f0ad4e;
+  float: right;
+  color: #fff;
+  border-color: #eea236;
+}
+.type-893 .pay-information .infor .name .btn-close a:hover {
+  background-color: #d58512;
+}
+.type-893 .pay-information .infor .decs {
+  margin-top: 10px;
+}
+.type-893 .pay-information .infor .text {
+  float: left;
+  padding-bottom: 20px;
+}
+.type-893 .pay-information .infor .cost {
+  float: right;
+}
+.type-893 .pay-information .infor .total h3 {
+  text-align: center;
+}
+.type-893 .pay-information .infor .total h4 {
+  text-align: center;
+  color: green;
+}
+.type-893 .pay-information .pay {
+  margin: 0 20px;
+}
+.type-893 .pay-information .pay ul {
+  padding: 0;
+  margin-bottom: 50px;
+}
+.type-893 .pay-information .pay ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.type-893 .pay-information .pay ul li .image {
+  float: right;
+}
+.type-893 .pay-information .pay ul li .image img {
+  width: 100%;
+}
+.type-893 .pay-information .pay ul .months {
+  padding: 5px 0px;
+  text-align: center;
+  margin-right: 10px;
+}
+.type-893 .pay-information .pay ul .years {
+  padding: 5px 0px;
+  text-align: center;
+  margin-right: 10px;
+}
+.type-893 .pay-information .pay ul .btn-pay {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+.type-893 .pay-information .pay ul .btn-pay a {
+  font-size: 20px;
+  color: #fff;
+}
+.type-893 .pay-information .pay ul .btn-pay:hover {
+  background-color: green;
+}
+@media (max-width: 445px) {
+  .type-893 .contact .post h4 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 345px) {
+  .type-893 .title h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 315px) {
+  .type-893 .review .title-review h4 {
+    font-size: 13px;
+  }
+  .type-893 .contact .title-review h4 {
+    font-size: 13px;
+  }
+  .type-893 .pay-information .title-review h4 {
+    font-size: 13px;
+  }
+}

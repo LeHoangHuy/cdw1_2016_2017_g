@@ -4,6 +4,22 @@
     .slideshow{
         padding: 50px 0;
         #myCarousel{
+            .item{
+                a{
+                    img{
+                        -webkit-transition: all 0.7s ease;
+                        transition: all 0.7s ease;
+                        max-width: 80%;
+                    }
+                }
+                a:hover {
+                    img{
+                        -webkit-transform:scale(1.05);
+                        transform:scale(1.05);
+
+                    }
+                }
+            }
             .button-slide{
                 display: none;
                 .left-button{

@@ -1,0 +1,66 @@
+type-854 {
+  background: #ebebeb;
+  height: 100%;
+  min-height: 100%;
+  color: #666;
+}
+type-854 a,
+type-854 a:hover {
+  text-decoration: none;
+}
+type-854 a {
+  color: #000;
+}
+type-854 .smooth02 {
+  transition: all .2s ease-in-out;
+}
+type-854 .smooth05 {
+  transition: all .5s ease-in-out;
+}
+type-854 .fa {
+  display: inline-block;
+  vertical-align: top;
+  fill: currentColor;
+  pointer-events: none;
+}
+type-854 .block {
+  margin-bottom: 20px;
+}
+type-854 .align-center {
+  text-align: center;
+}
+type-854 .container-modify {
+  margin: 0 auto;
+}
+type-854 .white-background {
+  background-color: #f9f9f9;
+}
+type-854 .white-background .main-background {
+  background-color: #009900;
+}
+type-854 .white-background .main-color {
+  color: #009900;
+  opacity: 1 !important;
+}
+type-854 .clearfix {
+  zoom: 1;
+}
+type-854 .full-width {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+type-854 .main-bg-hover:hover {
+  background-color: #009900 !important;
+}
+type-854 .main-color-hover:hover {
+  color: #009900 !important;
+}
+type-854 .main-bg {
+  background-color: #009900;
+}
+@media (max-width: 727px) {
+  type-854 .container-modify {
+    width: 450px;
+  }
+}

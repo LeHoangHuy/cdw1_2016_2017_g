@@ -5,6 +5,15 @@
 .type-861 .slideshow {
   padding: 50px 0;
 }
+.type-861 .slideshow #myCarousel .item a img {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  max-width: 80%;
+}
+.type-861 .slideshow #myCarousel .item a:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
 .type-861 .slideshow #myCarousel .button-slide {
   display: none;
 }

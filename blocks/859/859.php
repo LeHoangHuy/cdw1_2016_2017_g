@@ -22,6 +22,7 @@
     </head>
     <body>
         <div class="type-859">
+		<!-- BEGIN TYPE-856 -->
             <div class="signup">
                 <div class="border"></div>
                 <div class="clearfix"></div>
@@ -130,6 +131,7 @@
                     </ul>
                 </div>
             </div>
+			<!-- END TYPE-859 -->
         </div>
     </body>
 </html>

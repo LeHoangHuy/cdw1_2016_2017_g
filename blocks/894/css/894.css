@@ -1,0 +1,127 @@
+.type-894 {
+  background-color: #f1f1f1;
+}
+.type-894 a {
+  text-decoration: none;
+}
+.type-894 .watch-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.type-894 .watch-card div {
+  max-width: 300px;
+}
+.type-894 .watch-card:hover .artist-title a,
+.type-894 .watch-card:hover .listing-tab .tab-content ul li a {
+  color: #167ac9;
+}
+.type-894 .listing-tab .tab-content ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.type-894 .listing-tab .tab-content .related-artist {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.type-894 .listing-tab .tab-content .related-artist h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+.type-894 .listing-tab .tab-content .related-artist .artist-next img {
+  width: 100%;
+}
+.type-894 .artist-title {
+  padding: 15px;
+  background: #fff;
+}
+.type-894 .artist-title a {
+  test-decoration: none;
+  font-size: 21px;
+  font-family: arialsan-serif;
+  color: #555;
+}
+.type-894 .artist-title a:hover {
+  color: #16a3de;
+}
+.type-894 .artist-collage {
+  overflow: hidden;
+}
+.type-894 .artist-collage img {
+  width: 100%;
+}
+.type-894 .artist-collage .left img {
+  width: 150px;
+  height: 158px;
+}
+.type-894 .artist-collage .collage-rhs img {
+  width: 150px;
+  height: 84px;
+  margin-top: -5px;
+}
+.type-894 .artist-collage div {
+  padding: 0;
+}
+.type-894 span.play-mix {
+  position: absolute;
+  top: 38%;
+  z-index: 9;
+  left: 30%;
+  border: 3px solid rgba(255,255,255,0.25);
+}
+.type-894 span.btn.play-mix-btn {
+  background-color: #000;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 70px rgba(255,255,255,0.5);
+}
+.type-894 span.play-mix-btn:hover {
+  box-shadow: 0 0 80px rgba(255,255,255,0.9);
+}
+.type-894 .play-mix-btn span {
+  color: #1775bc;
+}
+.type-894 .listing-tab {
+  padding: 0;
+  background-color: #fff;
+}
+.type-894 .listing-tab .nav-tabs li {
+  margin-bottom: 0;
+  background: none;
+}
+.type-894 .listing-tab .nav-tabs li a {
+  border: 0;
+  padding: 17px 0 7px;
+  color: #333;
+  margin-left: 15px;
+}
+.type-894 .listing-tab .nav-tabs li a:hover {
+  margin-bottom: 0;
+  background: none;
+}
+.type-894 .listing-tab .nav-tabs li.active a {
+  border-bottom: 2px solid #bb0000;
+  color: #000;
+}
+.type-894 .listing-tab .tab-content ul {
+  padding: 0;
+  margin: 0;
+}
+.type-894 .listing-tab .tab-content ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #666;
+}
+.type-894 .listing-tab .tab-content ul li a {
+  text-decoration: none;
+  color: #666;
+}
+.type-894 .listing-tab .tab-content ul li span {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}

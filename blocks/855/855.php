@@ -22,9 +22,8 @@
     </head>
 
     <body>
-        <div class="type-855">
-            <div class="arrow_left"><a href=""><li class="fa fa-arrow-left"></li></a></div>
-            <div class="arrow_right"><a href=""><li class="fa fa-arrow-right"></li></a></div>         
+        <div class="type-855">  
+			<!-- BEGIN TYPE-855 -->
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -175,20 +174,20 @@
                                                 <fieldset>
                                                     <div class="form-group">  
                                                         <div class="col-md-12">
-                                                            <textarea class="form-control" id="request-description" name="request-description"></textarea>
+                                                            <textarea class="form-control" name="request-description"></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-md-6">
-                                                            <input id="full_name" name="full_name" type="text" placeholder="" class="form-control" required="">
+                                                            <input name="full_name" type="text" placeholder="" class="form-control" required="">
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input id="service-request" name="service-request" type="text" placeholder="" class="form-control" required="">
+                                                            <input name="service-request" type="text" placeholder="" class="form-control" required="">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
                                                         <div class="col-md-1 pull-right">
-                                                            <button id="singlebutton" name="singlebutton" class="btn btn-primary">Send</button>
+                                                            <button name="singlebutton" class="btn btn-primary">Send</button>
                                                         </div>
                                                     </div>
                                                 </fieldset>
@@ -202,6 +201,7 @@
                     </div>
                 </div>
             </div>
+			<!-- END TYPE-855 -->
         </div>
 
         <script src="js/jquery.min.js"></script>

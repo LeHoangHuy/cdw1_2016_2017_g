@@ -1,0 +1,194 @@
+.type-893{
+    @background-color-title: #f5f5f5;
+    box-sizing: border-box;
+    overflow:  hidden;
+    
+    a{
+        text-decoration: none;
+    }
+    .title{
+        margin-bottom: 20px;
+        h2{
+            text-align: center;
+        }
+
+    }
+    .border{
+        padding: 10px;
+        border-top: 1px solid #ccc;
+    }
+    .btn-add-more{
+        margin: 10px 0 30px 0;
+        background-color: #5bc0de;
+        text-align: center;
+        padding: 7px;
+        border-radius: 5px;
+        a{
+            color: #fff;
+        }
+    }
+    .pn-tittle{
+        padding: 15px 0;
+        background-color: @background-color-title;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+    .review{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        .title-review{
+            background-color: @background-color-title ;
+            padding: 5px;
+            h4{
+                margin-left: 10px;
+                a{
+                    color: #000;
+                }
+            }
+        }
+        .infor{
+            margin: 20px 0 0 40px;       
+            .name{
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                margin-bottom: 10px;
+                background-color: @background-color-title;
+                padding-bottom: 50px;
+                .posting{
+                    h6{
+                        margin-top: 10px;
+                    }
+                }
+                .btn-close{
+                    margin: 10px 0;                  
+                    a{
+                        padding: 3px 8px;
+                        background-color: #f0ad4e;
+                        float: right;
+                        color: #fff;
+                        border-color: #eea236;
+                    }
+                    a:hover{
+                        background-color: #d58512;
+                    }  
+                }
+            }
+            .decs{
+                margin-top: 10px;
+            }
+            .text{
+                float:left;
+                padding-bottom: 20px;
+            }
+            .cost{
+                float: right;  
+            }
+            .total{
+                h3{
+                    text-align: center;
+                }
+                h4{
+                    text-align: center;
+                    color: green;
+                }
+            }
+        }
+    }
+    .contact{
+        .review;
+        .post{
+            margin: 0 20px;
+            ul 
+            {
+                padding: 0; 
+                margin-bottom: 40px;
+                li{
+                    list-style: none;
+                    margin: 10px 0;
+
+                }
+                .main{
+                    background-color: @background-color-title;
+                    border-bottom: 1px solid #ccc;
+                    border-top: 1px solid #ccc;
+                    padding: 20px 0 40px 0;
+                }
+            }
+        }
+    }
+    .pay-information{
+        .review;
+        .pay{
+            margin: 0 20px;
+            ul{
+                padding: 0;
+                margin-bottom: 50px;
+                li{
+                    list-style: none;
+                    margin: 10px 0;
+                    .image{
+                        float: right;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .months{
+                    padding: 5px 0px;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+                .years{
+                    .months;
+                }
+                .btn-pay{
+                    background-color: #5cb85c;
+                    border-color: #4cae4c;
+                    padding: 15px 0;
+                    text-align: center;
+                    border-radius: 5px;
+                    a{   
+                        font-size: 20px;
+                        color: #fff;
+                    }
+                }
+                .btn-pay:hover{
+                    background-color: green;
+                }
+            }
+        }
+    }
+    @media(max-width: 445px){
+        .contact{
+            .post{
+                h4{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    @media(max-width: 345px){
+        .title{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    @media(max-width: 315px){
+        .review{
+            .title-review{
+                h4{
+                    font-size: 13px;
+                }
+            }
+        }
+        .contact{
+            .review;
+        }
+        .pay-information{
+            .review;
+        }
+    }
+}

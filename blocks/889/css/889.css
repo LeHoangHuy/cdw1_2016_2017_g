@@ -1,0 +1,55 @@
+.type-889 .well span {
+  margin: 5px;
+}
+.type-889 .well .btn-group span {
+  margin: 5px;
+}
+.type-889 .thumbnail {
+  margin-bottom: 20px;
+  padding: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.type-889 #grid {
+  box-sizing: border-box;
+}
+.type-889 #products .item.list-group-item {
+  float: none;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.type-889 #products .item.list-group-item:nth-of-type(odd):hover,
+.type-889 #products .item.list-group-item:hover {
+  background: #428bca;
+}
+.type-889 #products .item.list-group-item .list-group-image {
+  margin-right: 10px;
+}
+.type-889 #products .item.list-group-item .thumbnail {
+  margin-bottom: 0px;
+}
+.type-889 #products .item.list-group-item .caption {
+  padding: 9px 9px 0px 9px;
+}
+.type-889 #products .item.list-group-item:nth-of-type(odd) {
+  background: #eeeeee;
+}
+.type-889 #products .item.list-group-item:before,
+.type-889 #products .item.list-group-item:after {
+  display: table;
+  content: " ";
+}
+.type-889 #products .item.list-group-item img {
+  float: left;
+}
+.type-889 #products .item.list-group-item:after {
+  clear: both;
+}
+.type-889 #products .list-group-item-text {
+  margin: 0 0 11px;
+}
+.type-889 #products .grid-group-item {
+  border: none;
+}

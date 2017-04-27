@@ -1,4 +1,4 @@
-$('#myCarousel').carousel({
+$('#myslide').carousel({
   interval: 40000
 });
 

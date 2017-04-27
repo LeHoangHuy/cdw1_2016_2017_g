@@ -21,6 +21,7 @@
     </head>
     <body>
         <div class="type-856">
+		<!-- BEGIN TYPE-856 -->
             <div class="container">
                 <div class="row">
                     <!-- BEGIN BLOCK -->
@@ -130,7 +131,7 @@
                     </div>
                     <!-- END BLOCK -->
                     <!-- BEGIN BLOCK -->
-                    <div class="col-md-3 col-sm-6 col-xs-12s">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="block">
                             <div class="title">
                                 <h1>On sale</h1>
@@ -241,7 +242,7 @@
                 </div>
             </div>
         </div>
-
+		<!-- END TYPE-856 -->
     </div>
 </body>
 

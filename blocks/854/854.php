@@ -10,20 +10,20 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
-        $less->compileFile('less/type-1-menu.less', 'css/type-1-menu.css');
+        $less->compileFile('less/854.less', 'css/854.css');
         ?>
+        <link rel="stylesheet" href="css/854.css"> 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="css/styles.css">   
-        <link rel="stylesheet" href="css/854.css">   
+          
 
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script> 
     </head>
     <body>
         <div class="type-854">
+		<!-- BEGIN TYPE-854 -->
             <div id="pattent" class="slidelip white-background">  
                 <div class="container container-modify margin-auto header">
                     <!--MEGA MENU-->
@@ -285,6 +285,7 @@
                     </div>
                 </div>
             </div>
+			<!-- END TYPE-854 -->
         </div> 
     </body>
 
