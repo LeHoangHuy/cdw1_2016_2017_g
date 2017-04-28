@@ -27,7 +27,7 @@
                         <div
                             <div class="hh">
                                 <span class="layered_subtitle">Categories</span>
-                                <a href="#"><i class="glyphicon "></i></a>
+                                <a href="#"><i class="glyphicon glyphicon-minus"></i></a>
                             </div>
                             <div class="bb">
                                 <div class="well" style="max-height: 300px;overflow: auto;">
@@ -186,8 +186,8 @@
                             <div class="hh">
                                 <span class="layered_subtitle">Pricev</span>
                                 <a href="#"><i class="glyphicon glyphicon-minus"></i></a>
-                                <ul> <label for="price">Range:</label>
-                                    <span>$0.00 - $288.00</span>
+                                <ul id="ul_layered_price_0"> <label for="price">Range:</label>
+                                    <span id="layered_price_range">$0.00 - $288.00</span>
                                 </ul>
                             </div>
                         </div>
@@ -195,4 +195,5 @@
                 </div>
             </div>
     </body>
+
 </html>

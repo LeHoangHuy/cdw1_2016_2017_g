@@ -20,6 +20,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/scripts.js" type="text/javascript"></script>
     </head>
+
     <body>
         <div class="type-i-23">
             <div class="container">
@@ -50,6 +51,7 @@
                         <span>Manufacturer:</span>
                         <a href="#"><span>Prada</span></a>
                     </p>
+
                     <p><span>Condition: New</span></p>
                     <ul class="nav nav-tabs" id="nav-tab" >
                         <li class="active"><a data-toggle="tab" href="#Moreinfo">More info</a></li>
@@ -57,12 +59,14 @@
                         <li><a data-toggle="tab" href="#Video">Video</a></li>
                         <li><a data-toggle="tab" href="#Comments">Comments</a></li>
                     </ul>
+
                     <ul class="nav nav-stacked" id="nav-tab-pill">
                         <li class="active"><a data-toggle="tab" href="#Moreinfo">More info</a></li>
                         <li><a data-toggle="tab" href="#CustomTab">Custom Tab</a></li>
                         <li><a data-toggle="tab" href="#Video">Video</a></li>
                         <li><a data-toggle="tab" href="#Comments">Comments</a></li>
                     </ul>
+
                     <div class="tab-content">
                         <div id="Moreinfo" class="tab-pane fade in active">
                             <p>
@@ -123,6 +127,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div id="pd-right-column1">
                         <div class="product_attributes clearfix">
                             <div id="attributes">
@@ -171,4 +176,5 @@
             </div>
         </div>
     </body>
+
 </html>

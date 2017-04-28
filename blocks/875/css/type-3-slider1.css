@@ -1,0 +1,258 @@
+#john-carousel {
+  margin: 70px 0;
+}
+#john-carousel .zaro-controls {
+  border: 1px solid #e6e5e5;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  cursor: pointer;
+}
+#john-carousel .zaro-controls .fa {
+  width: 23px;
+  height: 23px;
+  margin-top: 9px;
+  font-size: 20px;
+}
+#john-carousel .carousel-title {
+  position: relative;
+}
+#john-carousel .carousel-title h3 {
+  font-size: 25px;
+  line-height: 46px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 73px;
+  margin: 0;
+}
+#john-carousel .carousel-title .zaro-controls {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #a7a6a0;
+}
+#john-carousel .carousel-title .zaro-next {
+  left: auto;
+  right: 0;
+}
+#john-carousel .title-table {
+  margin-bottom: 30px;
+}
+#john-carousel .title-table td {
+  padding: 0;
+  margin: 0;
+}
+#john-carousel .title-wing {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  border-top: 1px solid #e6e5e5;
+  border-bottom: 1px solid #e6e5e5;
+  vertical-align: middle;
+  width: 100%;
+}
+#john-carousel .blog-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  background: transparent;
+}
+#john-carousel .blog-date {
+  background-color: #009900;
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 17px;
+  border: 1px solid rgba(255,255,255,0.2);
+  float: left;
+  color: #FFF;
+  text-align: center;
+  margin: 2px 0 0 2px;
+}
+#john-carousel .blog-date div {
+  padding-top: 10px;
+}
+#john-carousel .blog-date span {
+  text-transform: uppercase;
+  display: block;
+}
+#john-carousel .grayshadow {
+  box-shadow: 0 0 0 1px #7a7975, 0 0 0 2px #7a7975;
+  border: 1px solid #ebebeb;
+  margin: 2px 0 0 2px;
+}
+#john-carousel .blog-post-likes {
+  background-color: #7e7d79;
+  cursor: pointer;
+  float: left;
+  color: #FFF;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 17px;
+}
+#john-carousel .item-hover {
+  padding: 5px;
+}
+#john-carousel .box-carousel {
+  padding: 0;
+  height: 230px;
+}
+#john-carousel .box-carousel a {
+  background: url(../images/2-wide.jpg) no-repeat;
+  background-position: 50% 0;
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  display: block;
+}
+#john-carousel .box-content-carousel h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  line-height: 21px;
+  color: #333;
+  font-weight: normal;
+  padding-bottom: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#john-carousel .box-content-carousel .additional-info {
+  margin: 0 0 20px 0;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+}
+#john-carousel .box-content-carousel .additional-info .post-author {
+  line-height: 14px;
+  padding: 10px 0;
+  background-position: 0 11px;
+  text-indent: 20px;
+  color: #888;
+  font-style: italic;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+#john-carousel .box-content-carousel .additional-info .post-author .fa-user {
+  margin-left: -15px;
+}
+#john-carousel .box-content-carousel .additional-info i,
+#john-carousel .box-content-carousel .additional-info p {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#john-carousel .box-content-carousel .additional-info p {
+  margin-left: -10px;
+}
+#john-carousel .box-content-carousel .additional-info .post-comment {
+  line-height: 14px;
+  padding: 10px 0;
+  background-position: 0 11px;
+  text-indent: 20px;
+  color: #888;
+  font-style: italic;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+#john-carousel .box-content-carousel .additional-info .post-view {
+  line-height: 14px;
+  padding: 10px 0;
+  background-position: 0 11px;
+  text-indent: 20px;
+  color: #888;
+  font-style: italic;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+#john-carousel .box-content-carousel .post-details p {
+  margin: 0;
+  padding: 0 !important;
+  line-height: 1.5;
+}
+#john-carousel .box-content-carousel .post-read {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #7a7975;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+#john-carousel .box-content-carousel .post-read a {
+  color: #FFF;
+}
+#john-carousel .box-content-carousel .post-read:hover {
+  background: #009900;
+}
+@media (max-width: 768px) {
+  #john-carousel .box-carousel {
+    width: 100% !important;
+  }
+  #john-carousel .title-table {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .zaro #john-carousel .box-carousel {
+    width: 95%;
+  }
+  .zaro #john-carousel .box-carousel a {
+    width: 100% !important;
+  }
+  .zaro #john-carousel .box-content-carousel {
+    margin-top: 20px;
+  }
+  .zaro #john-carousel .item-hover:nth-child(2n+2) .box-carousel {
+    width: 95%;
+    margin-left: 5% !important;
+  }
+  .zaro #john-carousel .item-hover:nth-child(2n+2) .box-carousel a {
+    width: 100% !important;
+  }
+  .zaro #john-carousel .item-hover:nth-child(2n+2) .box-content-carousel {
+    width: 95%;
+    margin-left: 5% !important;
+  }
+}
+.slide-tuyen {
+  padding: 70px 0;
+}
+.slide-tuyen .carousel-control {
+  padding-top: 1.10%;
+  width: 5%;
+}
+.slide-tuyen .wplmsdemo a img {
+  -webkit-transform: scale(1,1);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transform: scale(1,1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+  -ms-transform: scale(1,1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+.slide-tuyen .wplmsdemo a:hover img {
+  -webkit-transform: scale(1.1,1.1);
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transform: scale(1.1,1.1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+  -ms-transform: scale(1.1,1.1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}

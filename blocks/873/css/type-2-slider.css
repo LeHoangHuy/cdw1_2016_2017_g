@@ -1,0 +1,102 @@
+.banner-alysum #zaro-carousel {
+  margin-top: 70px;
+}
+.banner-alysum #zaro-carousel .zaro-controls {
+  border: 1px solid #e6e5e5;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+  width: 39px;
+  height: 39px;
+  text-align: center;
+  cursor: pointer;
+}
+.banner-alysum #zaro-carousel .zaro-controls .fa {
+  width: 23px;
+  height: 23px;
+  margin-top: 9px;
+  font-size: 20px;
+}
+.banner-alysum #zaro-carousel .carousel-title {
+  position: relative;
+}
+.banner-alysum #zaro-carousel .carousel-title h3 {
+  font-size: 25px;
+  line-height: 46px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 73px;
+  margin: 0;
+}
+.banner-alysum #zaro-carousel .carousel-title .zaro-controls {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #a7a6a0;
+}
+.banner-alysum #zaro-carousel .carousel-title .zaro-next {
+  left: auto;
+  right: 0;
+}
+.banner-alysum #zaro-carousel .title-table {
+  margin-bottom: 30px;
+}
+.banner-alysum #zaro-carousel .title-table td {
+  padding: 0;
+  margin: 0;
+}
+.banner-alysum #zaro-carousel .title-wing {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  border-top: 1px solid #e6e5e5;
+  border-bottom: 1px solid #e6e5e5;
+  vertical-align: middle;
+  width: 100%;
+}
+.banner-alysum .ig-wrapper {
+  margin: 10px;
+}
+.banner-alysum .ig-wrapper .laptop {
+  font-weight: bold;
+}
+.banner-alysum .fa {
+  margin-right: 10px;
+}
+.banner-alysum .carousel-inner .active.left {
+  left: -33%;
+}
+.banner-alysum .carousel-inner .next {
+  left: 33%;
+}
+.banner-alysum .carousel-inner .prev {
+  left: -33%;
+}
+.banner-alysum .carousel-control.left,
+.banner-alysum .carousel-control.right {
+  background-image: none;
+}
+.banner-alysum .item:not(.prev) {
+  visibility: visible;
+}
+.banner-alysum .item.right:not(.prev) {
+  visibility: hidden;
+}
+.banner-alysum .rightest {
+  visibility: visible;
+}
+.banner-alysum .carousel {
+  margin: -15px;
+}
+.banner-alysum .item-product {
+  padding: 0;
+  padding: 15px;
+}
+.banner-alysum .item-product img {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 767px) {
+  .banner-alysum #zaro-carousel .title-table {
+    text-align: center;
+    width: 100%;
+  }
+}
