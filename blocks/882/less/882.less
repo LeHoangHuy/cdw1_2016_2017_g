@@ -1,0 +1,171 @@
+.type-882 {
+    @color-pagination: #71b100;
+    a {
+        text-decoration: none;
+    }
+    .page-title {
+        background-image: url(../images/page-title-bg-1.jpg);
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        padding: 70px 0px 76px;
+        .content-box {
+            background: #fff;
+            border-radius: 10px;
+            opacity: 0.8;
+            display: inline-block;
+            padding: 15px 25px 20px;
+            margin: 0 15px;
+            h1 {
+                color: #222;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .bread-crumb {
+                .breadcrumb {
+                    background: none;
+                    margin-bottom: 0px;
+                    padding: 0px;
+                    a {
+                        display: inline-block;
+                        color: #aaa;
+                        font-style: italic;
+                        font-family: Bitter, serif;
+                        margin: 0px 3px;
+                    }
+                    a:hover {
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+    .page-title::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: rgba(0, 0, 0, 0.298039);
+    }
+    .sidebar-page {
+        position: relative;
+        padding: 70px 0px 40px;
+        .feature-block {
+            margin: 10px 0;
+            .feature-image {
+                position: relative;
+                img {
+                    width: 100%;
+                }
+                .col_rent {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    background: #F79B00;
+                    padding: 0 5px;
+                    color: #fff;
+                }
+            }
+            .feature-texthouse {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                width: 100%;
+                transition: all 0.3s;
+                padding: 10px 13px 50px 25px;
+                .feature-title {
+                    text-transform: uppercase;
+                    font-size: 23px;
+                    a:hover {
+                        color: #71b100;
+                    }
+                }
+                .feature-content {
+                    margin-bottom: 10px;
+                }
+            }
+            .rem-viewlist {
+                position: relative;
+                background: #71b100;
+                padding: 10px;
+                a {
+                    color: #fff;
+                }
+                .feature-price{
+                    display: inline-block;
+                }
+                .feature-viewlisting {
+                    float: right;
+                }
+            }
+        }
+        .feature-block:hover {
+            .feature-texthouse {
+                opacity: 1;
+                background: rgba(255,255,255,0.8);
+                height: 100%;
+            }
+            .rem-viewlist {
+                a {
+                    color: #000;
+                    transition: all 0.3s;
+                }
+            }
+        }
+        .pager-outer {
+            .pagination {
+                display: inline-block;
+                padding-left: 0px;
+                margin: 20px 0px;
+                border-radius: 4px;
+                li {
+                    position: relative;
+                    float: left;
+                    margin: 3px 6px 3px 0;
+                    span {
+                        background-color: @color-pagination;
+                        color: #fff;
+                        font-size: 14px;
+                        padding: 7px 15px;
+                        border-color: @color-pagination;
+                    }
+                    a {
+                        color: #000;
+                    }
+                    a:hover {
+                        color: #fff;
+                        background: @color-pagination;
+                    }
+                }
+            }
+        }
+    }
+    @media all and (max-width: 480px) {
+        .page-title {
+            .content-box {
+                h1 {
+                    font-size: 20px;
+                }
+            }
+        }
+        .sidebar-page {
+            .feature-block {
+                .feature-texthouse {
+                    .feature-title {
+                        font-size: 16px;
+                        margin-bottom: 2px;
+                    }
+                    .feature-content {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
